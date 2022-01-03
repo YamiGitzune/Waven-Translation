@@ -1,0 +1,2470 @@
+{
+    "91064":  "<b>ATTAQUE</b> : Inflige 50% de l'AT de votre héros en dégâts supplémentaires.
+\---
+Votre héros subit les dégâts à la place de l'{Summoning:898}.
+\---
+<b>MORT</b> : Ajoute le sort {Spell:960} à votre main.",
+    "14946":  "Âme Spectrale",
+    "59119":  "{#DEATHBLOW} : Confère 1\_AURA à votre héros s'il en possède une.",
+    "9461":  "Légendarus",
+    "90089":  "<b>ATTAQUE</b>\_: Piochez 1 sort.",
+    "17939":  "Le Grand Mornifleur",
+    "60870":  "<b>DÉBUT\_DU\_TOUR</b>\_: Confère {value:nb} {FloatingCounterEffect:70} à votre héros.",
+    "50526":  "Dragonneur",
+    "52071":  "Sarcophagus",
+    "73976":  "+1\_{%pa} aux alliés tant qu'il est en jeu.
+\---
+<b>ATTAQUE</b>\_: Applique l'état {#ASTRAL}.",
+    "28413":  "Bébé Bouftou",
+    "64862":  "Jeune Bouftou",
+    "6886":  "Chef Bouftou",
+    "55753":  "Champion Bouftou",
+    "73281":  "Bébé Tofu",
+    "24759":  "Jeune Tofu",
+    "64003":  "Ombre Repoussante",
+    "22153":  "<b>ATTAQUE</b>\_: {#PUSH} de {cell:c}.",
+    "11745":  "Arbatarba",
+    "77780":  "{range}
+\---
+<b>APPARITION</b>\_: {value:v}\_{FloatingCounterEffect:95[TRAITS DE RANCUNE]}.",
+    "30683":  "Proctoss",
+    "50172":  "<b>MORT</b>\_: Pose un {FloorMechanism:1203} sur sa case.",
+    "14253":  "Blockmort",
+    "21027":  "<b>DÉBUT\_DU\_TOUR</b>\_: Confère {armor:ar} ou {blindage:bl} aux alliés autour <sprite name="cell_around"> de lui puis <b>charge</b> un adversaire aligné de {value:cmin} à {cell:cmax} et lui inflige son {%at}.",
+    "65582":  "Kasimordo",
+    "69970":  "<b>ATTAQUE</b>\_: Applique <b>NÉCROSÉ</b><sprite name="generic_monster">.
+\---
+<b>MORT</b>\_: Se transforme en {ObjectMechanism:1964}.",
+    "64225":  "<b>DÉBUT\_DU\_TOUR</b>\_: Traverse les adversaires d'une ligne et leur inflige des dégâts d'une valeur égale à son {%at}.",
+    "53373":  "Châtreuse",
+    "56404":  "{range}
+\---
+Gagne {power:at,percent} quand un allié meurt.",
+    "65866":  "Crogneur",
+    "35067":  "<b>DÉBUT\_DU\_TOUR</b>\_: Sacrifie un <b>Avorton Chafer</b> pour gagner {power:perc,percent} et se soigner de ses {%pv}.",
+    "22178":  "Grignoteur",
+    "16655":  "Sale Bête Infâme",
+    "73877":  "{#UNIQUE}
+<b>MORT</b>\_: Piochez votre sort d'{#CALL[APPEL]}.",
+    "48468":  "{#beast} de <b>Niveau 0</b>",
+    "61108":  "{#beast} de <b>Niveau 1</b>
+<b>ATTAQUE</b> : {#STUN[ASSOMME]} la cible si elle est <b>BOUEUSE</b><sprite name="muddy">.",
+    "29669":  "{#beast} de <b>Niveau 2</b>
+<b>ATTAQUE</b> : {#STUN[ASSOMME]} la cible si elle est <b>BOUEUSE</b><sprite name="muddy">.",
+    "82273":  "{#beast} de <b>Niveau 3</b> 
+<b>ATTAQUE</b> : {#STUN[ASSOMME]} la cible si elle est <b>BOUEUSE</b><sprite name="muddy">.",
+    "97757":  "{#beast} de <b>Niveau 0</b>
+<b>MORT</b>\_: <b>Repousse</b> les personnages adjacents <sprite name="cell_cross"> de {cell:c}.",
+    "61309":  "{#beast} de <b>Niveau 1</b>
+<b>ATTAQUE</b>\_: {#PUSH} de {cell:x} si la cible est <b>ÉVENTÉE</b><sprite name="ventilated">.",
+    "54042":  "Chef Tofu",
+    "74495":  "{#beast} de <b>Niveau 2</b>
+<b>ATTAQUE</b>\_: {#PUSH} de {cell:x} si la cible est <b>ÉVENTÉE</b><sprite name="ventilated">.",
+    "34555":  "Champion Tofu",
+    "55234":  "{#beast} de <b>Niveau 3</b>
+\---
+<b>ATTAQUE</b>\_: <b>Repousse</b> de {cell:x}.",
+    "81712":  "Bébé Flaqueux",
+    "31341":  "{#beast} de <b>Niveau 0</b>
+<b>MORT</b>\_: Ajoute {addReserve:pa}.",
+    "40620":  "Jeune Flaqueux",
+    "55928":  "{#beast} de <b>Niveau 1</b>
+<b>ATTAQUE</b>\_: Ajoute {addReserve:pa}\v si la cible est <b>MOUILLÉE</b><sprite name="wet">.",
+    "22733":  "Bébé Craqueleur",
+    "61581":  "{#beast} de <b>Niveau 0</b>
+<b>MORT</b> : {addNeutral:g}.",
+    "99571":  "Jeune Craqueleur",
+    "59028":  "{#beast} de <b>Niveau 1</b>
+<b>ATTAQUE</b> : {addNeutral:g} si la cible possède un <b>ÉTAT ÉLÉMENTAIRE</b>.",
+    "29160":  "Bébé Prespic",
+    "78388":  "{#beast} de <b>Niveau 0</b>
+<b>MORT</b>\_: Déclenche {explosion:ParameterizedEffectExecution.182.ex}.",
+    "49455":  "Jeune Prespic",
+    "9227":  "{#beast} de <b>Niveau 1</b>
+<b>ATTAQUE</b> : Déclenche {explosion:ParameterizedEffectExecution.182.ex}\v si la cible est <b>HUILÉE</b><sprite name="oiled">.",
+    "9341":  "<b>APPARITION</b>\_: Confère {value:nb}\_{#SIGHT[MIRES]} à votre héros.
+\---
+Quand votre héros gagne des AURAS, \v<b>ARKEÜS</b> gagne autant de ---.",
+    "82152":  "Arkeüs",
+    "29565":  "{0, plural, one[Nocturien] other[Nocturniens]}",
+    "91386":  "<b>DÉBUT\_DU\_TOUR</b>\_: Meurt.",
+    "1975":  "Rufus Le Sensuel",
+    "49926":  "<b>DÉBUT\_DU\_TOUR</b>\_: Subit des dégâts d'une valeur égale à son {%AT} et soigne les alliés adjacents\_<sprite name="cell_cross"> d'autant.",
+    "94495":  "Chef Prespic",
+    "8979":  "{#BEAST} de <b>niveau 2</b>
+<b>ATTAQUE</b> : Déclenche {explosion:ParameterizedEffectExecution.182.ex}\v si la cible est <b>HUILÉE</b><sprite name="oiled">.",
+    "56322":  "Champion Prespic",
+    "81395":  "{#beast} de <b>Niveau 3</b>
+<b>ATTAQUE</b> : Déclenche {explosion:ParameterizedEffectExecution.182.ex}.",
+    "61543":  "Chef Flaqueux",
+    "33076":  "{#beast} de <b>Niveau 2</b>
+<b>ATTAQUE</b>\_: Ajoute {addReserve:pa}\v si la cible est <b>MOUILLÉE</b><sprite name="wet">.",
+    "51131":  "Champion Flaqueux",
+    "29596":  "{#beast} de <b>Niveau 3</b>
+<b>ATTAQUE</b>\_: Ajoute {addReserve:pa}.",
+    "35918":  "Chef Craqueleur",
+    "49578":  "{#beast} de <b>Niveau 2</b>
+-1 à votre jauge NEUTRE<sprite name="neutral">.
+\---
+<b>ATTAQUE</b> : {addNeutral:g} si la cible possède un <b>ÉTAT ÉLÉMENTAIRE</b>.",
+    "22746":  "Champion Craqueleur",
+    "76556":  "{#beast} de <b>Niveau 3</b>
+<b>ATTAQUE</b> : {addNeutral:g}.",
+    "21459":  "Martyricone",
+    "85918":  "<b>DÉBUT\_DU\_TOUR</b>\_: Inflige {magicalDamage:dmg}\v aux alliés autour\_<sprite name="cell_around"> et se soigne d'autant.",
+    "17708":  "Lame du Tatoué",
+    "64719":  "{#UNIQUE}
+Quand un héros allié subit des dégâts, \velle inflige son {%at} aux adversaires autour\_<sprite name="cell_around"> d'elle.",
+    "65166":  "Picoss",
+    "37685":  "<b>ATTAQUE</b>\_: {#PUSH} de {cell:cases}.",
+    "57974":  "Pinspoteur",
+    "47994":  "<b>DÉBUT\_DU\_TOUR</b>\_: Vole {value:pv}\_{%pv} et retire {power:at,percent,abs} à ses alliés. Gagne {power:pow,percent} par allié touché.
+\---
+Ajoute {addReserve:pa} quand <b>NÉCROSÉ</b><sprite name="generic_monster"> est appliqué.",
+    "45568":  "Petit Tofu",
+    "49995":  "<b>ATTAQUE</b>\_: Se téléporte à {cell:tpRange} de la cible\v et prend son {#AIRBORNE[ENVOL]}.",
+    "99241":  "Petite Horde",
+    "20777":  "<b>ATTAQUE</b> autant de fois qu'il y a de Tofus\v dans la <b>HORDE</b>.",
+    "43753":  "Moyenne Horde",
+    "10043":  "<b>ATTAQUE</b> autant de fois qu'il y a de Tofus\v dans la <b>HORDE</b>.
+Perd un Tofu quand elle arrive à {heal:pv1}.",
+    "46396":  "Grande Horde",
+    "90268":  "<b>ATTAQUE</b> autant de fois qu'il y a de Tofus\v dans la <b>HORDE</b>.
+Perd un Tofu quand elle arrive à {heal:pv2},\v puis à {heal:pv1}.",
+    "34205":  "Tofoune",
+    "7936":  "Soigne les alliés de {heal:pv}
+quand ils prennent leur {#airborne[ENVOL]}.",
+    "83690":  "Tofu Ventripotent",
+    "70989":  "<b>DÉBUT\_DU\_TOUR</b>\_: Gagne +{power:at, percent} quand un allié retombe {#airborne[EN VOL]}.",
+    "91735":  "Tofutu",
+    "75044":  "{#PUSH} les personnages adjacents de {cell:c} quand il subit des dégâts.
+\---
+(1 fois par tour)",
+    "33742":  "Tofu Tonic",
+    "99938":  "Prend son {#AIRBORNE[ENVOL]} quand il subit des dégâts.",
+    "93086":  "Vénérable Tofu",
+    "13431":  "Gagne {value:nb} {FloatingCounterEffect:120} chaque fois qu'une Horde perd un Tofu.
+\---
+<b>MORT</b>\_: Invoque une {Summoning:761} et confère {power:pow,+} à toutes les <b>HORDES</b>.",
+    "64493":  "Tofuventail",
+    "92676":  "<b>FIN DU TOUR</b>\_: Prend son {#AIRBORNE[ENVOL]}.
+\---
+<b>ATTERRISSAGE BRUTAL</b>\_: {power:pow,+,percent} jusqu'à sa prochaine <b>ATTAQUE</b>.
+\---
+<b>CHÛTE AÉRIENNE</b>\_: Gagne {#shield}.",
+    "69878":  "Tofu Légendaire",
+    "78109":  "Insensible aux dégâts.\v\---
+Gagne {power:pow,+,percent} quand un <b>TOFU</b> meurt. Puis se transforme en {#VENGEFULSPIRIT}.",
+    "18710":  "étoile de la mer d'asse",
+    "2751":  "Applique {#WET} quand elle attaque.
+Inflige le double de dégâts sur une cible {#WET[mouillée]}<sprite name="wet">.",
+    "4405":  "Pichon Gob",
+    "19938":  "<i>Pas d'effet.</i>",
+    "19368":  "Pichon glob",
+    "68701":  "Ses attaques touchent tous les adversaires autour de lui.",
+    "47922":  "Pichon byssal",
+    "18541":  "Se transforme s'il est {#WET}.",
+    "47399":  "Pichon spadon",
+    "82069":  "Inflige son attaque quand il se fait attaquer.
+Se transforme s'il est {#WET}.",
+    "43325":  "Bouftounu",
+    "43287":  "<i>Aucun effet.</i>",
+    "79434":  "Pichon spadon",
+    "8563":  "<i>Pas d'effet.</i>",
+    "64213":  "Pichon blurp",
+    "16731":  "Se transforme s'il est {#WET}.",
+    "74566":  "Pichon lectrik",
+    "22857":  "<TODO>",
+    "91053":  "Céphalo punch",
+    "23634":  "Ses attaques touchent tous les adversaires qui lui sont adjacents.",
+    "40364":  "Gar garo dent",
+    "8503":  "Ses attaques touchent tous les adversaires autour de lui.",
+    "15111":  "Disciple Cochonnet",
+    "83630":  "{#PORSHIDO}
+\---
+Ses dégâts de {#CRITICAL} sont augmentés de {value:dcc,permil}.",
+    "11661":  "Poupée d'Amalia",
+    "75520":  "<b>ATTAQUE</b>\_: Soigne {Companion:664} et votre héros d'une valeur égale à son {%at}.
+\---
+Meurt si {Companion:664} quitte le jeu.",
+    "2932":  "Mortadella",
+    "58162":  "{#DIRTY}
+\---
+<b>FIN DU TOUR</b>\_:\_Confère {value:a}\_<b>AURA</b> à un autre <b>Cochon</b> allié si elle a attaqué.",
+    "8827":  "Graton",
+    "42232":  "{#DIRTY}
+\---
+<b>ATTAQUE</b>\_: {#PUSH} de {cell:c}.",
+    "27888":  "Coppa le Copain",
+    "96785":  "{#DIRTY}
+\---
+<b>ATTAQUE</b>\_: {#PUSH} les personnages adverses adjacents\_<sprite name="cell_cross"> de {cell:c}.",
+    "57340":  "Guerrier Boudeur",
+    "62487":  "{#PORSHIDO}
+\---
+{#CRITICAL}\_: Rejoue son tour (1 fois par tour).",
+    "36047":  "Chevalier de Parme",
+    "63013":  "<b>ATTAQUE</b>\_: Gagne {value:a} <b>AURA</b> {FloatingCounterEffect:74}.
+\---
+<b>MORT</b> : Confère {power:ppow,percent} et {armor:ar} à ses alliés.",
+    "74381":  "Porigami",
+    "81023":  "<b>FIN DU TOUR</b> : Confère {power:p,percent} au <b>Boss</b>. 
+\---
+<b>MORT</b>\_: Fait perdre {value:per,percent} de {%PV}MAXs au Boss.",
+    "8755":  "Jamon le Dragon-Cochon",
+    "65072":  "{#PORSHIDO}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_:\_Confère {power:po,percent} aux autres <b>Cochons</b> ayant une {#aura}.",
+    "85500":  "Larbin",
+    "82220":  "{#ANGRYDRIVE}\_: Les dégâts de son attaque sont doublés.",
+    "91800":  "Larbin Monté",
+    "28858":  "{#ANGRYDRIVE}\_: Traverse sa cible et lui inflige son {%at}.",
+    "70491":  "Blockmort Surin",
+    "84108":  "{#IMMORTEL}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Confère {armor:ar} ou {blindage:bl} aux alliés autour <sprite name="cell_around"> de lui.\v\---
+<b>Charge</b> un adversaire aligné de {value:cmin} à {cell:cmax} et lui inflige son {%at}.",
+    "6965":  "Bworkette",
+    "9280":  "{#ANGRYDRIVE}\_: Téléporte la cible autour\_<sprite name="cell_around"> d'elle \vet lui inflige {magicalDamage:dmg}.",
+    "74322":  "Traqueur",
+    "64626":  "{range}
+\---
+{#ANGRYDRIVE}\_: Retire 1\_{%PM} à la cible pour le tour.",
+    "70636":  "Bwork parle-lave",
+    "90390":  "<b>DÉBUT\_DU\_TOUR</b>\_: Lance une {Spell:589} jusqu'à 2 cases de lui.
+\---
+{#ANGRYDRIVE}\_: Déclenche {explosion:ParameterizedEffectExecution.654.ex}.",
+    "34806":  "Bworkokak",
+    "57889":  "<b>ATTAQUE</b>\_: Applique <b>AMOCHÉ</b><sprite name="generic_monster"> ou {#HUG} si la cible est <b>AMOCHÉE</b><sprite name="generic_monster">.
+\---
+{#ANGRYDRIVE}\_: Gagne {armor:ar}.",
+    "4727":  "Grô bwork",
+    "52451":  "<b>ATTAQUE</b>\_: Touche les 2\_cases devant lui.
+\---
+{#ANGRYDRIVE}\_: Gagne {power:at,percent} et {value:pm}\_{%pm}.",
+    "20741":  "Sir Bergerax",
+    "87198":  "<b>ATTAQUE</b>\_: Téléporte 2 {Summoning:458[BOUFTOUS DE BERGER]} autour\_<sprite name="cell_around"> de lui.
+{#TROUPEAU}\_: Pioche le sort {Spell:970}.",
+    "94380":  "Bworky Pro Graisse",
+    "92981":  "{#ANGRYDRIVE} : Les {FloorMechanism:278[FLAQUES DE LAVE]} déclenchent {explosion:ParameterizedEffectExecution.654.ex}.
+\---
+Les dégâts du VOLCAN le soignent.",
+    "82796":  "Bworkdog",
+    "62316":  "Déclenche son <b>ATTAQUE</b> sur un adversaire adjacent\_<sprite name="cell_cross"> quand il se déplace d'au moins {cell:c}.",
+    "82282":  "Bworkdog",
+    "88022":  "<b>ATTAQUE</b>\_: {#hug[ÉTREINT]} sa cible.
+\---
+{#ANGRYDRIVE}\_: Invoque un\_{Summoning:429}.",
+    "88427":  "Larve",
+    "5109":  "<b>ATTAQUE</b>\_: Applique {#Poisoned} si la cible est <b>PUTRÉFIÉE</b><sprite name="generic_monster">, sinon applique <b>PUTRÉFIÉE</b><sprite name="generic_monster">.
+Meurt après son <b>attaque</b>.",
+    "59077":  "Larve toxique",
+    "13604":  "<TODO>",
+    "9407":  "Abrak'Infesté",
+    "78315":  "<b>MORT</b>\_: Invoque une {Summoning:329[LARVE]} sur sa case.",
+    "53759":  "Tronknyde",
+    "50903":  "{range}",
+    "87081":  "Abrak'Nid Foutu",
+    "48729":  "<b>ATTAQUE</b>\_: Gagne une {FloatingCounterEffect:130}.",
+    "87294":  "Abrak'nid putréfié",
+    "96754":  "{range}
+\---
+Quand un allié non-Larve meurt, gagne une {FloatingCounterEffect:130}.",
+    "83134":  "Abraknyde toxique",
+    "24464":  "<b>DÉBUT\_DU\_TOUR</b>\_: Pose un {ObjectMechanism:733} à {cell:dist} d'un adversaire aléatoire.",
+    "26739":  "Araknode l'Indésirable",
+    "58808":  "<b>APPARITION</b>\_: Invoque 2 {Summoning:366} sur une case au bord du plateau.
+\---
+<b>MORT</b>\_: Transforme l'{Summoning:650} le plus éloigné en {Summoning:803}.",
+    "63692":  "Anélide la Troncophore",
+    "21690":  "<b>ATTAQUE</b>\_: Donne une {FloatingCounterEffect:130} à un allié non-larve aléatoire.
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Se téléporte et déclenche une attaque sur chaque adversaire {#Poisoned}.",
+    "10771":  "Sylvegore le Corrompu",
+    "64062":  "Insensible aux dégâts magiques.
+{#UNMOVABLE}
+\---
+Lorsqu'un allié non-larve meurt, subît l'AT de cet allié.
+\---
+<b>FIN\_DU\_TOUR</b>\_: Invoque des alliés ou des {ObjectMechanism:733[CHAMPIGNONS PARASITÉS]}.",
+    "69649":  "Chef du clan",
+    "18427":  "{#ANGRYDRIVE}\_: Inflige le double de son {%at} aux adversaires jusqu'à 2 cases\_<sprite name="cell_circle2"> de lui.
+\---
+Un allié adjacent\_<sprite name="cell_cross"> subit les dégâts des <b>ATTAQUES</b> à sa place.",
+    "48719":  "Instructeur Cochon",
+    "14180":  "{#PORSHIDO}
+\---
+{#CRITICAL}\_: Confère {value:a}\_<b>AURAS</b> à un autre <b>Cochon</b> allié aléatoire.",
+    "24866":  "Costaure",
+    "58675":  "Si un adversaire aligné <b>ATTAQUE</b> un personnage\_allié, il le <b>CHARGE</b> et lui inflige son {%at}.",
+    "21778":  "Grabataure",
+    "80195":  "<b>ATTAQUE</b>: Confère {armor:ar} aux alliés autour.",
+    "96572":  "Empereur Guemene",
+    "73013":  "{#PORSHIDO}
+\---
+Gagne {power:at,percent} pour le tour quand l'{Summoning:966} subit des dégâts.
+\---
+Les dégâts de ses {#CRITICAL[COUPS CRITIQUES]} sont augmentés de {value:dcc,permil}.",
+    "67356":  "Quand un allié meurt, MANDHAL gagne {power:pow,percent} pour le tour quand un allié meurt.
+\---
+<b>MORT</b>\_: Confère {power:powall,percent} aux alliés et applique {#TAGGED} sur TOUT les adversaires.",
+    "6301":  "Mandhal",
+    "94519":  "<b>ATTAQUE</b>\_: Repousse la cible de {cell:c} et créer des {FloorMechanism:1843[FISSURES]} sur son chemin.
+\---
+Quand il atteint {ef1}% et {ef2}% de ses {%PV}:\nCréer des {FloorMechanism:1843[FISSURES]} sur les cases alignés diagonalement avec lui et invoque deux {Summoning:617[PUBERTAURES]} sur le bord du plateau.",
+    "60540":  "Minotoror",
+    "28195":  "<b>ATTAQUE</b>\_: Invoque une {ObjectMechanism:1024} sur une case aléatoire.
+\---
+Quand il y a {nbPow} ou plus {ObjectMechanism:1024[BOUSES]} présentes sur le terrain, gagne {power:at,percent}.",
+    "41062":  "Moogr",
+    "87216":  "{range}
+\---
+<b>MORT</b>\_: Applique {#TAGGED} sur le tueur.",
+    "40799":  "Mooman",
+    "46836":  "<b>CHARGE</b> un autre personnage aligné aléatoire quand il subit une <b>ATTAQUE</b>.",
+    "32248":  "Prehistauric",
+    "32527":  "<b>ATTAQUE</b>\_: Repousse la cible de {cell:c}.",
+    "77854":  "Pubertaure",
+    "3827":  "<b>DÉBUT\_DU\_TOUR</b>\_: Confère {power:at,percent} à l'allié avec le plus d'{%AT} jusqu'à la fin du tour.",
+    "43936":  "Taurino",
+    "60000":  "Gagne {power:at,percent} quand il subit des dégâts.",
+    "25454":  "Taurrida",
+    "93104":  "Patriarche",
+    "85009":  "<b>DÉBUT\_DU\_TOUR</b>\_: Se transforme en {Summoning:614} si la {%reserve} contient {value:r2}\_{%PA}.
+\---
+<b>FIN\_DU\_TOUR</b>\_: Ajoute {addReserve:r}.
+\---
+<b>MORT</b>\_: Le <b>Chafer</b> allié ayant le plus de {%pv} se transforme en {Summoning:794}.",
+    "66506":  "Périgourdin",
+    "5746":  "{#DIRTY}
+\---
+<b>ATTAQUE</b>\_: <b>Repousse</b> de {cell:c}.
+\---
+{#COLLISION} : {#stun[ASSOMME]} la cible.",
+    "85480":  "Protecteur Sacré",
+    "31262":  "{#PORSHIDO}
+\---
+{#BODYGUARD} de la <b>Famille Impériale</b>.",
+    "87485":  "Patriarche Suprême",
+    "4566":  "<i>Patriarche transformé</i>.
+\---
+<b>APPARITION</b>\_: Sacrifie ses alliés et gagne autant de {%pv} qu'ils en avaient.
+\---
+Gagne {power:pow,percent} par allié sacrifié.",
+    "60671":  "Jon Kriz",
+    "38882":  "{#PORSHIDO}
+\---
+Ses dégâts de {#CRITICAL} sont augmentés de {value:dcc,permil}.
+\---
+{#CRITICAL} : Se soigne d'une valeur égale à son {%at}.",
+    "96870":  "Soldat Tripoux",
+    "95675":  "{#PORSHIDO}
+\---
+{range}
+\---
+{#CRITICAL}\_: Retire {value:pm,abs}\_{%pm} à la cible.",
+    "27477":  "Poupée de Dathura",
+    "54567":  "{#UNIQUE}
+\---
+<b>ATTAQUE</b>\_: Soigne {Companion:350} et votre\v héros d'une valeur égale à son {%at}.
+\---
+Meurt si {Companion:350} quitte le jeu.",
+    "3427":  "Impératrice Galantine",
+    "34801":  "Augmente les chances de {#CRITICAL[CRITIQUES MAGIQUES]} de {value:critchance,permill} pour le tour quand l'{Summoning:219} subit des dégâts.
+\---
+{#CRITICAL[COUP CRITIQUE MAGIQUE]}\_: Ajoute {addReserve:pa}.",
+    "43487":  "Dragon Rouge",
+    "50875":  "<i>Pas d'effet.</i>",
+    "91055":  "Murène Électrique",
+    "65183":  "Déclenche un {#BOUNCE} autour d'elle infligeant son {%at} quand elle subit des dégâts.",
+    "39546":  "Swamp Thing",
+    "84298":  "<b>DÉBUT\_DU\_TOUR</b>\_: Se téléporte sur un {FloorMechanism:849} aléatoire.
+\---
+<b>FIN\_DU\_TOUR</b>\_: Vole {value:steal}\_PV à chaque <b>Abraknyde</b>, si il a moins de {value:pv}\_PV.",
+    "63137":  "Oeuf Gris",
+    "92136":  "{#DRAGEGG}.",
+    "12629":  "Oeuf Marron",
+    "28930":  "{#DRAGEGG}.",
+    "46449":  "Oeuf Rouge",
+    "59945":  "{#DRAGEGG}.",
+    "32089":  "Dragon Rouge",
+    "84478":  "{#DRAGEGG}.",
+    "21862":  "Oeuf Vert",
+    "64147":  "{#DRAGEGG}.",
+    "78665":  "Mini Dragon Blanc",
+    "68004":  "{#DRAGEGG}.
+<b>ATTAQUE</b> : Applique {#MUDDY!}.",
+    "14941":  "Mini Dragon Marron",
+    "22761":  "{#DRAGEGG}.
+<b>ATTAQUE</b> : Applique {#OILED!}.",
+    "46234":  "Mini Dragon Bleu",
+    "83283":  "{#DRAGEGG}.
+<b>ATTAQUE</b> : Applique {#WET!}.",
+    "14722":  "Boss Dragoeuf",
+    "28264":  "<b>ATTAQUE</b> : Touche les 3 cases devant elle.",
+    "40724":  "Mini Dragon Rouge",
+    "12641":  "{#DRAGEGG}.",
+    "90476":  "Boufton",
+    "66106":  "<i>Pas d'effet.</i>",
+    "58258":  "Bouflonne",
+    "94472":  "{#TROUPEAU}\_: gagne {value:nb}\_AURA\_{FloatingCounterEffect:54}.",
+    "73286":  "Craquasseur Craqbowleur",
+    "76575":  "{#CRAQBOWLEUR} 
+\---
+<b>ATTAQUE</b>\_: Applique {#FRACTURED}\vs'il possède de l'{%ar}.",
+    "398":  "Grand Laineux",
+    "79589":  "Construit un {ObjectMechanism:451} quand un <b>BOUFTOU</b> allié meurt.
+Gagne {power:at,+,percent}\vquand un adversaire joue une {Spell:104!}.",
+    "44882":  "Cornan le Cornu",
+    "82176":  "<b>DÉBUT\_DU\_TOUR</b> : Transforme les {Summoning:393} qui ont moins de {heal:hp} en {Summoning:60}.
+\---
+Les <b>BOUFTOUS</b> gagnent {power:ppow,percent,abs} pour le tour quand il subit des dégâts.",
+    "48178":  "Dégénérescence",
+    "10192":  "<b>ATTAQUE</b>\_: inflige son AT aux adversaires autour\_<sprite name="cell_around">.",
+    "59140":  "Bouftou Adulte",
+    "96460":  "{#TROUPEAU}\_: Gagne {power:ppow,percent,+} pour le tour.",
+    "69207":  "Pupuce",
+    "41773":  "<b>ATTAQUE</b>\_: Donne une {Spell:104}\vau propriétaire de la cible et meurt.",
+    "62296":  "Dégénéré",
+    "27018":  "<b>DÉBUT\_DU\_TOUR</b>\_: Déclenche une <b>ATTAQUE</b>.",
+    "63788":  "Bouftou de Berger",
+    "13269":  "<i>Pas d'effet.</i>",
+    "51194":  "Fantassins de Bronze",
+    "76167":  "Quand un adversaire adjacent subit une attaque, inflige son {%at} s'il prend la cible en {#TENAILLE}.",
+    "68403":  "Baliste argentée",
+    "32227":  "{range}
+\---
+<b>ATTAQUE</b>\_:\_Retire {value:pm,abs}\_{%PM} si la cible est alignée.",
+    "36275":  "Chevalier Noir Monté",
+    "57043":  "<b>ATTAQUE</b>\_: Téléporte la cible derrière lui.",
+    "77941":  "Sentinelle Craquelée Argentée",
+    "28629":  "<b>ATTAQUE</b>\_: Applique <b>CHUCHOTÉ</b>\_<sprite name="generic_monster">.
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Applique {#DISARMED} aux cibles autour\_<sprite name="cell_around"> si les elles sont <b>CHUCHOTÉES</b>\_<sprite name="generic_monster">.",
+    "7495":  "Chevalier Noir",
+    "9136":  "Traverse la cible avant de déclencher son attaque.",
+    "3320":  "Chevalier Porté",
+    "50073":  "<b>DÉBUT\_DE\_TOUR</b>\_: <b>Charge</b> un adversaire aligné à {cell:c} ou plus et lui inflige son {%at}.",
+    "34342":  "Archers Obscurs",
+    "65909":  "{range}
+\---
+{#REVANCHE}
+\---
+<b>FIN\_DU\_TOUR</b>\_: Confère {power:ppow,percent} au <b>Chuchoteur</b> allié ayant le moins d'{%at}.",
+    "84672":  "Chuchoteurs Échassiers Argentés",
+    "5046":  "<b>ATTAQUE</b>\_: Gagne {#PHASE} jusqu'à sa prochaine attaque s'il prend la cible en {#TENAILLE}.",
+    "54091":  "Chevaliers d'Argent",
+    "27135":  "<b>FIN\_DU\_TOUR</b>\_: Passe en {#OFFENSIVESTANCE} ou en {#DEFENSIVESTANCE} s'il n'a pas de <b>POSTURE</b>.",
+    "56685":  "Fantassins Obscurs",
+    "68890":  "{#REVANCHE}
+\---
+<b>ATTAQUE</b>\_: Inflige son {%AT} s'il prend la cible en {#TENAILLE}.",
+    "33222":  "Tour Craquelée",
+    "22861":  "<b>ATTAQUE</b>\_:\_{#ROOTED[IMMOBILISE]} la cible si elle est <b>CHUCHOTÉE</b>\_<sprite name="generic_monster">.",
+    "54413":  "Conjurateurs Chuchoteurs Argentés",
+    "16020":  "{range}",
+    "92972":  "Trône Craquelé",
+    "18282":  "{#UNMOVABLE}
+\---
+Perd {power:atvar,percent} et gagne {value:pmvar,abs}\_{%PM} s'il n'a plus d'{%AR}.
+\---
+<b>MORT\_</b>: Passe tous les <b>Chuchoteurs</b> alliés en {#OFFENSIVESTANCE}.",
+    "8670":  "Boufpoux",
+    "11254":  "Invoque une {Summoning:979} quand il subit des dégâts.",
+    "35238":  "Crâne Roi",
+    "90122":  "<b>ATTAQUE</b> : Inflige son AT aux adversaires autour\_<sprite name="cell_around">.",
+    "46279":  "Crâne Noble",
+    "34912":  "<b>MORT</b>\_: Déclenche une {#EXPLOSION} d'une valeur égale à son {%at}.",
+    "80853":  "{0, plural, one[Crâne Deuf] other[Crânes Deuf]}",
+    "32072":  "<b>ATTAQUE</b> : Inflige son AT aux adversaires autour\_<sprite name="cell_around"> puis meurt.",
+    "9467":  "Fantassins d'Argent",
+    "27907":  "<b>ATTAQUE</b>\_: Inflige son {%AT} s'il prend la cible en {#TENAILLE}.",
+    "93154":  "Fantassins d'Or",
+    "36726":  "{#BATAILLON}
+\---
+<b>ATTAQUE</b>\_: Inflige son {%AT} s'il prend la cible en {#TENAILLE}.",
+    "38720":  "Archers d'Or",
+    "6280":  "{range}
+\---
+{#BATAILLON}
+\---
+<b>FIN\_DU\_TOUR</b>\_: Confère {power:ppow,percent} au <b>Chuchoteur</b> allié ayant le moins d'{%at}.",
+    "42096":  "Archers d'Argent",
+    "98741":  "{range}
+\---
+<b>FIN\_DU\_TOUR</b>\_: Confère {power:ppow,percent,abs} au <b>Chuchoteur</b> allié ayant le moins d'{%at}.",
+    "96863":  "Croqueur Cristalroc",
+    "91173":  "{#CRISTALROC}
+\---
+<b>ATTAQUE</b> : Consomme {armor:ar} pour invoquer un {ObjectMechanism:1607} autour\_<sprite name="cell_around"> de la cible.",
+    "88645":  "Mini Dragon Rouge",
+    "71105":  "{#DRAGEGG}.
+<b>ATTAQUE</b> : Applique {#VENTILATED!}.",
+    "45691":  "Dragon Bleu",
+    "29547":  "<b>ATTAQUE</b> : {#DISARMED[DÉSARME]!} s'il y a au moins un {#DRAGEGG}.",
+    "93470":  "Dragon Vert",
+    "66390":  "Se téléporte et déclenche son attaque sur une cible qui attaque un {#DRAGEGG} (max 1 fois par tour).",
+    "7424":  "Dragon Marron",
+    "92701":  "+{value:v,percent} de dégâts physiques par {#DRAGEGG}.",
+    "7021":  "Roi Gélome",
+    "5453":  "{#FRUCTOSE}\_(FRAMBOISE)\_: Les alliés déclenchent {#explosion}.
+{#FRUCTOSE}\_(CITRON)\_: Invoque 2 <b>GELBIBIS</b> autour\_<sprite name="cell_around">.
+{#FRUCTOSE}\_(FRAISE)\_: Fait évoluer les <b>GELBIBIS</b> et les <b>GELINES</b>.
+<b>FIN DU TOUR</b>\_: Se téléporte sur une case sucrée.",
+    "12231":  "Rat Bougri",
+    "77544":  "<b>ATTAQUE</b>\_: Applique <b>MORDU</b>\_<sprite name="generic_monster"> ou {#INFECTED} si la cible est déjà <b>MORDUE</b>\_<sprite name="generic_monster">.
+\---
+{#CIRCLED}",
+    "85988":  "Huitre",
+    "33224":  "<i>Pas d'effet.</i>",
+    "20252":  "Flacaguerrier",
+    "79914":  "{range}
+\---
+<b>ATTAQUE</b>\_: La cible se déplace de {value:v} cases dans une direction aléatoire si elle est <b>DARDÉE</b>\_<sprite name="generic_monster">.",
+    "45803":  "Flacadard",
+    "91273":  "{range}
+\---
+<b>ATTAQUE</b>\_: Applique <b>DARDÉ</b>\_<sprite name="generic_monster">.",
+    "66112":  "Flacaflaque",
+    "68789":  "<b>MORT</b>\_: Pose un {FloorMechanism:1203} sur sa case.
+Wip",
+    "13471":  "Flacarabout",
+    "76311":  "{range}
+\---
+<b>ATTAQUE</b>\_: Retire {value:pm, abs}{%pm} si la cible est <b>DARDÉE</b>\_<sprite name="generic_monster">.",
+    "55007":  "Flacassassin",
+    "34390":  "<b>DÉBUT\_DU\_TOUR</b>\_: Se téléporte sur un adveraire et lui inflige son {%at} s'il est en {#TRANSE}.",
+    "46620":  "Flacatotem",
+    "63984":  "<b>DÉBUT\_DU\_TOUR</b>\_: Attire tous les adversaires <b>DARDÉES</b>\_<sprite name="generic_monster"> alignés.",
+    "60938":  "Flacabonk",
+    "58426":  "Gagne {#TRANSE} quand un allié meurt.
+\---
+Gagne {power:pow,percent} et {value:pm}{%pm} quand il gagne un effet de {#TRANSE}.",
+    "62799":  "Flayana",
+    "69678":  "<b>DÉBUT\_DU\_TOUR</b>\_: Confère {#TRANSE} à tous les <b>flaqueux</b> alliés autour\_<sprite name="cell_around"> d'elle.
+\---
+<b>FIN\_DU\_TOUR</b>\_: Consomme un {FloorMechanism:431} pour invoquer un {Summoning:239}.
+\---
+Mort d'un allié\_: Invoque un {Summoning:239}.",
+    "69031":  "Fleiflei",
+    "26557":  "<b>ATTAQUE</b>\_: Inflige {value:v} fois son {%at} puis meurt s'il est en {#TRANSE}.",
+    "87276":  "Conscience Collective",
+    "14188":  "<b>ATTAQUE</b>\_: Inflige son {%at} aux adversaires autour\_<sprite name="cell_around">.
+\---
+Quand il subit des dégâts : 
+Invoque 1 {Summoning:699} sur une case adjacente\_<sprite name="cell_cross"> jusqu'à 3 cases de lui.",
+    "10149":  "Avorton Pikaross",
+    "6234":  "{#FRAGILE}
+\---
+<b>ATTAQUE</b>\_: Se téléporte de {value:cmin} à {cell:cmax} de la cible.",
+    "48695":  "Karab",
+    "90463":  "<b>DÉBUT\_DU\_TOUR</b>\_: Gagne {value:pm,abs}\_{%PM} si aucun adversaire ne se trouve autour\_<sprite name="cell_around">.",
+    "48215":  "Chef de Guerre",
+    "41980":  "{#TROUPEAU}\_: +{armor:ar} aux alliés autour\_<sprite name="cell_around">.",
+    "44013":  "Kasimordo Surin",
+    "78992":  "{#IMMORTEL}
+\---
+<b>ATTAQUE</b>\_: Applique <b>NÉCROSÉ</b><sprite name="generic_monster">.
+\---
+<b>MORT</b>\_: Se transforme en {ObjectMechanism:1964}.",
+    "580":  "Crogneur Surin",
+    "85554":  "{#IMMORTEL}
+\---
+{range}
+\---
+Gagne  {power:at,percent} quand un allié meurt.",
+    "6415":  "Dragon Blanc",
+    "44124":  "<i>Pas d'effet.</i>",
+    "50046":  "Bouflépreuse",
+    "34984":  "<b>ATTAQUE</b>\_: Donne une {Spell:104}\vau propriétaire de la cible.",
+    "20569":  "Avorton Chafer",
+    "92706":  "<b>ATTAQUE</b>\_: Se téléporte de {value:cmin} à {cell:cmax} de la cible.",
+    "47266":  "Gelbibi Framboise",
+    "62426":  "<b>ATTAQUE</b> : Se téléporte sur une case sucrée.
+{#FRUCTOSE}\_: Évolue en {Summoning:114}.",
+    "84465":  "Geline Framboise",
+    "61767":  "<b>MORT</b>\_: Déclenche une {#explosion} d'une valeur égale à son {%at}.
+{#FRUCTOSE}\_: Évolue en {Summoning:189}.",
+    "50828":  "Gelée Framboise",
+    "3135":  "{#FRUCTOSE}\_: Déclenche une {#explosion} d'une valeur égale à son {%at}.",
+    "78092":  "Gelikorne",
+    "67470":  "<i>Pas d'effet.</i>",
+    "31004":  "Totem Gelbibi",
+    "721":  "<b>ATTAQUE</b> : Téléporte la cible sur une case sucrée autour\_<sprite name="cell_around">.",
+    "20912":  "Geline Arc-En-Ciel",
+    "62900":  "<b>ATTAQUE</b> : Active l'effet {#FRUCTOSE} \vde la cible si possible.",
+    "55387":  "Cubo-Gelée",
+    "87412":  "Invoque une <b>GELBIBI</b> de saveur aléatoire autour\_<sprite name="cell_around"> et {value:at,percent} de dégâts physiques quand il perd 25% de ses {%pv}.",
+    "71826":  "Gelbibi Citron",
+    "38035":  "<b>ATTAQUE</b> : Se téléporte sur une case sucrée.
+{#FRUCTOSE}\_: Évolue en {Summoning:838}.",
+    "35083":  "Gelbibi Fraise",
+    "18512":  "<b>ATTAQUE</b> : Se téléporte sur une case sucrée.
+{#FRUCTOSE}\_: Évolue en {Summoning:804}.",
+    "28177":  "Geline Citron",
+    "78987":  "<b>MORT</b>\_: Invoque une <b>GELBIBI</b> de saveur aléatoire.
+{#FRUCTOSE}\_: Évolue en {Summoning:551}.",
+    "89627":  "Geline Fraise",
+    "58910":  "<b>MORT</b>\_: Fait évoluer une <b>GELBIBI</b> ou une <b>GELINE</b> autour\_<sprite name="cell_around">.
+{#FRUCTOSE}\_: Évolue en {Summoning:703}.",
+    "17129":  "Gelée Citron",
+    "56505":  "{#FRUCTOSE}\_: Invoque une <b>GELBIBI</b> de saveur aléatoire sur une case adjacente\_<sprite name="cell_cross">.",
+    "10308":  "Gelée Fraise",
+    "87960":  "{#FRUCTOSE}\_: Fait évoluer une <b>GELBIBI</b> ou une <b>GELINE</b> autour\_<sprite name="cell_around">.",
+    "77695":  "Nounours",
+    "20749":  "<b>ATTAQUE</b> : Applique {#GLYCEMIA}.
+<b>MORT</b>\_: Ajoute une {Spell:382} dans la main de son bourreau.",
+    "71250":  "Croco Mou",
+    "36875":  "<b>ATTAQUE</b> : Ajoute une {Spell:382} dans la main de la cible si elle est {#GLYCEMIA[GLYCÉMIQUE\_<sprite name="generic_monster">]]}.",
+    "52550":  "Drabonbon",
+    "30260":  "{#DEATHBLOW}\_: Ajoute un {Spell:450} dans la main de la cible.",
+    "44089":  "Coppa le Copain Ninja",
+    "64090":  "{#NINJA}
+{#DIRTY}
+\---
+<b>ATTAQUE</b>\_: {#PUSH} les personnages adverses adjacents\_<sprite name="cell_cross"> de {cell:c}.",
+    "77077":  "Avorton Surin",
+    "78831":  "{#IMMORTEL}
+\---
+<b>ATTAQUE</b>\_: Se téléporte de {value:cmin} à {cell:cmax} de la cible.",
+    "5643":  "Arbatarba Surin",
+    "87829":  "{#IMMORTEL}
+\---
+{range}
+\---\
+<b>APPARITION</b>\_: {value:v}\_{FloatingCounterEffect:95[TRAITS DE RANCUNE]}.",
+    "67787":  "Picoss Surin",
+    "17453":  "{#IMMORTEL}
+\---
+<b>ATTAQUE</b>\_: {#PUSH} de {cell:cases}.",
+    "39343":  "Châtreuse Surin",
+    "96913":  "{#IMMORTEL}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Traverse les adversaires d'une ligne et leur inflige des dégâts d'une valeur égale à son {%at}.",
+    "1788":  "Proctoss Pikaross",
+    "60577":  "{#FRAGILE}
+\---
+<b>MORT</b>\_: Pose un {FloorMechanism:1203} sur sa case.",
+    "66239":  "Picoss Pikaross",
+    "75618":  "{#FRAGILE}
+\---
+<b>ATTAQUE</b>\_: {#PUSH} de {cell:cases}.",
+    "73665":  "Comte Moross",
+    "25291":  "{#skuller}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Si un\_{Summoning:556} n'a aucun <b>CRÂNE</b> à {cell:c} ou moins, il se transforme en {Summoning:701}.",
+    "19562":  "Comte Mélankar",
+    "26573":  "{#skuller}
+\---
+Confère {value:pm}\_{%PM} aux {Summoning:556,plural:other} alliés.
+\---
+<b>ATTAQUE</b>\_: Confère {power:pow,percent} aux {Summoning:556,plural:other}.",
+    "49198":  "Arbatarba Pikaross",
+    "56363":  "{#FRAGILE}
+\---
+{range}
+\---
+<b>APPARITION</b>\_: {value:v}\_{FloatingCounterEffect:95[TRAITS DE RANCUNE]}.",
+    "26206":  "Blockmort Pikaross",
+    "62445":  "{#FRAGILE}
+\---
+<b>DÉBUT DU TOUR</b>\_: Confère {armor:ar} ou {blindage:bl} aux alliés autour <sprite name="cell_around"> de lui.\v\---
+<b>Charge</b> un adversaire aligné de {value:cmin} à {cell:cmax} et lui inflige son {%at}.",
+    "42129":  "Châtreuse Pikaross",
+    "84603":  "{#FRAGILE}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Traverse les adversaires d'une ligne et leur inflige des dégâts d'une valeur égale à son {%at}.",
+    "93886":  "Kasimordo Pikaross",
+    "71422":  "{#FRAGILE}
+\---
+<b>ATTAQUE</b>\_: Applique <b>NÉCROSÉ</b><sprite name="generic_monster">.
+\---
+<b>MORT</b>\_: Se transforme en {ObjectMechanism:409}.",
+    "26155":  "Crogneur Pikaross",
+    "73938":  "{#FRAGILE}
+\---
+{range}
+\---
+Gagne  {power:at,percent} quand un allié meurt.",
+    "92185":  "Liche Azundor",
+    "35131":  "{range}
+\---
+{#BONELOSS}
+\---
+<b>MORT d'un CHAFER</b>\_: S'il est tué par une attaque adverse, inflige l'{%AT} de la Liche au tueur par jauge.
+\---
+S'il est tué par un autre effet adverse, cible le héros.",
+    "16910":  "Liche Mwalébabin",
+    "12787":  "{range}
+\---
+{#BONELOSS}
+\---
+<b>MORT d'un CHAFER</b>\_: S'il est tué par une attaque adverse, inflige {value:dmg,percent} de l'{%AT} de la Liche au tueur par case entre la <b>Liche</b> et lui.
+\---
+S'il est tué par un autre effet adverse, cible le héros.",
+    "30278":  "Érog le Profanateur",
+    "14284":  "<b>DÉBUT\_DU\_TOUR</b>\_:\_Se téléporte sur une case adjacente\_<sprite name="cell_cross"> à l'adversaire le plus loin et lui applique {frozen:PropertyEffect.26.FrozenDmg}.",
+    "98348":  "Azor l'Exécuteur",
+    "40989":  "<b>DÉBUT\_DU\_TOUR</b>\_:\_Se téléporte sur une case adjacente\_<sprite name="cell_cross"> à l'adversaire le plus loin et déclenche {explosion:ParameterizedEffectExecution.654.ex}.",
+    "86719":  "Sor-Sucrerie",
+    "88059":  "<b>DÉBUT\_DU\_TOUR</b>\_(PAIR)\_: Inflige {magicalDamage:dmg} aux adversaires sur des cases sucrées.
+<b>DÉBUT\_DU\_TOUR</b>\_(IMPAIR)\_: Inflige {magicalDamage:dmg} aux adversaires qui ne sont pas sur des cases sucrées.",
+    "39812":  "Lieutenant Carie",
+    "83012":  "<b>ATTAQUE</b>\_: Pioche le prochain <b>BLÂME</b>.
++{value:at,percent} de dégâts physiques aux alliés pour le tour quand un <b>BLÂME</b> est joué.",
+    "18723":  "Soldat Tripoux Ninja",
+    "75489":  "{#NINJA}
+{#PORSHIDO}
+\---
+{range}
+\---
+{#CRITICAL}\_: Retire {value:pm,abs}\_{%pm} à la cible.",
+    "11133":  "Disciple Cochonnet Ninja",
+    "28204":  "{#NINJA}
+{#PORSHIDO}
+\---
+Ses dégâts de {#CRITICAL} sont augmentés de {value:dcc,permil}.",
+    "23639":  "Graton Ninja",
+    "22686":  "{#NINJA}
+{#DIRTY}
+\---
+<b>ATTAQUE</b>\_: {#PUSH} de {cell:c}.",
+    "78878":  "Instructeur Cochon Ninja",
+    "4839":  "{#NINJA}
+{#PORSHIDO}
+\---
+{#CRITICAL}\_: Confère {value:a}\_<b>AURAS</b> à un autre <b>Cochon</b> allié aléatoire.",
+    "23893":  "Bworkakorn",
+    "94525":  "<b>DÉBUT\_DU\_TOUR</b>\_: Confère {value:ar}\_{%AR} aux <b>Bworks</b> alliés autour\_<sprite name="cell_around">.
+\---
+{#ANGRYDRIVE}\_: Confère {power:at,percent} aux <b>Bworks</b> alliés autour\_<sprite name="cell_around">.",
+    "37605":  "Disciple Cochonnet Boucher",
+    "96474":  "{#BOUCHER}\v
+{#PORSHIDO}
+\---
+Ses dégâts de {#CRITICAL} sont augmentés de {value:dcc,permil}.",
+    "55009":  "Soldat Tripoux Boucher",
+    "48297":  "{#BOUCHER}
+{#PORSHIDO}
+\---
+{range}
+\---
+{#CRITICAL}\_: Retire {value:pm,abs}\_{%pm} à la cible.",
+    "28713":  "Graton Boucher",
+    "39798":  "{#BOUCHER}\v
+{#DIRTY}
+\---
+<b>ATTAQUE</b>\_: {#PUSH} de {cell:c}.",
+    "3387":  "Instructeur Cochon Boucher",
+    "5360":  "{#BOUCHER}
+{#PORSHIDO}
+\---
+{#CRITICAL}\_: Confère {value:a}\_<b>AURAS</b> à un autre <b>Cochon</b> allié aléatoire.",
+    "80564":  "Coppa le Copain Boucher",
+    "88606":  "{#BOUCHER}\v
+{#DIRTY}
+\---
+<b>ATTAQUE</b>\_: {#PUSH} les personnages adverses adjacents\_<sprite name="cell_cross"> de {cell:c}.",
+    "98103":  "Guerrier Boudeur",
+    "34359":  "{#BOUCHER}
+{#PORSHIDO}
+\---
+{#CRITICAL}\_: Rejoue son tour (1 fois par tour).",
+    "82585":  "Mortadella Boucher",
+    "20522":  "{#BOUCHER}
+{#DIRTY}
+\---
+<b>FIN DU TOUR</b>\_:\_Confère {value:a}\_<b>AURA</b> à un autre <b>Cochon</b> allié si elle a attaqué.",
+    "92689":  "Guerrier Boudeur Ninja",
+    "17641":  "{#NINJA}
+{#PORSHIDO}
+\---
+{#CRITICAL}\_: Rejoue son tour (1 fois par tour).",
+    "66353":  "Double d'Orochimagrouik",
+    "9824":  "{#NINJA}
+{#PORSHIDO}
+{#DOUBLE}
+\---
+<b>ATTAQUE</b>\_:\_Gagne {#SHIELD} si la cible a l'état <b>BATSU</b><sprite name="generic_monster">.",
+    "39973":  "Double de Coppa le Copain Ninja",
+    "82432":  "{#NINJA}
+{#DIRTY}
+{#DOUBLE}
+\---
+<b>DÉBUT\_DU\_TOUR</b> : Se téléporte sur une case adjacente\_<sprite name="cell_cross"> à l'adversaire ayant le moins d'{%at}.
+\---
+Se téléporte à {cell:c} de la cible après une attaque.",
+    "77217":  "Mortadella Ninja",
+    "16444":  "{#NINJA}
+{#DIRTY}
+\---
+<b>FIN DU TOUR</b>\_:\_Confère {value:a}\_<b>AURA</b> à un autre <b>Cochon</b> allié si elle a attaqué.",
+    "80943":  "Niels Laren",
+    "88943":  "{#MUSTNOTDIE}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Déclenche une <b>ATTAQUE</b> sur un allié jusqu'à 2 cases de lui.",
+    "94212":  "Jamon le Shihan",
+    "44464":  "{#PORSHIDO}
+\---
+{#CRITICAL}\_: {#BOUNCE}
+\---
+<b>FIN DU TOUR</b>\_:\_+{value:ar} {%AR} aux autres <b>Cochons</b> ayant une {#aura}.",
+    "13218":  "Giga-Nif",
+    "41023":  "<b>ATTAQUE</b> : Inflige {value:nb} fois son {%AT}.",
+    "44174":  "Larbin Pirate",
+    "82274":  "{#ESPRITEQUIPE}
+\---
+{#ANGRYDRIVE}\_: Les dégâts de son attaque sont doublés.",
+    "19054":  "Larbin Monté Pirate",
+    "69977":  "{#ESPRITEQUIPE}
+\---
+{#ANGRYDRIVE}\_: Traverse sa cible et lui inflige son {%at}.",
+    "69807":  "Traqueur Pirate",
+    "71098":  "{range}
+\---
+{#ESPRITEQUIPE}
+\---
+{#ANGRYDRIVE}\_: Retire 1\_{%PM} à la cible pour le tour.",
+    "10560":  "Bworkette Pirate",
+    "5195":  "{#ESPRITEQUIPE}
+\---
+{#ANGRYDRIVE}\_: Téléporte la cible autour\_<sprite name="cell_around"> d'elle \vet lui inflige {magicalDamage:dmg}.",
+    "36973":  "Bworkokak Pirate",
+    "43993":  "{#ESPRITEQUIPE}
+\---
+<b>ATTAQUE</b>\_: Applique <b>AMOCHÉ</b><sprite name="generic_monster"> ou {#HUG} si la cible est <b>AMOCHÉE</b><sprite name="generic_monster">.
+\---
+{#ANGRYDRIVE}\_: Gagne {armor:ar}.",
+    "96077":  "Bwork Parle-Lave Pirate",
+    "64857":  "{#ESPRITEQUIPE}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Lance une {Spell:589} jusqu'à 2 cases de lui.
+\---
+{#ANGRYDRIVE}\_: Déclenche {explosion:ParameterizedEffectExecution.654.ex}.",
+    "53040":  "Grô Bwork Pirate",
+    "21728":  "{#ESPRITEQUIPE}
+\---
+<b>ATTAQUE</b>\_: Touche les 2\_cases devant lui.
+\---
+{#ANGRYDRIVE}\_: Gagne {power:at,percent} et {value:pm}\_{%pm}.",
+    "10717":  "Bworkakorn Pirate",
+    "80622":  "{#ESPRITEQUIPE}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Confère {value:ar}\_{%AR} aux <b>Bworks</b> alliés autour\_<sprite name="cell_around">.
+\---
+{#ANGRYDRIVE}\_: Confère {power:at,percent} aux <b>Bworks</b> alliés  autour\_<sprite name="cell_around">.",
+    "65410":  "Larbin Volcano'culte",
+    "75473":  "{#CHAMANISME}
+\---
+{#ANGRYDRIVE}\_: Les dégâts de son attaque sont doublés.",
+    "93789":  "Larbin monté Volcano'culte",
+    "10500":  "{#CHAMANISME}
+\---
+{#ANGRYDRIVE}\_: Traverse sa cible et lui inflige son {%at}.",
+    "15139":  "Traqueur Volcano'culte",
+    "57058":  "{#CHAMANISME}
+\---
+{range}
+\---
+{#ANGRYDRIVE}\_: Retire 1\_{%PM} à la cible pour le tour.",
+    "52849":  "Bworkette Volcano'culte",
+    "46410":  "{#CHAMANISME}
+\---
+{#ANGRYDRIVE}\_: Téléporte la cible autour\_<sprite name="cell_around"> d'elle \vet lui inflige {magicalDamage:dmg}.",
+    "22542":  "Parle-Lave Volcano'culte",
+    "16236":  "{#CHAMANISME}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Lance une {Spell:589} jusqu'à 2 cases de lui.
+\---
+{#ANGRYDRIVE}\_: Déclenche {explosion:ParameterizedEffectExecution.654.ex}.",
+    "46147":  "Gro Bwork Volcano'culte",
+    "49178":  "{#CHAMANISME}
+\---
+<b>ATTAQUE</b>\_: Touche les 2\_cases devant lui.
+\---
+{#ANGRYDRIVE}\_: Gagne {power:at,percent} et {value:pm}\_{%pm}.",
+    "18764":  "Bworkokak Volcano'culte",
+    "93960":  "{#CHAMANISME}
+\---
+<b>ATTAQUE</b>\_: Applique <b>AMOCHÉ</b><sprite name="generic_monster"> ou {#HUG} si la cible est <b>AMOCHÉE</b><sprite name="generic_monster">.
+\---
+{#ANGRYDRIVE}\_: Gagne {armor:ar}.",
+    "52102":  "Bworkakorn Volcano'culte",
+    "70166":  "{#CHAMANISME}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Confère {value:ar}\_{%AR} aux <b>Bworks</b> alliés autour\_<sprite name="cell_around">.
+\---
+{#ANGRYDRIVE}\_: Confère {power:at,percent} aux <b>Bworks</b> alliés  autour\_<sprite name="cell_around">.",
+    "2874":  "Gurs le Bworzerker",
+    "99042":  "{#ANGRYDRIVE}\_: Lance 1\_{Spell:589} sur chaque case autour de lui.
+\---
+{#EXALTED}\_: Gagne {armor:ar}.",
+    "94708":  "Goff Le Leader",
+    "62553":  "<i>Pas d'effet.</i>",
+    "73724":  "Ugor L'Amocheur",
+    "90464":  "Ajoute 1\_{%PA} à la {%RESERVE} quand l'état {#BATTERED} est appliqué.
+Confère {#SHIELD} à un allié quand l'état {#BATTERED} est consommé.",
+    "90208":  "Rogan L'Attachant",
+    "77789":  "<b>ATTAQUE</b>\_: {#HUG[ÉTREINT]} la cible si elle n'a pas d'allié autour\_<sprite name="cell_around"> d'elle.
++{value:at,percent} de dégâts physiques aux alliés quand un personnage adverse meurt sans allié autour\_<sprite name="cell_around"> de lui.",
+    "54306":  "Togor Le Détonant",
+    "94063":  "Quand un allié subit une <b>ATTAQUE</b> avec moins de {value:p,percent} de ses {%PV}, ils déclenchent {explosion:ParameterizedEffectExecution.654.ex}.",
+    "24077":  "Narod Le Pataugeur",
+    "96294":  "<b>ATTAQUE</b>\_: Repouse la cible de {cell:c} et recule de {cell:c2}.
+Soigne les alliés de {heal:h} quand une {FloorMechanism:278} est activée.",
+    "21202":  "Tofu Enragé",
+    "2241":  "Prend son {#airborne[ENVOL]} quand un allié déclenche un {#landing}.",
+    "7701":  "Giga-Nouf",
+    "34630":  "<b>ATTAQUE</b> : Augmente son <b>CC</b> de {value:cc,permil}.",
+    "21883":  "Collision",
+    "15569":  "{#DIRTY}
+<b>ATTAQUE</b>\_: Repousse de {cell:c}.
+{#COLLISION} : {magicalDamage:dmgC}.
+Confère +100% aux dégâts de {#COLLISION}\vtant qu'il est en jeu. [NEED DEV]",
+    "56905":  "Boufquette",
+    "81549":  "<b>DÉBUT\_DU\_TOUR</b>\_: Tombe {FloatingCounterEffect:54}\vsi 2\_alliés sont autour\_<sprite name="cell_around"> d'elle.",
+    "20679":  "Poutch Ingball",
+    "95164":  "<i>Revient sur le terrain quand il meurt.</i>",
+    "47931":  "Jamon le Sanguinaire",
+    "8369":  "{#DIRTY}
+\---
+<b>DÉBUT\_DU\_TOUR</b>: +{value:pm} {%PM} aux autres <b>Cochons</b> ayant une {#aura}.
+\---
+<b>ATTAQUE</b>: Téléporte l'adversaire sur une case adjacente <sprite name="cell_cross"> à un cochon aléatoire.",
+    "59184":  "Craquebille",
+    "15855":  "<b>ATTAQUE</b>\_: Retire 1\_{%pm} à la cible pour le tour\v s'il possède de l'{%ar}.",
+    "50437":  "Croqueur",
+    "90193":  "<b>ATTAQUE</b> : Consomme {armor:ar} pour invoquer un {ObjectMechanism:1607} autour\_<sprite name="cell_around"> de la cible.",
+    "90959":  "Craqueroc",
+    "99984":  "<b>DÉBUT\_DU\_TOUR</b>\_: Gagne {power:at,percent} pour le tour s'il possède de l'{%ar}.",
+    "95529":  "Craquasseur",
+    "4378":  "<b>ATTAQUE</b>\_: Applique {#FRACTURED}\vs'il possède de l'{%ar}.",
+    "3161":  "Craquelourd",
+    "2716":  "Gagne {armor:ar} par cases parcourues à la fin de son déplacement.",
+    "90266":  "Craqueleur Ancestral",
+    "30927":  "Gagne {power:ppow,percent} quand un <b>Craqueleur</b> allié subit une attaque.",
+    "22319":  "Craqueleur Erodé",
+    "30669":  "{range}
+<b>DÉBUT\_DU\_TOUR</b>\_: Construit un {ObjectMechanism:1607} derrière les adversaires alignés avec lui.",
+    "57288":  "Craquebille Craqbowleur",
+    "54810":  "{#CRAQBOWLEUR} 
+\---
+<b>ATTAQUE</b>\_: Retire 1\_{%pm} à la cible pour le tour\v s'il possède de l'{%ar}.",
+    "76543":  "Croqueur Craqbowleur",
+    "41232":  "{#CRAQBOWLEUR} 
+\---
+<b>ATTAQUE</b> : Consomme {armor:ar} pour invoquer un {ObjectMechanism:1607} autour\_<sprite name="cell_around"> de la cible.",
+    "23293":  "Craqueroc Craqbowleur",
+    "51248":  "{#CRAQBOWLEUR} 
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Gagne {power:at,percent} pour le tour s'il possède de l'{%ar}.",
+    "75938":  "Craquelourd Craqbowleur",
+    "40778":  "{#CRAQBOWLEUR} 
+\---
+Gagne {armor:ar} par cases parcourues à la fin de son déplacement.",
+    "34184":  "Craqueleur Érodé Craqbowleur",
+    "74958":  "{range}
+\---
+{#CRAQBOWLEUR} 
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Construit un {ObjectMechanism:1607} derrière les adversaires alignés avec lui.",
+    "16423":  "Craqueleur Ancestral Craqbowleur",
+    "3480":  "{#CRAQBOWLEUR} 
+\---
+Gagne {power:ppow,percent} quand un <b>Craqueleur</b> allié subit une attaque.",
+    "95135":  "Craquebille Cristalroc",
+    "9511":  "{#CRISTALROC}
+\---
+<b>ATTAQUE</b>\_: Retire 1\_{%pm} à la cible pour le tour\v s'il possède de l'{%ar}.",
+    "34239":  "Craqueroc Cristalroc",
+    "10154":  "{#CRISTALROC}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Gagne {power:at,percent} pour le tour s'il possède de l'{%ar}.",
+    "57945":  "Craquelourd Cristalroc",
+    "6399":  "{#CRISTALROC}
+\---
+Gagne {armor:ar} par cases parcourues à la fin de son déplacement.",
+    "74621":  "Craqueleur Érodé Cristalroc",
+    "68488":  "{range}
+\---
+{#CRISTALROC}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Construit un {ObjectMechanism:1607} derrière les adversaires alignés avec lui.",
+    "99264":  "Craqueleur Ancestral Cristalroc",
+    "76046":  "{#CRISTALROC}
+\---
+Gagne {power:ppow,percent} quand un <b>Craqueleur</b> allié subit une attaque.",
+    "96514":  "Craquasseur Cristalroc",
+    "61504":  "{#CRISTALROC}
+\---
+<b>ATTAQUE</b>\_: Applique {#FRACTURED}\vs'il possède de l'{%ar}.",
+    "76089":  "Pichon",
+    "64004":  "<b>ATTAQUE</b>\_:\_Applique {#BLOODY} ou\vGagne +{value:at,percent} de dégâts physiques si la cible est {#BLOODY[Ensanglantée]} <sprite name="generic_monster">.",
+    "87812":  "Chapeau Méduse",
+    "30372":  "<b>DÉBUT\_DU\_TOUR</b>\_:\_Attire d'1 à 2 cases les personnages jusqu'à 3 cases de distance.",
+    "15805":  "Pichon Sorcier",
+    "79539":  "Quand il est attaqué, pose un {FloorMechanism:1606} sur une cellule adjacente à l'attaquant.
+\---
+<b>FIN\_DU\_TOUR</b>\_:\_Déplace le {FloorMechanism:1606} le plus proche sur une cellule adjacente à un adversaire.",
+    "80153":  "Rascasse",
+    "29603":  "Déclenche une attaque quand un adversaire {#BLOODY} finit un déplacement\vadjacent à lui.",
+    "92289":  "Espadon",
+    "78469":  "<i>Pas d'effet.</i>",
+    "24620":  "Raie Noire",
+    "37601":  "{range}
+\---
+<b>ATTAQUE</b>\_:\_{#BOUNCE} qui blesse les adversaires\vet soigne les alliés.",
+    "23294":  "Requin",
+    "87789":  "Gagne +{value:at,percent} de dégâts physiques quand\v{#BLOODY} est appliqué.
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_:\_Gagne +1 {%pm} pour le tour\vsi un adversaire est {#BLOODY}.",
+    "19093":  "Élémentaire d'Eau",
+    "64749":  "Inflige {magicalDamage:dmg} par case parcourue à un adversaire dès qu'il est déplacé\vpar un sort ou une capacité.",
+    "95929":  "Boss 3",
+    "77552":  "<i>Pas d'effet.</i>",
+    "74616":  "Flacaberserk",
+    "50487":  "{#TRANSE}\_: Rejoue son tour (1 fois par tour).",
+    "20049":  "Flyrilos le Sage",
+    "41829":  "{range}
+\---
+<b>ATTAQUE</b>\_: Soigne ses alliés d'une valeur égale à son {%at}.
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Gagne {power:pow,percent} par {FloorMechanism:431} sur le terrain pour le tour.
+\---
+<b>FIN\_DU\_TOUR</b>\_: Invoque {value:v} {FloorMechanism:431} sur le terrain.",
+    "58082":  "Terminataure",
+    "53947":  "<b>ATTAQUE</b>\_: Repousse la cible de {cell:c}.
+\---
+Si un adversaire aligné <b>ATTAQUE</b> un autre allié, il le <b>CHARGE</b> et lui inflige son {%at}.",
+    "34244":  "La Montagne",
+    "24928":  "<b>DÉBUT\_DU\_TOUR</b>\_: Se téléporte sur un {ObjectMechanism:1607} jusqu'à 3 cases du héros.
+-
+<b>FIN\_DU\_TOUR</b>\_: Invoque {value:roc2} {ObjectMechanism:1607[ROCHER]} jusqu'à {value:cs} cases d'un héros.",
+    "58240":  "Mausolâme",
+    "18939":  "<b>FIN DU TOUR</b>\_: Si possible, se déplace de {cell:c} en ligne. Inflige des dégâts d'une valeur égale à {value:perc,percent} de l'{%AT} de votre héros sur chaque adversaire traversé.",
+    "99208":  "Dragonnet Chromatique",
+    "35901":  "To do perhaps",
+    "80482":  "Esprit de Feu",
+    "44589":  "{#UNIQUE}\v\---
+Tant qu'il est en jeu, votre héros déclenche {explosion:ParameterizedEffectExecution.182.ex} lorsque vous jouez un sort FEU<sprite name="fire">.",
+    "88140":  "Esprit de l'Air",
+    "58097":  "{#UNIQUE}\v\---
+Tant qu'il est en jeu, votre héros déclenche {bounce:ParameterizedEffectExecution.935.bc} lorsque vous jouez un sort AIR<sprite name="wind">.",
+    "54528":  "Esprit de la Terre",
+    "61463":  "{#UNIQUE}\v\---
+Tant qu'il est en jeu, votre héros déclenche {peat:ParameterizedEffectExecution.442.pt} lorsque vous jouez un sort TERRE<sprite name="earth">.",
+    "67193":  "Esprit de l'Eau",
+    "52984":  "{#UNIQUE}\v\---
+Tant qu'il est en jeu, votre héros déclenche {hail:ParameterizedEffectExecution.221.hl} lorsque vous jouez un sort EAU<sprite name="water">.",
+    "66432":  "Oeil Nécromique",
+    "38770":  "{#UNIQUE}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Soigne les <b>Nécromes</b> alliés d'une valeur égale à son {%at} et inflige son {%at} aux adversaires.
+\---
+<align="right"><i><color=#A0A0A0><size=80%>Invocation Nécrome</color></i></align>",
+    "33493":  "Rat Goûtant",
+    "29846":  "<b>ATTAQUE</b>\_: Applique <b>MORDU</b>\_<sprite name="generic_monster">.
+\---
+{#CIRCLED}",
+    "50327":  "Rat Naroc",
+    "52537":  "<b>ATTAQUE</b>\_: Inflige le double de son {%AT} si la cible est <b>MORDUE</b>\_<sprite name="generic_monster">.
+\---
+{#CIRCLED}",
+    "88076":  "Rats Zia",
+    "35990":  "Quand un allié meurt il déclenche {explosion:ParameterizedEffectExecution.654.ex}.
+\---
+<b>MORT</b> : Déclenche l’attaque des <b>Rats</b>.
+\---
+{#CIRCLED}",
+    "94256":  "Rarpine",
+    "36257":  "<b>DÉBUT\_DU\_TOUR</b>\_: Traverse les adversaires d'une ligne et leur inflige son {%at}. 
+ \---
+Applique {#INFECTED} aux adversaires traversés qui sont <b>MORDUS</b>\_<sprite name="generic_monster">. 
+\---
+{#CIRCLED}",
+    "45628":  "Rat Klure",
+    "16677":  "Déclenche son attaque sur un adversaire adjacent\_<sprite name="cell_cross"> quand un allié subit une attaque.
+\---
+{#CIRCLED}",
+    "79739":  "Angro Rat",
+    "7247":  "Quand un allié meurt, applique <b>MORDU</b>\_<sprite name="generic_monster"> aux adversaires autour <sprite name="cell_around"> de lui, ou {#INFECTED} à ceux qui sont <b>MORDUS</b>\_<sprite name="generic_monster">.
+\---
+{#CIRCLED}",
+    "36069":  "Kamard",
+    "77167":  "<b>FIN\_DU\_TOUR</b>\_: Se téléporte et attaque les adversaires placés dans les coins.",
+    "16006":  "Bouftonciel",
+    "39326":  "{#MUSTNOTDIE}
+\---
+<b>ATTAQUE</b>:
+<b>Repousse</b> de {cell:r}.",
+    "10664":  "Tof'Argent",
+    "71007":  "{#MUSTNOTDIE}
+\---
+<b>FIN DU TOUR ADVERSE </b>: Prend son {#AIRBORNE[ENVOL]}.",
+    "35323":  "Serviteur Nécromique",
+    "32699":  "{#UNIQUE}
+\---
+<b>MORT</b>\_: Piochez le sort {Spell:578}.
+\---
+<align="right"><i><color=#A0A0A0><size=80%>Invocation Nécrome</color></i></align>",
+    "2486":  "Ninjadine",
+    "65477":  "{#PORSHIDO}
+\---
+<b>DÉBUT\_DU\_TOUR</b> : Se téléporte sur une case adjacente à l'adversaire ayant le moins d'{%at}.
+\---
+<b>ATTAQUE</b> : Se téléporte à {value:cs} cases de la cible.",
+    "74325":  "Krabapic",
+    "2543":  "<b>FIN DU TOUR</b>\_: Confère {armor:ar} aux alliés qui se trouvent autour\_<sprite name="cell_around">.",
+    "97406":  "Krabken",
+    "64390":  "{#response}\_({value:rip}).",
+    "74350":  "Poulpy",
+    "63941":  "{range}
+\---
+<b>ATTAQUE</b>\_: Recule de {cell:c} s'il est aligné avec la cible.",
+    "15930":  "Kralmar",
+    "43768":  "{range}
+\---
+<b>APPARITION</b>\_: Gagne {value:v}\_{FloatingCounterEffect:103[CARTOUCHES ENCRÉES]}.",
+    "57536":  "Proctoss Surin",
+    "83505":  "{#IMMORTEL}
+\---
+<b>MORT</b>\_: Pose un {FloorMechanism:1203} sur sa case.",
+    "84813":  "Muscapol",
+    "82260":  "<b>FIN\_DU\_TOUR</b>\_: Se téléporte sur une case adjacente\_ <sprite name="cell_cross"> à l'adversaire ayant la plus haute {%AT} et l'attaque.",
+    "11051":  "Ploutrozorus",
+    "492":  "<b>FIN\_DU\_TOUR</b>\_: Se téléporte sur une case adjacente\_<sprite name="cell_cross"> à un adversaire aléatoire, indemne en priorité, et l'attaque.",
+    "84794":  "Comte Doutro Tombo",
+    "33835":  "{#skuller}
+\---
+<b>FIN\_DU\_TOUR\_ADVERSE</b>\_: Les {Summoning:556,plural:other} alliés infligent leur {%AT} aux adversaires alignés.",
+    "94959":  "Fran'Eau",
+    "77592":  "<b>DÉBUT\_DU\_TOUR</b>\_: Traverse les adversaires d'une ligne et leur inflige des dégâts d'une valeur égale à son {%AT}.",
+    "69024":  "Gall Le Lion",
+    "72684":  "",
+    "21662":  "{#EXALTED}\_: Gagne {#SHIELD}.
+\---
+{#ANGRYDRIVE}\_: Déclenche {explosion:ParameterizedEffectExecution.654.ex}.",
+    "23122":  "Oscargne",
+    "37308":  "Krouktos",
+    "90277":  "Castresse la Frigide",
+    "78042":  "Bolos-Le-Niais",
+    "51264":  "Aligore Le Fragile",
+    "28593":  "Mossaka",
+    "86608":  "Gnokoss",
+    "59394":  "Kiro",
+    "60530":  "Lester",
+    "38768":  "Barbos Le Désosseur",
+    "15619":  "Hocho La Dépeceuse",
+    "60032":  "San Toku",
+    "68627":  "Hochos Bochos",
+    "95062":  "L'Évideur",
+    "68567":  "Mikoss",
+    "22990":  "Kubaki",
+    "90454":  "Pasidaam le Parle-Mer",
+    "65418":  "Timonier Zahark",
+    "41134":  "Maîtresse Coque Throude",
+    "8475":  "Second Tarner",
+    "26481":  "Capitaine Jako",
+    "78417":  "Ben Coupe Gorge",
+    "49689":  "Ayon le jeune mousse",
+    "30229":  "Flibustier Bill",
+    "87569":  "Hérault Volkamax",
+    "24981":  "Flamme-Matriarche Gherta",
+    "64150":  "Pikalav le Surpuissant",
+    "2807":  "Magmabat le violent",
+    "91399":  "Daar le Rapide",
+    "63711":  "Klum le Petit",
+    "31279":  "Ghrom le Fulminant",
+    "73306":  "Orchk le Tireur",
+    "67835":  "Gralex Lelarge",
+    "65474":  "Grouiger",
+    "68373":  "Carnibal Lecter",
+    "2627":  "Grack Torrance",
+    "20730":  "Forman Bates",
+    "41002":  "Grannie Wilkes",
+    "80174":  "Pigsaw",
+    "90043":  "Mai Shiragrouik",
+    "80769":  "Shrouidder",
+    "77981":  "Double de Mai Shiragrouik",
+    "6752":  "Double d'Orochimagrouik",
+    "11125":  "Grouik Smoke",
+    "48096":  "Orochimagrouik",
+    "14173":  "Grouyu Hayabusa",
+    "89613":  "Maki Gengrouisai",
+    "97669":  "Yoshigrouitsu",
+    "46201":  "Carloss",
+    "47436":  "Perséphoss",
+    "55732":  "Grégore",
+    "59000":  "La Rafale",
+    "69661":  "Cubitoss",
+    "7394":  "Ouroboross",
+    "65940":  "Shorizo le Piquant",
+    "98057":  "Frank le Fort",
+    "6695":  "Nick Lardson",
+    "52920":  "Mushail",
+    "27585":  "Henriette",
+    "25654":  "Pépé Rony",
+    "26576":  "Knack",
+    "28322":  "Don Faurtesk",
+    "46601":  "Zakass",
+    "25634":  "Chasseur Thonk",
+    "81901":  "Cavalier Patapak",
+    "67040":  "Jeune Grar",
+    "42644":  "Cogneur Bonk",
+    "10040":  "Guerrier Vlame",
+    "76765":  "Femme Badam",
+    "35968":  "Porte-cor Foump",
+    "49150":  "Chaman Parlofeu",
+    "86714":  "Coraya",
+    "31104":  "Sopikan",
+    "4677":  "Kuto le Krabken",
+    "85992":  "Poulpenfer",
+    "78322":  "Kralken",
+    "7401":  "Fran'Eau",
+    "77317":  "Muscapol",
+    "64024":  "Ploutrozorus",
+    "36339":  "",
+    "21331":  "",
+    "58233":  "",
+    "28521":  "",
+    "5089":  "",
+    "34204":  "",
+    "282606":  "",
+    "40232":  "",
+    "87632":  "",
+    "86094":  "",
+    "1898":  "",
+    "66708":  "",
+    "94027":  "Sentinelle Craquelée Dorée",
+    "23759":  "Rempart Amelott",
+    "28564":  "{#BATAILLON}
+\---
+<b>ATTAQUE</b>\_: Applique <b>CHUCHOTÉ</b>\_<sprite name="generic_monster">.
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Applique {#DISARMED} aux cibles autour\_<sprite name="cell_around"> si les elles sont <b>CHUCHOTÉES</b>\_<sprite name="generic_monster">.",
+    "5927":  "Baliste Obscure",
+    "5956":  "Baptiste obscur",
+    "96189":  "{range}
+\---
+{#REVANCHE}
+\---
+<b>ATTAQUE</b>\_:\_Retire {value:pm,abs}\_{%PM} si la cible est alignée.",
+    "69594":  "Chuchoteurs Échassiers Obscurs",
+    "17906":  "Gal le Haut",
+    "78122":  "{#REVANCHE}
+\---
+<b>ATTAQUE</b>\_: Gagne {#PHASE} jusqu'à sa prochaine attaque s'il prend la cible en {#TENAILLE}.",
+    "53540":  "Chevalier Obscur Porté",
+    "1659":  "Beldia le Terrible",
+    "3369":  "{#REVANCHE}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: <b>Charge</b> un adversaire aligné à {cell:c} ou plus et lui inflige son {%at}.",
+    "19543":  "Sentinelle Craquelée Obscure",
+    "93676":  "Mur d’Armélide",
+    "69254":  "{#REVANCHE}
+\---
+<b>ATTAQUE</b>\_: Applique <b>CHUCHOTÉ</b>\_<sprite name="generic_monster">.
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Applique {#DISARMED} aux cibles autour\_<sprite name="cell_around"> si les elles sont <b>CHUCHOTÉES</b>\_<sprite name="generic_monster">.",
+    "34662":  "Chevaliers Obscurs",
+    "76136":  "Chevaliers de Fonrra",
+    "36297":  "{#REVANCHE}
+\---
+<b>FIN\_DE\_TOUR</b>\_: Passe en {#OFFENSIVESTANCE} ou en {#DEFENSIVESTANCE} s'il n'a pas de <b>POSTURE</b>.",
+    "81681":  "Conjurateurs Chuchoteurs Obscurs",
+    "81920":  "Kevi et Lietch les Fourbes",
+    "31720":  "{range}",
+    "4179":  "Baliste dorée",
+    "93072":  "Artilleur Gougue",
+    "29204":  "{range}
+\---
+{#BATAILLON}
+\---
+<b>ATTAQUE</b>\_:\_Retire {value:pm,abs}\_{%PM} si la cible est alignée.",
+    "40710":  "Chuchoteurs Échassiers Dorés",
+    "78071":  "Gilman le Fabuleux",
+    "24067":  "{#BATAILLON}
+\---
+<b>ATTAQUE</b>\_: Gagne {#PHASE} jusqu'à sa prochaine attaque s'il prend la cible en {#TENAILLE}.",
+    "11986":  "Chevalier d'Or Porté",
+    "86725":  "Cavalier Goldefroi",
+    "85599":  "{#BATAILLON}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: <b>Charge</b> un adversaire aligné à {cell:c} ou plus et lui inflige son {%at}.",
+    "78142":  "Chevaliers d'Or",
+    "220":  "Chevaliers de Tanéha",
+    "41759":  "{#BATAILLON}
+\---
+<b>FIN\_DU\_TOUR</b>\_: Passe en {#OFFENSIVESTANCE} ou en {#DEFENSIVESTANCE} s'il n'a pas de <b>POSTURE</b>.",
+    "36567":  "Conjurateurs Chuchoteurs Dorés",
+    "3662":  "Médecins Zaible",
+    "33271":  "{range}",
+    "38239":  "Valeureux Percevent",
+    "3239":  "Snipers Ceval",
+    "18716":  "Escadron ténébreux",
+    "97969":  "Couards Dristan",
+    "82765":  "Medreaut l’écarteur",
+    "3187":  "Pohort le Preux",
+    "59677":  "Chevaliers de Cornouaïe",
+    "36601":  "Lancelonet le Grand",
+    "66857":  "Nilrem le charmeur",
+    "32211":  "Bataillon Piquelot",
+    "67263":  "Agraviet le Colosse",
+    "28896":  "Légionnaires Piétonniers",
+    "7637":  "Azor l'Exécuteur",
+    "67438":  "Liche Libeudiche",
+    "97982":  "",
+    "84277":  "{range}
+\---
+{#BONELOSS}
+\---
+<b>MORT d'un CHAFER</b>\_: S'il est tué par une attaque adverse, inflige l'{%AT} de la Liche au tueur par PA restant.
+\---
+S'il est tué par un autre effet adverse, cible le héros.",
+    "30138":  "Sald Bucket",
+    "35030":  "Alix Spare",
+    "97133":  "Greg Brookling",
+    "99097":  "Sacco Baby",
+    "36227":  "Borie Jersey",
+    "4078":  "Kingpin",
+    "31021":  "René Split",
+    "63563":  "Diamantine",
+    "92612":  "Karl Béryl",
+    "73802":  "Tibo Pale",
+    "15767":  "Seb Iolite",
+    "51874":  "Cyrilarimar",
+    "52926":  "Jasper Zébré",
+    "52752":  "Gotan Zanite",
+    "49943":  "Le Pétrificateur",
+    "43199":  "",
+    "96709":  "{range}
+\---
+<b>DÉBUT\_DU\_TOUR</b> : Inflige {value:dmg} dégâts magiques \vpuis {#ROOTED[immobilise]}  les premiers adversaires alignés.
+\---
+<b>ATTAQUE</b> : {#PETRIFY[Pétrifie]} les mineurs et compagnons adverses.",
+    "42883":  "Le Vétéran",
+    "64188":  "",
+    "9247":  "<b>ATTAQUE</b> : Inflige son AT aux adversaires autour\_<sprite name="cell_around">.
+\---
+<b>DÉBUT\_DU\_TOUR</b> : Gagne {value:ar0} {FloatingCounterEffect:105}.",
+    "19751":  "Pierre Présent",
+    "17836":  "Pierre Lepeti",
+    "75149":  "Pierre Zerock",
+    "97062":  "Pierre Lefragil",
+    "48473":  "Pierre Blond",
+    "38236":  "Pierre Letrapu",
+    "49135":  "Pierre Castagne",
+    "20213":  "Capitaine Porrow",
+    "16156":  "",
+    "149":  "Gagne {power:atk,percent} quand un allié meurt.
+\---
+<b>MORT</b> : Confère {power:att,percent} et {armor:ar} à ses alliés.",
+    "16331":  "Alka le désosseur",
+    "39671":  "Alka le désosseur",
+    "24409":  "<b>DÉBUT\_DU\_TOUR</b>\_:\_Se téléporte sur une case adjacente\_<sprite name="cell_cross"> à l'adversaire le plus loin et le <b>repousse</b> de {value:dist}\_cases.",
+    "38534":  "Rats Kordés",
+    "48771":  "",
+    "94649":  "Quand un allié subit une attaque, il gagne {power:pow,percent} pour le tour.
+\---
+{#CIRCLED}",
+    "48060":  "Willard",
+    "92284":  "Willard",
+    "15622":  "Willard",
+    "76443":  "Billy Boy",
+    "66580":  "",
+    "290053":  "{range}
+\---
+<b>ATTAQUE</b> : <b>Repousse</b> la cible et recule de {cell:c} s'il est aligné avec la cible.",
+    "79355":  "Billy Kid",
+    "36810":  "",
+    "96231":  "{range}
+\---
+<b>APPARITION</b> : {value:v}\_{FloatingCounterEffect:108}.",
+    "4868":  "Billie Boom",
+    "96470":  "",
+    "59877":  "{range}
+\---
+<b>ATTAQUE</b> : Invoque une {ObjectMechanism:1506} sur une case adjacente\_<sprite name="cell_cross"> à la cible.",
+    "14350":  "Billy Bob",
+    "93404":  "",
+    "13091":  "<b>ATTAQUE</b>\_: Vole {value:pa} PA à la {%reserve} de la cible.",
+    "49636":  "Billie Gin",
+    "79092":  "",
+    "13170":  "{range}
+\---
+<b>DÉBUT\_DU\_TOUR</b> : <b>Repousse</b> une entité adjacente\_<sprite name="cell_cross"> de {cell:c1} puis recule de {cell:c2}.",
+    "49140":  "Billie Queen",
+    "9334":  "",
+    "74828":  "Quand un adversaire ou un mécanisme adjacent\_<sprite name="cell_cross"> {#COLLISION[COLLISIONNE]}, lui inflige des dégâts d'une valeur égale à son {%AT}.",
+    "86723":  "Billy Krouger",
+    "12146":  "",
+    "75980":  "<b>ATTAQUE</b> : Échange sa place avec une bombe à {cell:c} ou moins.",
+    "83255":  "Gros Bill",
+    "3846":  "",
+    "21098":  "<b>ATTAQUE</b>\_: Touche les 2\_cases devant lui.",
+    "79667":  "Billy Jones",
+    "30642":  "",
+    "74585":  "{range}
+\---
+<b>DÉBUT\_DU\_TOUR</b> : Inflige son {%AT} à un adversaire ou <b>Bombe</b> alignée.",
+    "64753":  "Mouette",
+    "47140":  "",
+    "54040":  "<i>Aucun passif.</i>",
+    "33033":  "Princesse Cochonne",
+    "98817":  "Princesse Cochonne",
+    "31684":  "<b>DÉBUT\_DU\_TOUR</b>\_: S'enfuit si aucun adversaire n'est autour\_<sprite name="cell_around"> d'elle.
+\---
+{#MUSTNOTDIE}, {#MUSTNOTDIE[NI S'ENFUIR]}",
+    "56485":  "Giga-Naf",
+    "18138":  "",
+    "2149":  "<b>ATTAQUE</b> : {explosion:ParameterizedEffectExecution.654.ex}.",
+    "1454":  "Coch'mare",
+    "45997":  "",
+    "28752":  "<b>ATTAQUE</b>: Se téléporte à {cell:c}.
+\---
+<b>MORT</b> d’un <b>COCHON</b> : Gagne 1 {FloatingCounterEffect:71}.
+\---
+{#critical} : Soigne de {value:h, percent} de leur {%PVMAX} les autres <b>Cochons</b>.",
+    "19575":  "Co'Shiro",
+    "99489":  "",
+    "96044":  "<b>ATTAQUE</b>: Traverse toute la ligne est inflige son {%AT} aux adversaires.
+\---
+<b>MORT</b> d’un <b>COCHON</b> : Gagne 1 {FloatingCounterEffect:71}.
+\---
+{#critical} : Confère {armor:ar} aux autres <b>Cochons</b>.",
+    "11926":  "Cochi Oni",
+    "14516":  "",
+    "22569":  "<b>ATTAQUE</b>: Repousse la cible de {cell:c}.
+\---
+<b>MORT</b> d’un <b>COCHON</b> : Gagne 1 {FloatingCounterEffect:71}.
+\---
+{#critical} : Confère 1 <b>AURA</b> aux autres <b>Cochons</b>.",
+    "86582":  "Nif",
+    "17300":  "",
+    "96746":  "{FloatingCounterEffect:25}
+\---
+<b>FIN\_DU\_TOUR\_ADVERSE</b> : Se soigne lui et {Summoning:961!} de {value:h,percent} de ses {%PV}MAX s'il a au moins 2 <b>AURAS</b> et les consomme.
+\---
+<b>ATTAQUE</b> : Se téléporte à {cell:cs}.",
+    "14490":  "Méca-Nif",
+    "29406":  "",
+    "36572":  "{FloatingCounterEffect:25}
+\---
+<b>FIN\_DU\_TOUR\_ADVERSE</b>\_: Inflige son {%AT} dans la zone <sprite name="cell_circle2"> s'il a au moins 2 <b>AURAS</b> et les consomme.
+\---
+<b>MORT\_de\_{Summoning:20!}</b>\_: Se transforme en {Summoning:16}.",
+    "19266":  "Rose Obscure",
+    "16616":  "",
+    "51198":  "{#response}\_({value:rip}).
+\---
+<b>MORT</b>\_: Construit un {FloorMechanism:1075}.",
+    "99240":  "Corbac",
+    "1485":  "",
+    "1019":  "Quand un allié meurt, se soigne de {heal:h} et gagne {power:ppow,percent}.",
+    "19029":  "Moskito",
+    "62729":  "",
+    "34689":  "{#DRAIN}\_({value:d}).",
+    "53640":  "Méca-Naf",
+    "27644":  "",
+    "7804":  "{FloatingCounterEffect:25}
+\---
+<b>FIN\_DU\_TOUR\_ADVERSE</b>\_: Applique {#FRACTURED} aux adversaires s'il a au moins 2 <b>AURAS</b> et les consomme.
+\---
+<b>MORT\_de\_{Summoning:499!}</b>\_: Se transforme en {Summoning:3696}.",
+    "40977":  "Naf",
+    "39103":  "",
+    "45905":  "{FloatingCounterEffect:25}
+\---
+<b>FIN\_DU\_TOUR\_ADVERSE</b> : Confère à lui et {Summoning:747!} de {value:h,percent} de ses {%PV}MAX en {%AR} s'il a au moins 2 <b>AURAS</b> et les consomme.
+\---
+<b>ATTAQUE</b> : Se téléporte à {cell:cs}.",
+    "93944":  "Nouf",
+    "98449":  "",
+    "31278":  "{FloatingCounterEffect:25}
+\---
+<b>FIN\_DU\_TOUR</b> : Confère {power:p,percent} à\_{Summoning:25!} s’il a au moins 2 <b>AURAS</b> et les consommes.
+\---
+<b>ATTAQUE</b> : Se téléporte à {cell:cs}.",
+    "12338":  "Méca-Nouf",
+    "61928":  "",
+    "5752":  "{FloatingCounterEffect:25}
+\---
+<b>FIN\_DU\_TOUR\_ADVERSE</b>\_: Se téléporte sur une case adjacent <sprite name="cell_cross"> d’un héros et inflige son AT s’il a au moins 2 <b>AURAS</b> et les consomme.
+\---
+<b>MORT\_de\_{Summoning:3862!}</b>\_: Se transforme en {Summoning:684}.",
+    "85538":  "Poulpor",
+    "2308":  "Gullo",
+    "41687":  "Gagne {power:at,percent} quand un allié meurt.",
+    "42887":  "Octopol",
+    "24387":  "Kraknado",
+    "60919":  "<b>ATTAQUE</b> : Applique {#ROOTED} si la cible est <b>ENCRÉE</b>\_<sprite name="generic_monster">. Inflige ses dégâts aux alliés autour\_<sprite name="cell_around"> de la cible.",
+    "58361":  "Fizall",
+    "87671":  "",
+    "57834":  "Gagne {power:at,percent} s’il est {#TOXIC}.
+\---
+<b>ATTAQUE</b>\_: Touche les 3 cases devant lui.",
+    "73154":  "Térèze",
+    "36101":  "Gueaucou",
+    "83608":  "\---
+{range}
+\---
+{#TOXIC}
+\---
+MORT : Construit un {FloorMechanism:260}.",
+    "48337":  "Gelesson",
+    "41029":  "Kironex",
+    "66517":  "Archie",
+    "7570":  "Seishell",
+    "48876":  "{range}
+\---
+<b>ATTAQUE</b>\_: Applique {#INKED}.",
+    "10126":  "<b>FIN DU TOUR</b>\_: Confère {#TOXIC} aux alliés autour\_<sprite name="cell_around"> jusqu'à leur prochaine attaque.
+\---
+<b>MORT</b>\_: Se transforme en {ObjectMechanism:646}.",
+    "28890":  "Borden le Prestigieux",
+    "42740":  "",
+    "74315":  "{range}
+\---
+<b>ATTAQUE</b> : Se téléporte sur un {FloorMechanism:567} au bord du terrain.
+\---
+Pose un {FloorMechanism:567} autour\_<sprite name="cell_around"> de lui quand il en active un.",
+    "4352":  "Borden Le Prestigieux",
+    "95389":  "",
+    "61157":  "{range}
+\---
+<b>ATTAQUE</b> : Se téléporte sur un {FloorMechanism:567} au bord du terrain.
+\---
+Quand il active un {FloorMechanism:567}, il invoque deux {Summoning:403[clones explosifs de borden]}.",
+    "63050":  "B-800 Mk.1",
+    "68733":  "B-800 Mk.1",
+    "11606":  "<b>DÉBUT\_DU\_TOUR</b>\_: Charge un adversaire aligné et lui inflige des dégâts d'une valeur égale à son {%AT}.",
+    "84928":  "B-800 Mk.2",
+    "9044":  "B-800 Mk.2",
+    "23363":  "{range}
+\---
+<b>ATTAQUE</b>\_: Inflige des dégâts sur toute la ligne.",
+    "24600":  "B-800 Mk.3",
+    "69777":  "B-800 Mk.3",
+    "45293":  "Gagne {armor:ar} quand un allié meurt.
+\---
+<b>MORT</b>\_: Invoque {Summoning:770}.",
+    "6794":  "Borden Le Prestigieux",
+    "49155":  "",
+    "59266":  "{range}
+\---
+<b>ATTAQUE</b> : Se téléporte sur un {FloorMechanism:567} au bord du terrain.
+\---
+Quand il active un {FloorMechanism:567}, il invoque un <b>monstre</b> autour\_<sprite name="cell_around">.",
+    "91870":  "Borden Le Prestigieux",
+    "44817":  "",
+    "24944":  "{range}
+\---
+<b>ATTAQUE</b> : Se téléporte sur un {FloorMechanism:567} au bord du terrain.
+\---
+Quand il active un {FloorMechanism:567}, il invoque deux {Summoning:457[clones de borden]} autour\_<sprite name="cell_around">.",
+    "57254":  "Clone de Borden",
+    "17830":  "",
+    "51017":  "{range}
+\---
+Confère {power:p,percent} aux alliés.",
+    "84342":  "Borden Le Prestigieux",
+    "27614":  "",
+    "52159":  "<b>ATTAQUE</b> : Pose un {FloorMechanism:567} autour <sprite name="cell_around"> de lui, et se déplace vers un PUNCHING BALL aligné.
+\---
+Quand {Summoning:5052} active un {FloorMechanism:567}, il rejoue son tour.
+(1 fois par tour)",
+    "71369":  "John Tatane",
+    "65":  "John Tatane",
+    "64349":  "<b>ATTAQUE</b>\_:  Rejoue son tour si la cible est <b>SONNÉE</b>\_<sprite name="generic_monster">.
+\---
+<b>DÉBUT\_DU\_TOUR</b>:  Applique <b>SONNÉ</b>\_<sprite name="generic_monster"> aux adversaires adjacents <sprite name="cell_cross">.",
+    "71822":  "Charnol Wargueguerre",
+    "88508":  "Charnol Wargueguerre",
+    "24139":  "{range}
+\---
+<b>ATTAQUE</b>\_:\_Inflige {value:nb} coups.",
+    "52316":  "Yu Wai",
+    "16829":  "Yu Wai",
+    "88163":  "{#CRITICAL} : Se téléporte de {cell:c}.",
+    "70837":  "Jet Ecri",
+    "62362":  "Jet Ecri",
+    "7851":  "<b>ATTAQUE</b>\_: Applique <b>ENTAILLÉ</b>\_<sprite name="generic_monster"> ou\vInvoque un {Summoning:280} sur le bord du terrain si la cible est <b>ENTAILLÉE</b>\_<sprite name="generic_monster">.",
+    "50384":  "Olf Lagraine",
+    "75660":  "Olf Lagraine",
+    "37572":  "{range}
+\---
+<b>ATTAQUE<b> : Applique {#FRACTURED}.",
+    "4114":  "Andy Tricot",
+    "75089":  "Andy Tricot",
+    "29471":  "{range}
+\---
+<b>ATTAQUE </b>\_:\_{#push} de {cell:c}.",
+    "6443":  "Teddy Crouze",
+    "32911":  "Teddy Crouze",
+    "46704":  "<b>ATTAQUE</b>\_: {#push} de {cell:c}.",
+    "93720":  "Nesley Swipes",
+    "87720":  "Nesley Swipes",
+    "42301":  "Gagne 1 {%PM} pour le tour quand il subit des dégâts.
+\---
+<b>ATTAQUE</b> : Inflige le double de dégât si il a au moins 6 {%PM}.",
+    "93653":  "Carrie Blondet",
+    "39172":  "Carrie Blondet",
+    "52062":  "Gagne {#SHIELD} quand elle subit\vdes dégâts.",
+    "4435":  "Goldester Sterone",
+    "14500":  "Goldester Sterone",
+    "15638":  "<b>DÉBUT\_DU\_TOUR</b> : Gagne {armor:ar} si aucun adversaire n'est autour <sprite name="cell_around"> de lui.",
+    "42519":  "Muscatsé",
+    "97427":  "",
+    "21718":  "<b>ATTAQUE</b>\_: Applique l'état <b>CALAMITÉ</b><sprite name="generic_monster">.",
+    "19680":  "Vespula",
+    "88403":  "",
+    "80939":  "<b>ATTAQUE</b>\_: Applique {#STUNG}.",
+    "775":  "Arakné",
+    "6457":  "",
+    "9883":  "<b>ATTAQUE</b>\_: {#PUSH} la cible de {cell:c}.
+\---
+<b>FIN\_DU\_TOUR</b>\_: Construit une {FloorMechanism:1166} sur une case adjacente\_<sprite name="cell_cross">.",
+    "51372":  "Pissenlit Diabolique",
+    "66187":  "",
+    "49128":  "<b>MORT</b>\_: Plante une {ObjectMechanism:792} au sol.",
+    "61415":  "Tournesol Sauvage",
+    "78591":  "",
+    "33897":  "<b>MORT</b>\_: Confère {power:at,percent} aux alliés autour\_<sprite name="cell_around">.",
+    "3856":  "Rarpie",
+    "13735":  "",
+    "79379":  "<b>DÉBUT DU TOUR</b>\_:  Gagne {power:d,percent} par <b>Rat</b> en jeu pour le tour.
+\---
+<b>ATTAQUE</b>\_: Applique l'état <b>MORDU</b> aux adversaires autour d'elle <sprite name="cell_around">.
+\---
+<b>MORT</b>\_: Les autres <b>Rats</b> gagnent {power:po,percent}.
+\---
+{#CIRCLED}",
+    "29676":  "Gligli",
+    "67625":  "",
+    "86290":  "Insensible aux dégâts magiques.
+\---
+<b>FIN\_DU\_TOUR\_ADVERSE\_</b>: Se déplace alétoirement de {cell:c}.
+\---
+{#mustnotdie}",
+    "33109":  "Chuchoteur Catcheur",
+    "17007":  "Chuchoteur Catcheur",
+    "3530":  "<b>ATTAQUE</b> : Déclenche {explosion:ParameterizedEffectExecution.654.ex} s'il possède une {FloatingCounterEffect:113}.
+\---
+Quand il obtient une {FloatingCounterEffect:113}, déclenche {explosion:ParameterizedEffectExecution.654.ex} et {#PUSH} les adversaires adjacents\_<sprite name="cell_cross"> de {cell:c}.",
+    "82050":  "Chuchoteur Boxeur",
+    "14261":  "Chuchoteur Boxeur",
+    "9994":  "<b>ATTAQUE</b> : {#PUSH} de {cell:c}.
+\---
+Quand il est attaqué, déclenche son <b>AT</b> s'il possède une {FloatingCounterEffect:113}.",
+    "34505":  "Lancier Bontarien",
+    "5559":  "",
+    "38714":  "<b>ATTAQUE</b>\_: Touche les 2\_cases devant lui.",
+    "79775":  "Lame Bontarienne",
+    "78863":  "",
+    "46682":  "<b>ATTAQUE</b>\_: Rejoue son tour.
+({value:tr} fois par tour)",
+    "80667":  "Archer Bontarien",
+    "66219":  "",
+    "14981":  "{range}
+\---
+<b>Repousse</b> la cible de {value:ca} cases quand il subit des dégâts physiques.",
+    "48520":  "Chuchoteur Karateka",
+    "7342":  "Chuchoteur Karateka",
+    "6073":  "Quand il obtient une {FloatingCounterEffect:113}, se téléporte autour\_<sprite name="cell_around"> d'un adversaire et lui inflige son AT.
+\---
+Quand il subit une attaque, recule de {cell:c} s'il possède une {FloatingCounterEffect:113}.",
+    "7986":  "Ninja Bontarien",
+    "85602":  "",
+    "1309":  "<b>ATTAQUE</b>\_: Se téléporte de {value:min} à {value:max} cases de la cible.",
+    "1513":  "Champion Chuchoteur",
+    "3558":  "Champion Chuchoteur",
+    "86965":  "Quand il obtient une {FloatingCounterEffect:113}, traverse l'adversaire aligné le plus proche et lui inflige son\_{%AT}.",
+    "90365":  "Défense Bontarienne",
+    "62082":  "",
+    "7724":  "<b>ATTAQUE</b>\_: <b>Repousse</b> la cible de {value:min} à {value:max} cases.",
+    "94669":  "Artilleur Bontarien",
+    "47799":  "",
+    "61802":  "{range}
+\---
+<b>ATTAQUE</b>\_: Déclenche {explosion:ParameterizedEffectExecution.654.ex} sur la cible.",
+    "17119":  "Marteleur Bontarien",
+    "50810":  "",
+    "66569":  "<b>DÉBUT\_DU\_TOUR</b>\_: Inflige son AT aux adversaires autour <sprite name="cell_around"> de lui.",
+    "65774":  "Chuchoteur Sumo",
+    "44334":  "Chuchoteur Sumo",
+    "12324":  "Quand il obtient une {FloatingCounterEffect:113}, <b>charge</b> un adversaire aligné et lui inflige son {%AT}, puis le téléporte à plus de {cell:c}.",
+    "17140":  "Goule",
+    "97552":  "",
+    "10328":  "<b>MORT</b> : Invoque une {FloorMechanism:385} sur sa case.",
+    "93456":  "Vampyre Sauvage",
+    "62509":  "",
+    "20039":  "<b>ATTAQUE</b>\_: Retire {power:ppow,abs,percent} à la cible pour un tour si elle <b>SAIGNE</b>\_<sprite name="generic_monster">.
+\---
+<b>MORT</b>\_: Invoque une {Summoning:562} sur sa case.",
+    "76460":  "Vampyre Bestial",
+    "24264":  "",
+    "78565":  "<b>ATTAQUE</b>\_: Applique <b>SAIGNEMENT</b>\_<sprite name="generic_monster"> ou invoque une {FloorMechanism:385} sur une case adjacente\_<sprite name="cell_cross"> à la cible si elle <b>SAIGNE</b>\_<sprite name="generic_monster">.
+\---
+<b>MORT</b>\_: Invoque une {Summoning:562} sur sa case.",
+    "66198":  "Baronne Vampyre",
+    "99049":  "",
+    "4442":  "<b>DÉBUT\_DU\_TOUR</b>\_: Sacrifie une {Summoning:562} autour\_<sprite name="cell_around"> pour gagner {power:ppow,percent} et {value:pm}\_{%pm}.
+\---
+<b>MORT</b>\_: Invoque une {Summoning:562} sur sa case.",
+    "11435":  "Baron Vampyre",
+    "80256":  "",
+    "93341":  "<b>ATTAQUE</b>\_: Consomme une {FloorMechanism:385} autour\_<sprite name="cell_around"> de la cible et lui inflige {magicalDamage:dmg}.
+\---
+<b>MORT</b>\_: Invoque une {Summoning:562} sur sa case.",
+    "28623":  "Comtesse Vampyre",
+    "20256":  "",
+    "67659":  "{range}
+\---
+<b>ATTAQUE</b>\_: Applique <b>SAIGNEMENT</b>\_<sprite name="generic_monster">.
+Un <b>Vampyre</b> allié adjacent\_<sprite name="cell_cross"> à la cible déclenche son attaque sur la cible.
+\---
+<b>MORT</b>\_: Invoque une {Summoning:562} sur sa case.",
+    "86162":  "Comte Vampyre",
+    "15504":  "",
+    "37279":  "{range}
+\---
+<b>ATTAQUE</b>\_: Applique <b>SAIGNEMENT</b>\_<sprite name="generic_monster">.
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Soigne de {heal:heal} les <b>Vampyres</b> alliés.
+\---
+<b>MORT</b>\_: Invoque un {Summoning:562} sur sa case.",
+    "87212":  "Chauffe-Souris Sauvage",
+    "77605":  "",
+    "49451":  "{range}
+\---
+<b>MORT</b>\_: Pose une {FloorMechanism:385} sur sa case.",
+    "11002":  "Chauffe-Souris Bestiale",
+    "69300":  "",
+    "74860":  "{range}
+\---
+<b>ATTAQUE</b>\_: Retire {value:pm}\_{%PM} si la cible a l'état <b>SAIGNEMENT</b>\_<sprite name="generic_monster">.",
+    "60127":  "Baronesse Chauffe-Souris",
+    "32371":  "",
+    "6265":  "{range}",
+    "71196":  "Baron Chauffe-Souris",
+    "90139":  "",
+    "2498":  "{range}",
+    "4920":  "Comtesse Chauffe-Souris",
+    "43168":  "",
+    "16658":  "<b>APPARITION</b>\_: S'applique {#STUN}.
+\---
+Se transforme en {Summoning:453} s'il déclenche une {FloorMechanism:385}.",
+    "70174":  "Compte Chauffe-Souris",
+    "60857":  "",
+    "89455":  "<b>APPARITION</b>\_: S'applique {#STUN}.
+\---
+Se transforme en {Summoning:119} s'il déclenche une {FloorMechanism:385}.",
+    "80648":  "Sergent Artemane",
+    "60396":  "",
+    "18497":  "<b>DÉBUT\_DU\_TOUR</b>\_: Confère {power:at,percent} et {value:pm}\_{%PM} aux alliés autour <sprite name="cell_around"> de lui pour le tour.",
+    "60415":  "",
+    "10593":  "",
+    "70978":  "Roi Vampyre",
+    "92837":  "",
+    "9579":  "Insensible aux dégâts.
+\---
+<b>ATTAQUE</b>\_: Invoque une {FloorMechanism:385} sur une cellule adjacente\_<sprite name="cell_cross"> à la cible.
+\---
+Quand une {FloorMechanism:385} apparaît, gagne {value:nbAura}\_{FloatingCounterEffect:112}.",
+    "20520":  "Noxine",
+    "88361":  "",
+    "53174":  "<b>MORT</b>\_: Inflige son {%AT} autour\_<sprite name="cell_around"> d'elle.",
+    "42091":  "Momie",
+    "49362":  "",
+    "6132":  "Ajoute {addReserve:pa} quand vous lancez un sort.",
+    "84198":  "Danny Zepig",
+    "27424":  "",
+    "31802":  "{#PORSHIDO}
+\---
+<b>ATTAQUE</b>\_: {#PUSH} de {value:min} à {value:max} cases.
+\---
+Gagne {power:at,percent} quand l'adversaire invoque un compagnon.",
+    "93136":  "Général Vampyre",
+    "94917":  "",
+    "64744":  "<b>ATTAQUE</b>\_: Téléporte une {Summoning:562} sur une case adjacente à la cible.
+\---
+<b>FIN\_DU\_TOUR</b>\_: Transforme les {FloorMechanism:385[FLAQUES DE SANG]} autour\_<sprite name="cell_around"> en {Summoning:562[GOULES]}.",
+    "74974":  "Dame Blanche",
+    "80535":  "",
+    "11385":  "Lorsqu'un allié meurt, gagne {value:nb}\_{FloatingCounterEffect:115}.
+\---
+Quand elle atteint {value:lifePercent,percent} de ses {%PV} : Disparaît, perds ses <b>AURAS</b> et fait apparaître {value:nbCoffin}\_{ObjectMechanism:1984[CERCUEILS DE LA DAME]}.",
+    "5876":  "IMMORTEL",
+    "471304":  "<b>MORT</b> : Invoque un {Summoning:556} à {value:NamedEffect.158.cell} cases d'un adversaire.",
+    "370":  "FRAGILE",
+    "39649":  "Quand un <b>Pikaross</b> subit une attaque : invoque un {ObjectMechanism:1942} à {value:NamedEffect.311.cell} cases.",
+    "3261":  "Shuya",
+    "37706":  "",
+    "28178":  "<b>DÉBUT\_DU\_TOUR</b>: Échange sa position avec un adversaire aligné et inflige {magicalDamage:dmg}.",
+    "82092":  "Shuris",
+    "90348":  "",
+    "40230":  "<b>MORT</b> : Déclenche {explosion:ParameterizedEffectExecution.654.ex}.",
+    "33257":  "Shukette",
+    "75091":  "",
+    "97088":  "<b>ATTAQUE</b> : Retire {value:pm,abs} {%pm} à la cible pour le tour.",
+    "96201":  "Shupinou",
+    "3237":  "",
+    "61676":  "<b>FIN\_DU\_TOUR</b> : Attire de {cell:c} les adversaires alignés.",
+    "53761":  "Shuriken",
+    "9462":  "",
+    "78791":  "{range}
+\---
+<b>ATTAQUE :</b> Attire la cible de {cell:c} si il est aligné.",
+    "11141":  "Shurizo",
+    "85852":  "",
+    "37341":  "<b>ATTAQUE : </b>Déclenche {explosion:ParameterizedEffectExecution.654.ex}.",
+    "72405":  "Shuross",
+    "32370":  "",
+    "99822":  "Quand un adversaire {#COLLISION[COLLISIONNE]} avec un Shushu,  déclenche {explosion:ParameterizedEffectExecution.654.ex}.",
+    "79257":  "Krabken",
+    "66218":  "",
+    "61510":  "{#response}\_({value:rip}).
+
+Quand attaque le Salbatroce, se soigne de {value:att}\_{%PV}.
+
+Ne doit pas achever le Salbatroce.",
+    "14190":  "Shubaka",
+    "50058":  "",
+    "84863":  "<b>FIN DU TOUR </b>: Confère {#UNTARGETABLE} aux alliés autour <sprite name="cell_around"> pour le tour.",
+    "22531":  "",
+    "11320":  "",
+    "81313":  "",
+    "51361":  "",
+    "7902":  "",
+    "73288":  "",
+    "76118":  "",
+    "86779":  "",
+    "96003":  "",
+    "33421":  "",
+    "29693":  "Shupyre",
+    "30979":  "",
+    "7268":  "Si un adversaire termine son déplacement aligné à lui : {#lifesteal} ({value:l})",
+    "57352":  "Bébé Arakne",
+    "91175":  "",
+    "36850":  "{#beast} de <b>Niveau 0</b>
+\---
+<b>MORT</b> : Construit une {FloorMechanism:1166}.",
+    "98606":  "Jeune Arakne",
+    "22049":  "",
+    "21601":  "{#beast} de <b>Niveau 1</b>
+\---
+<b>DÉBUT\_DU\_TOUR</b> : Construit une {FloorMechanism:1166} sur une case adjacente\_<sprite name="cell_cross">.",
+    "23809":  "Chef Arakne",
+    "83691":  "",
+    "42115":  "{#beast} de <b>Niveau 2</b>
+\---
+<b>FIN DU TOUR</b> : Construit une {FloorMechanism:1166} sur une case autour\_<sprite name="cell_around">.",
+    "97340":  "Champion Arakne",
+    "79109":  "",
+    "67147":  "{#beast} de <b>Niveau 3</b>
+\---
+<b>ATTAQUE</b> : Construit 1 {FloorMechanism:1166} sur une case autour\_<sprite name="cell_around">.",
+    "30151":  "Annatole Lauteur",
+    "12762":  "",
+    "57856":  "{range} 
+\---
+{#DRAIN}\_({value:d}).
+\---
+<b>FIN DU TOUR </b>: Se téléporte à {cell:c} du héros.
+\---
+Quand un <b>Shushu</b> meurt il gagne {power:p,percent}.",
+    "23978":  "",
+    "60191":  "",
+    "70619":  "",
+    "33723":  "",
+    "58161":  "",
+    "46012":  "Écurouille",
+    "64305":  "",
+    "18357":  "Invoque un {FloorMechanism:155} sur une case adjacente <sprite name="cell_cross"> quand il subit une attaque.",
+    "79668":  "Prespic",
+    "56970":  "",
+    "3207":  "<b>Repousse</b> de {cell:c} quand il subit une attaque.",
+    "6286":  "Marcassin",
+    "74422":  "Marc Aurèle",
+    "1507":  "<b>ATTAQUE</b> : <b>Repousse</b> de {cell:c}.",
+    "8135":  "Sanglier",
+    "6970":  "",
+    "34269":  "{#angrydrive} : <b>Repousse</b> de {cell:c}.\v\---
+{value:pm,+} {%pm} lorsqu'il est <b>ENRAGÉ</b>.",
+    "24334":  "Mulou",
+    "47161":  "",
+    "1980":  "{#angrydrive} : {value:loss} {%pm} à la cible.\v\---
+{value:pm,+} {%pm} lorsqu'il est <b>ENRAGÉ</b>.",
+    "38271":  "Rours",
+    "84701":  "",
+    "91576":  "{#angrydrive} : {power:pow,+,percent}.\v\---
+{value:pm,+} {%pm} lorsqu'il est <b>ENRAGÉ</b>.",
+    "36531":  "Cerf",
+    "52369":  "",
+    "40243":  "<b>DÉBUT\_DU\_TOUR</b> : Confère 50% de son {%at} en {%ar} aux alliés si aucun adversaire n'est autour <sprite name="cell_around"> de lui.",
+    "44802":  "Duc",
+    "23312":  "",
+    "82058":  "<b>PORTÉE</b> : 2 - 3\v\---
+<b>DÉBUT\_DU\_TOUR</b> : Gagne {#untargetable} et si aucun adversaire n'est autour <sprite name="cell_around"> de lui.",
+    "75637":  "Smilodon",
+    "22717":  "Simon",
+    "11953":  "<b>DÉBUT\_DU\_TOUR</b> : {power:pow,+,percent} si aucun adversaire n'est autour <sprite name="cell_around"> de lui.",
+    "96186":  "Béours",
+    "16003":  "",
+    "50308":  "<b>ATTAQUE </b>: <b>Repousse</b> de {cell:c}. 
+\---
+{#angrydrive} : Inflige le double des dégats.
+\---
+Confère {armor:ar} aux alliés autour <sprite name="cell_around"> .",
+    "8340":  "",
+    "45937":  "Bouflépreuse Sauvage",
+    "71679":  "",
+    "33946":  "{#SAUVAGE} 
+<b>ATTAQUE</b>\_: Donne une {Spell:104}\vau propriétaire de la cible.",
+    "73752":  "Bouflonne Croisé Boufmouth",
+    "57894":  "",
+    "56423":  "{#CROISÉBOUFMOUTH} 
+{#TROUPEAU}\_: gagne 1\_AURA\_{FloatingCounterEffect:54VARIANT1}.",
+    "18270":  "Boufpoux Sauvage",
+    "31258":  "",
+    "60786":  "{#SAUVAGE} 
+Invoque une {Summoning:979} quand il subit des dégâts.",
+    "46200":  "Boufton Sauvage",
+    "72086":  "",
+    "48335":  "{#SAUVAGE}",
+    "86018":  "Bouftou Adulte Sauvage",
+    "67778":  "",
+    "15691":  "{#SAUVAGE} 
+{#TROUPEAU}\_: Gagne {power:ppow,percent,+} pour le tour",
+    "16212":  "Bouftounu Sauvage",
+    "21786":  "",
+    "71300":  "{#SAUVAGE}",
+    "52005":  "Chef de Guerre Sauvage",
+    "5345":  "",
+    "38961":  "{#SAUVAGE} 
+{#TROUPEAU}\_: +{armor:ar} aux alliés autour\_<sprite name="cell_around">.",
+    "78266":  "Dégénéré Croisé Sauvage",
+    "88130":  "",
+    "82588":  "{#SAUVAGE} 
+<b>DÉBUT\_DU\_TOUR</b>\_: Déclenche une <b>ATTAQUE</b>.",
+    "20598":  "Dégénérescence Sauvage",
+    "38594":  "",
+    "75690":  "{#SAUVAGE} 
+<b>ATTAQUE</b>\_: Inflige son AT aux adversaires autour\_<sprite name="cell_around">.",
+    "48088":  "Arakne Renforcée",
+    "2903":  "",
+    "60661":  "<b>ATTAQUE</b>\_: {#PUSH} la cible de {cell:c}.
+\---
+<b>MORT</b>\_: Invoque une {Summoning:366}.",
+    "56539":  "Arak'Nid",
+    "13425":  "",
+    "15280":  "<b>DÉBUT\_DU\_TOUR</b>\_: Confère {armor:ar} aux alliés autour\_<sprite name="cell_around">.
+\---
+<b>FIN\_DU\_TOUR</b>\_: Pose une {FloorMechanism:1166} sur une case adjacente.",
+    "32613":  "Bouflépreuse Dégénéré",
+    "49837":  "",
+    "78829":  "{#DÉGÉNÉRÉ} 
+<b>ATTAQUE</b>\_: Donne une {Spell:104}\vau propriétaire de la cible.",
+    "67901":  "Bouflonne Dégénéré",
+    "38771":  "",
+    "84104":  "{#DÉGÉNÉRÉ}
+\---
+{#TROUPEAU}\_: gagne 1\_AURA\_{FloatingCounterEffect:54VARIANT2}.",
+    "82842":  "Boufpoux Dégénéré",
+    "21498":  "",
+    "94610":  "{#DÉGÉNÉRÉ} 
+Invoque une {Summoning:979} quand il subit des dégâts.",
+    "48329":  "Boufton Dégénéré",
+    "16323":  "",
+    "3457":  "{#DÉGÉNÉRÉ}",
+    "53545":  "Bouftou Adulte Dégénéré",
+    "56968":  "",
+    "76850":  "{#DÉGÉNÉRÉ} 
+{#TROUPEAU}\_: Gagne {power:ppow,percent,+} pour le tour",
+    "53471":  "Bouftounu Dégénéré",
+    "23057":  "",
+    "83351":  "{#DÉGÉNÉRÉ}",
+    "94461":  "{#DÉGÉNÉRÉ} 
+{#TROUPEAU}\_: +{armor:ar} aux alliés autour\_<sprite name="cell_around">.",
+    "21131":  "",
+    "94448":  "Chef de Guerre Dégénéré",
+    "38695":  "Dégénéré Dégénéré",
+    "96337":  "",
+    "43087":  "{#DÉGÉNÉRÉ} 
+<b>DÉBUT\_DU\_TOUR</b>\_: Déclenche une <b>ATTAQUE</b>.",
+    "83622":  "Dégénérescence Dégénérée",
+    "78059":  "",
+    "74637":  "{#DÉGÉNÉRÉ} 
+<b>ATTAQUE</b>\_: Inflige son AT aux adversaires autour\_<sprite name="cell_around">.",
+    "10287":  "Flarunta",
+    "1890":  "Flaripiri",
+    "81988":  "",
+    "48139":  "Flokare",
+    "57244":  "Flagan",
+    "36906":  "Flaata",
+    "50459":  "Flokota",
+    "9903":  "Flarpaud",
+    "94675":  "Flacatamtam",
+    "26779":  "Flati",
+    "65049":  "{range}
+\---
+<b>FIN DU TOUR</b>\_: Confère {#TRANSE} à {value:v} <b>Flaqueux</b> alliés aléatoires.",
+    "48645":  "Noireau",
+    "3053":  "",
+    "64082":  "Insensible aux dégâts magiques.\v\---
+{#MUSTNOTDIE}",
+    "8600":  "",
+    "57159":  "Charles Niwrad",
+    "25106":  "",
+    "51036":  "Insensible aux dégâts magiques.\v\---
+{#MUSTNOTDIE}\v\---
+<b>ATTAQUE</b> : {#stun[assomme]} la cible.",
+    "58554":  "Défenseur Bontarien",
+    "46398":  "",
+    "93605":  "<b>ATTAQUE</b>\_: <b>Repousse</b> de {cell:push}.",
+    "62826":  "Comte Vlad Drago",
+    "3885":  "",
+    "38668":  "Invoque une {Summoning:562} sur une case adjacente\_<sprite name="cell_cross"> de lui quand il subit une attaque.",
+    "17013":  "",
+    "58635":  "",
+    "54689":  "",
+    "75663":  "",
+    "78626":  "Blob Flaqueux",
+    "26758":  "",
+    "23009":  "<b>ATTAQUE</b>\_: Soigne la {Summoning:860} d'une valeur égale à son {%at} puis meurt.
+\---
+Disparaît si la {Summoning:860} meurt.",
+    "25103":  "Ariakné",
+    "43611":  "",
+    "18654":  "Quand une {FloorMechanism:1166} apparait, obtient 1\_{ #EVOLUTIONSTONE}.",
+    "87103":  "",
+    "62083":  "Flacaberserk Flaqualo",
+    "92108":  "Solveto",
+    "45085":  "{#FLAQUALO}
+\---
+{#TRANSE}\_: Rejoue son tour (1 fois par tour).",
+    "57727":  "Flacadard Flaqualo",
+    "85567":  "Valvik",
+    "36486":  "{#FLAQUALO}
+\---
+{range}
+\---
+<b>ATTAQUE</b>\_: Applique <b>DARDÉ</b>\_<sprite name="generic_monster">.",
+    "25754":  "Flacaflaque Flaqualo",
+    "70963":  "",
+    "46561":  "{#FLAQUALO}
+\---
+<b>MORT</b>\_: Pose un {FloorMechanism:1203} sur sa case.
+Wip",
+    "12029":  "Flacaguerrier Flaqualo",
+    "65045":  "Razzono",
+    "52338":  "{#FLAQUALO}
+\---
+{range}
+\---
+<b>ATTAQUE</b>\_: La cible se déplace de {value:v} cases dans une direction aléatoire si elle est <b>DARDÉE</b>\_<sprite name="generic_monster">.",
+    "46491":  "Flacarabout Flaqualo",
+    "41620":  "Aypar",
+    "68986":  "{#FLAQUALO}
+\---
+{range}
+\---
+<b>ATTAQUE</b>\_: Retire {value:pm, abs}{%pm} si la cible est <b>DARDÉE</b>\_<sprite name="generic_monster">.",
+    "25286":  "Flacassassin Flaqualo",
+    "36879":  "Baldoit",
+    "69089":  "{#FLAQUALO}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Se téléporte sur un adveraire et lui inflige son {%at} s'il est en {#TRANSE}.",
+    "24024":  "Flacatamtam Flaqualo",
+    "26052":  "Kezac",
+    "99790":  "{#FLAQUALO}
+\---
+{range}
+\---
+<b>FIN DU TOUR</b>\_: Confère {#TRANSE} à {value:v} <b>Flaqueux</b> alliés aléatoires.",
+    "96500":  "Flacatotem Flaqualo",
+    "35904":  "Flontrex",
+    "54556":  "{#FLAQUALO}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Attire tous les adversaires <b>DARDÉES</b>\_<sprite name="generic_monster"> alignés.",
+    "32308":  "Flacabonk Flaqualo",
+    "6803":  "Kris Taline",
+    "70599":  "{#FLAQUALO}
+\---
+Gagne {#TRANSE} quand un allié meurt.
+\---
+Gagne {power:pow,percent} et {value:pm}{%pm} quand il gagne un effet de {#TRANSE}.",
+    "34093":  "Flacaberserk Sorcelo",
+    "89008":  "Flo Asis",
+    "74302":  "{#SORCELO}
+\---
+{#TRANSE}\_: Rejoue son tour (1 fois par tour).",
+    "40888":  "Flacadard Sorcelo",
+    "75082":  "Flanpomi",
+    "56362":  "{#SORCELO}
+\---
+{range}
+\---
+<b>ATTAQUE</b>\_: Applique <b>DARDÉ</b>\_<sprite name="generic_monster">.",
+    "60518":  "Flacaflaque Sorcelo",
+    "21561":  "",
+    "90346":  "{#SORCELO}
+\---
+<b>MORT</b>\_: Pose un {FloorMechanism:1203} sur sa case.
+Wip",
+    "5974":  "Flacaguerrier Sorcelo",
+    "24260":  "Fluzeti",
+    "20234":  "{#SORCELO}
+\---
+{range}
+\---
+<b>ATTAQUE</b>\_: La cible se déplace de {value:v} cases dans une direction aléatoire si elle est <b>DARDÉE</b>\_<sprite name="generic_monster">.",
+    "12166":  "Flacarabout Sorcelo",
+    "69422":  "Chuepps",
+    "70511":  "{#SORCELO}
+\---
+{range}
+\---
+<b>ATTAQUE</b>\_: Retire {value:pm, abs}{%pm} si la cible est <b>DARDÉE</b>\_<sprite name="generic_monster">.",
+    "60907":  "Flacassassin Sorcelo",
+    "71677":  "Flocacola",
+    "21257":  "{#SORCELO}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Se téléporte sur un adveraire et lui inflige son {%at} s'il est en {#TRANSE}.",
+    "4344":  "Flacatamtam Sorcelo",
+    "5168":  "Flanta",
+    "92481":  "{#SORCELO}
+\---
+{range}
+\---
+<b>FIN DU TOUR</b>\_: Confère {#TRANSE} à {value:v} <b>Flaqueux</b> alliés aléatoires.",
+    "96330":  "Flacatotem Sorcelo",
+    "88004":  "Flesti",
+    "77930":  "{#SORCELO}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Attire tous les adversaires <b>DARDÉES</b>\_<sprite name="generic_monster"> alignés.",
+    "44005":  "Flacabonk Sorcelo",
+    "99008":  "Floppa",
+    "45073":  "{#SORCELO}
+\---
+Gagne {#TRANSE} quand un allié meurt.
+\---
+Gagne {power:pow,percent} et {value:pm}{%pm} quand il gagne un effet de {#TRANSE}.",
+    "89394":  "Arakqueen l'insatiable",
+    "95464":  "",
+    "26282":  "<b>DÉBUT\_DU\_TOUR</b> : Gagne {power:AT,percent} par {FloorMechanism:1166} en jeu pour le tour.
+\---
+<b>FIN\_DU\_TOUR</b>\_: Gagne {armor:AR}\v par {FloorMechanism:1166} autour\_<sprite name="cell_around"> d'elle.",
+    "83409":  "",
+    "71029":  "Costaure Contaminé",
+    "80432":  "",
+    "501397":  "{#CONTAMINE}
+\---
+Si un adversaire aligné <b>ATTAQUE</b> un allié, il le <b>CHARGE</b> et lui inflige son {%at}.",
+    "13248":  "Grabataure Contaminé",
+    "42268":  "",
+    "93439":  "{#CONTAMINE}
+\---
+<b>ATTAQUE</b>: Confère {armor:ar} aux alliés autour.",
+    "90995":  "Mooman Contaminé",
+    "49671":  "",
+    "24429":  "{#CONTAMINE}
+\---
+{range}
+\---
+<b>MORT</b>\_: Applique {#TAGGED} sur le tueur.",
+    "44659":  "Prehistauric Contaminé",
+    "25153":  "",
+    "9062":  "{#CONTAMINE}
+\---
+<b>CHARGE</b> un autre personnage aligné aléatoire quand il subit une <b>ATTAQUE</b>.",
+    "64153":  "Pubertaure Contaminé",
+    "95147":  "",
+    "6157":  "{#CONTAMINE}
+\---
+<b>ATTAQUE</b>\_: Repousse la cible de {cell:c}.",
+    "32231":  "Taurino Contaminé",
+    "75119":  "",
+    "47230":  "{#CONTAMINE}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Confère {power:at,percent} à l'allié avec le plus d'{%AT} jusqu'à la fin du tour.",
+    "28465":  "Taurrida Contaminé",
+    "55695":  "",
+    "33843":  "{#CONTAMINE}
+\---
+Gagne {power:at,percent} quand il subit des dégâts.",
+    "4083":  "Terminataure Contaminé",
+    "76135":  "",
+    "795":  "{#CONTAMINE}
+\---
+<b>ATTAQUE</b>\_: Repousse la cible de {cell:c}.
+\---
+Si un adversaire aligné <b>ATTAQUE</b> un autre allié, il le <b>CHARGE</b> et lui inflige son {%at}.",
+    "18079":  "Père Costaure",
+    "39007":  "",
+    "41555":  "{#TAURISTE}
+\---
+Si un adversaire aligné <b>ATTAQUE</b> un allié, il le <b>CHARGE</b> et lui inflige son {%at}.",
+    "6341":  "Cowch Grabataure",
+    "9748":  "",
+    "54882":  "{#TAURISTE}
+\---
+<b>ATTAQUE</b>: Confère {armor:ar} aux alliés autour.",
+    "2713":  "Soeur Mooman",
+    "18403":  "",
+    "63753":  "{#TAURISTE}
+\---
+{range}
+\---
+<b>MORT</b>\_: Applique {#TAGGED} sur le tueur.",
+    "27831":  "Frère Prehistauric",
+    "69925":  "",
+    "92316":  "{#TAURISTE}
+\---
+<b>CHARGE</b> un autre personnage aligné aléatoire quand il subit une <b>ATTAQUE</b>.",
+    "54457":  "Pubertaure Culte Tauriste",
+    "3826":  "",
+    "75379":  "{#TAURISTE}
+\---
+<b>ATTAQUE</b>\_: Repousse la cible de {cell:c}.",
+    "72738":  "Taurino Apprenti",
+    "86054":  "",
+    "72479":  "{#TAURISTE}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Confère {power:at,percent} à l'allié avec le plus d'{%AT} jusqu'à la fin du tour.",
+    "74956":  "Taurrida du Culte",
+    "86030":  "",
+    "66955":  "{#TAURISTE}
+\---
+Gagne {power:at,percent} quand il subit des dégâts.",
+    "21714":  "Terminataure Gourou",
+    "80733":  "",
+    "88279":  "{#TAURISTE}
+\---
+<b>ATTAQUE</b>\_: Repousse la cible de {cell:c}.
+\---
+Si un adversaire aligné <b>ATTAQUE</b> un autre allié, il le <b>CHARGE</b> et lui inflige son {%at}.",
+    "83673":  "Bouflonne Sauvage",
+    "27450":  "",
+    "36190":  "{#TROUPEAU}\_: gagne {value:nb}\_AURA\_{FloatingCounterEffect:54}.",
+    "68958":  "Minotoror",
+    "97268":  "",
+    "34909":  "<b>ATTAQUE</b>\_: Repousse la cible de {cell:c} et créer des {FloorMechanism:1843[FISSURES]} sur son chemin.
+\---
+Quand il atteint {ef1}% et {ef2}% de ses {%PV}:\nCréer des {FloorMechanism:1843[FISSURES]} sur les cases alignés diagonalement avec lui et invoque deux {Summoning:848[PUBERTAURES CULTE TAURISTE]} sur le bord du plateau.",
+    "49549":  "Minotoror",
+    "82223":  "",
+    "66832":  "<b>ATTAQUE</b>\_: Repousse la cible de {cell:c} et créer des {FloorMechanism:1843[FISSURES]} sur son chemin.
+\---
+Quand il atteint {ef1}% et {ef2}% de ses {%PV}:\nCréer des {FloorMechanism:1843[FISSURES]} sur les cases alignés diagonalement avec lui et invoque deux {Summoning:581[PUBERTAURES CONTAMINÉS]} sur le bord du plateau.",
+    "18998":  "Abraknyde Agonisante",
+    "45205":  "",
+    "89018":  "{#INVULNERABLE}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Attire un adversaire aligné aléatoire.",
+    "1642":  "Araknode l'Indésirable",
+    "43553":  "",
+    "12986":  "<b>APPARITION</b>\_: Invoque 2 {Summoning:366} sur une case au bord du plateau.
+\---
+<b>ATTAQUE</b>\_: {#PUSH} la cible de {cell:c}.
+\---
+<b>MORT</b>\_: Transforme l'{Summoning:650} le plus éloigné en {Summoning:803}.",
+    "57769":  "Clone Explosif de Borden",
+    "91770":  "",
+    "84607":  "<b>ATTAQUE</b> : Déclenche {explosion:ParameterizedEffectExecution.654.ex} et se détruit.",
+    "81211":  "",
+    "85910":  "Grande Horde Macchiota",
+    "61743":  "",
+    "15708":  "{#Macchiota}
+\---
+<b>ATTAQUE</b> autant de fois qu'il y a de Tofus\v dans la <b>HORDE</b>.
+Perd un Tofu quand elle arrive à {heal:pv2},\v puis à {heal:pv1}.",
+    "21906":  "Moyenne Horde Macchiota",
+    "21982":  "",
+    "54586":  "{#Macchiota}
+\---
+<b>ATTAQUE</b> autant de fois qu'il y a de Tofus\v dans la <b>HORDE</b>.
+Perd un Tofu quand elle arrive à {heal:pv1}.",
+    "16143":  "Petit Tofu Macchiota",
+    "69911":  "",
+    "4493":  "{#Macchiota}
+\---
+<b>ATTAQUE</b>\_: Se téléporte à {cell:tpRange} de la cible\v et prend son {#AIRBORNE[ENVOL]}.",
+    "83224":  "Petite Horde Macchiota",
+    "94725":  "",
+    "2739":  "{#Macchiota}
+\---
+<b>ATTAQUE</b> autant de fois qu'il y a de Tofus\v dans la <b>HORDE</b>.",
+    "12215":  "Tofoune Macchiota",
+    "16188":  "",
+    "89704":  "{#Macchiota}
+\---
+Soigne les alliés de {heal:pv}
+quand ils prennent leur {#airborne[ENVOL]}.",
+    "48549":  "Tofu Enragé Macchiota",
+    "73690":  "",
+    "38123":  "{#Macchiota}
+\---
+Prend son {#airborne[ENVOL]} quand un allié déclenche un {#landing}.",
+    "25583":  "Tofu Tonic Macchiota",
+    "68878":  "",
+    "25470":  "{#Macchiota}
+\---
+Prend son {#AIRBORNE[ENVOL]} quand il subit des dégâts.",
+    "95228":  "Tofu Ventripotent Macchiota",
+    "27773":  "",
+    "53182":  "{#Macchiota}
+\---
+<b>DÉBUT\_DU\_TOUR</b>\_: Gagne +{power:at, percent} quand un allié retombe {#airborne[EN VOL]}.",
+    "83075":  "Tofutu Macchiota",
+    "19493":  "",
+    "84570":  "{#Macchiota}
+\---
+{#PUSH} les personnages adjacents de {cell:c} quand il subit des dégâts.
+\---
+(1 fois par tour)",
+    "2166":  "Masque Tribal",
+    "3421":  "",
+    "89593":  "{#TRANSE}\_: Double son {%at}.
+<b>ATTAQUE</b>\_: Applique <b>DARDÉ</b>\_<sprite name="generic_monster">.",
+    "22793":  "SORCELO",
+    "16402":  "<b>MORT</b> : Invoque un {Summoning:7979} sur sa case de mort.",
+    "85211":  "FLAQUALO",
+    "63043":  "<b>FIN DU TOUR</b>\_: Les <b>Flaqualo</b> se transforment en {Skin:6544} s'ils ont un adversaires autour\_<sprite name="cell_around"> d'eux.",
+    "16978":  "Clone de Jet Ecri",
+    "71598":  "Clone de Jet Ecri",
+    "33686":  "<i>Aucun Passif.</i>",
+    "30887":  "Shushâme",
+    "64810":  "",
+    "31950":  "Confère {power:pow,percent} aux alliés.",
+    "75891":  "Arak'Nid",
+    "283":  "",
+    "87920":  "<b>DÉBUT\_DU\_TOUR</b>\_: Attire les personnages adverses alignés de l'autre côté de lui et retire 1 {%pm} jusqu'au prochain tour.
+\---
+<b>MORT</b>\_: Invoque une {Summoning:366}.",
+    "82449":  "",
+    "57014":  "Grande Horde Eudéhèf",
+    "57590":  "",
+    "36464":  "<b>ATTAQUE</b> autant de fois qu'il y a de Tofus\v dans la <b>HORDE</b>.
+Perd un Tofu quand elle arrive à {heal:pv2},\v puis à {heal:pv1}.",
+    "23933":  "Moyenne Horde Eudéhèf",
+    "88090":  "",
+    "64511":  "<b>ATTAQUE</b> autant de fois qu'il y a de Tofus\v dans la <b>HORDE</b>.
+Perd un Tofu quand elle arrive à {heal:pv1}.",
+    "17911":  "Petit Tofu Eudéhèf",
+    "50350":  "",
+    "21592":  "<b>ATTAQUE</b>\_: Se téléporte à {cell:tpRange} de la cible\v et prend son {#AIRBORNE[ENVOL]}.",
+    "91024":  "Petite Horde Eudéhèf",
+    "71157":  "",
+    "26016":  "<b>ATTAQUE</b> autant de fois qu'il y a de Tofus\v dans la <b>HORDE</b>.",
+    "36416":  "Tofoune Eudéhèf",
+    "2782":  "",
+    "80278":  "Soigne les alliés de {heal:pv}
+quand ils prennent leur {#airborne[ENVOL]}.",
+    "57723":  "Tofu Enragé Eudéhèf",
+    "47448":  "",
+    "97140":  "Prend son {#airborne[ENVOL]} quand un allié déclenche un {#landing}.",
+    "50273":  "Tofu Tonic Eudéhèf",
+    "19216":  "",
+    "61128":  "Prend son {#AIRBORNE[ENVOL]} quand il subit des dégâts.",
+    "97447":  "Tofu Ventripotent Eudéhèf",
+    "13689":  "",
+    "74002":  "<b>DÉBUT\_DU\_TOUR</b>\_: Gagne +{power:at, percent} quand un allié retombe {#airborne[EN VOL]}.",
+    "23021":  "Tofutu Eudéhèf",
+    "60593":  "",
+    "81884":  "{#PUSH} les personnages adjacents de {cell:c} quand il subit des dégâts.
+\---
+(1 fois par tour)",
+    "49082":  "",
+    "37226":  "Âme Spectrale",
+    "84402":  "",
+    "95673":  "<size=80%><i>Évolution 1 / 6</i></size>
+\---
+Confère {power:pow,percent} à votre héros tant qu'elle est en jeu.
+\---
+MORT : piochez le sort {Spell:960}.",
+    "53025":  "Âme Spectrale",
+    "29890":  "",
+    "47405":  "<size=80%><i>Évolution 2 / 6</i></size>
+\---
+Confère {power:pow,percent} à votre héros tant qu'elle est en jeu.
+\---
+MORT : piochez le sort {Spell:960}.",
+    "70589":  "Âme Spectrale",
+    "69593":  "",
+    "8750":  "<size=80%><i>Évolution 3 / 6</i></size>
+\---
+Confère {power:pow,percent} à votre héros tant qu'elle est en jeu.
+\---
+MORT : piochez le sort {Spell:960}.",
+    "6016":  "Âme Spectrale",
+    "27446":  "",
+    "89417":  "<size=80%><i>Évolution 5 / 6</i></size>
+\---
+Confère {power:pow,percent} à votre héros tant qu'elle est en jeu.
+\---
+MORT : piochez le sort {Spell:960}.",
+    "91083":  "Âme Spectrale",
+    "36459":  "",
+    "73237":  "<size=80%><i>Évolution 4 / 6</i></size>
+\---
+Confère {power:pow,percent} à votre héros tant qu'elle est en jeu.
+\---
+MORT : piochez le sort {Spell:960}.",
+    "83084":  "Âme Spectrale",
+    "22109":  "",
+    "41736":  "<size=80%><i>Évolution 7 / 10</i></size>
+\---
+Confère {power:pow,percent} à votre héros tant qu'elle est en jeu.
+\---
+MORT : piochez le sort {Spell:960}.",
+    "6876":  "Âme Spectrale",
+    "40341":  "",
+    "69233":  "<size=80%><i>Évolution 6 / 6</i></size>
+\---
+Confère {power:pow,percent} à votre héros tant qu'elle est en jeu.
+\---
+MORT : piochez le sort {Spell:960}.",
+    "80437":  "Âme Spectrale",
+    "73660":  "",
+    "93838":  "<size=80%><i>Évolution 10 / 10</i></size>
+\---
+Confère {power:pow,percent} à votre héros tant qu'elle est en jeu.
+\---
+MORT : piochez le sort {Spell:960}.",
+    "9162":  "Âme Spectrale",
+    "32727":  "",
+    "93808":  "<size=80%><i>Évolution 8 / 10</i></size>
+\---
+Confère {power:pow,percent} à votre héros tant qu'elle est en jeu.
+\---
+MORT : piochez le sort {Spell:960}.",
+    "1555":  "Âme Spectrale",
+    "81447":  "",
+    "20872":  "<size=80%><i>Évolution 9 / 10</i></size>
+\---
+Confère {power:pow,percent} à votre héros tant qu'elle est en jeu.
+\---
+MORT : piochez le sort {Spell:960}.",
+    "88806":  "Transform ObjMec",
+    "79992":  "Transform ObjMec",
+    "62317":  "Lorsqu'il atteint {value:pct,percent}\_{%PV} : se transforme en {ObjectMechanism:583}.",
+    "60814":  "Transform Summoning",
+    "78509":  "Transform Summoning",
+    "32595":  "Lorsqu'il atteint {value:pct,percent}\_{%PV} : se transforme en {Summoning:3657}.",
+    "97937":  "",
+    "60095":  "",
+    "51299":  "Poutch Ingball",
+    "9563":  "",
+    "32263":  "<i>Revient sur le terrain quand il meurt.</i>",
+    "25723":  "",
+    "78706":  "Poutch Ingball",
+    "5210":  "",
+    "72262":  "<i>Revient sur le terrain quand il meurt.</i>",
+    "75294":  "Poutch Ingball",
+    "25420":  "",
+    "95103":  "<i>Revient sur le terrain quand il meurt.</i>",
+    "37172":  "Karab",
+    "36023":  "Coraya",
+    "91067":  "<b>DÉBUT DU TOUR</b>\_: Gagne {value:pm,abs}\_{%PM} si aucun adversaire ne se trouve autour\_<sprite name="cell_around">."
+}

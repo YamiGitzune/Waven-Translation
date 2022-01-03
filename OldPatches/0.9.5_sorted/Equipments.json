@@ -1,0 +1,1527 @@
+{
+    "22037":  "Manubrium de la Mort qui Tue",
+    "93902":  "<b>DEBUT DE TOUR</b> : Tue tous les ennemis.",
+    "714":  "Rubis Magique",
+    "56994":  "+{value:stat,percent} aux dégâts de vos sorts <b>FEU</b>",
+    "43118":  "Saphir Magique",
+    "52321":  "+{value:stat,percent} aux dégâts de vos sorts <b>EAU</b>",
+    "76342":  "Émeraude Magique",
+    "26546":  "+{value:stat,percent} aux dégâts de vos sorts <b>TERRE</b>",
+    "10999":  "Améthyste Magique",
+    "9249":  "+{value:stat,percent} aux dégâts de vos sorts <b>AIR</b>",
+    "53980":  "Topaze Magique",
+    "81867":  "+{value:stat,percent} aux dégâts de vos sorts <b>NEUTRE</b>",
+    "98877":  "Rubis Offensif",
+    "31531":  "+{value:stat,percent} à l'{%at} de votre héros",
+    "41695":  "Rubis Explosif",
+    "10109":  "+{value:stat,percent} aux dégâts de vos {#Explosion}<color=#3FD5D3><b>S</b></color>",
+    "30225":  "Rubis Agressif",
+    "73791":  "+{value:stat,percent} d'{%at} sur vos gains d'{%at}",
+    "26772":  "Saphir de Vitalité",
+    "50129":  "+{value:stat,percent} aux {%pv} de votre héros",
+    "79534":  "Saphir Guérisseur",
+    "68285":  "+{value:stat,percent} aux {%pv} rendus de vos SOINS",
+    "42815":  "Saphir Glacial",
+    "70947":  "+{value:stat,percent} aux dégâts de vos {#FROZEN[GELS]}",
+    "25051":  "Émeraude Mécanique",
+    "70119":  "+{value:stat}% aux dégâts de vos {#MECHANISM[MÉCANISMES]} et {#FLOOR[SOLS]}
++{value:stat2,percent} aux {%bl} de vos {#MECHANISM[MÉCANISMES]}",
+    "36776":  "Émeraude Armurée",
+    "59415":  "+{value:stat,percent} d'{%ar} sur vos gains d'{%ar}
++{value:stat,percent} d'{%bl} sur vos gains d'{%bl}",
+    "11195":  "Émeraude Handicapante",
+    "60310":  "+{value:stat,percent} aux dégâts de vos {#fractured[FRACTURES]}",
+    "73758":  "Améthyste de Précision",
+    "36568":  "+{value:stat,permil} de chance de {#CRITICAL}\v sur vos dégâts des sorts",
+    "94112":  "Améthyste Affutée",
+    "74050":  "+{value:stat,permil} de chance de {#CRITICAL}\v sur l'<b>ATTAQUE</b> de votre héros",
+    "64825":  "Améthyste Électrique",
+    "59188":  "+{value:stat,percent} aux dégâts de vos {#SHOCK[DÉCHARGES]}",
+    "10439":  "Topaze du Pauvre",
+    "22488":  "+{value:stat,percent} à vos gains de kamas",
+    "1109":  "Topaze du Maître d'Arme",
+    "48860":  "+{value:stat,percent} aux dégâts de vos {#AURA[AURAS]} et de vos {FloatingCounterEffect:27[MIRES]}",
+    "27653":  "Topaze de l'Invocateur",
+    "72868":  "+{value:stat}% à l'{%at} de vos invocations
++{value:stat2,percent} aux {%pv} de vos invocations",
+    "97131":  "Rubis Huilé",
+    "89257":  "{value:percent,permil} de chance d'appliquer {#OILED} quand votre héros <b>ATTAQUE</b>
+-
++{value:stat,percent} aux dégâts de vos sorts <b>FEU</b>",
+    "12051":  "Saphir Mouillé",
+    "89723":  "{value:percent,permil} de chance d'appliquer {#WET} quand votre héros <b>ATTAQUE</b>
+-
++{value:stat,percent} aux dégâts de vos sorts <b>EAU</b>",
+    "12150":  "Émeraude Boueuse",
+    "74284":  "{value:percent,permil} de chance d'appliquer {#MUDDY} quand votre héros <b>ATTAQUE</b>
+-
++{value:stat,percent} aux dégâts de vos sorts <b>TERRE</b>",
+    "85426":  "Améthyste Éventée",
+    "88802":  "{value:percent,permil} de chance d'appliquer {#VENTILATED} quand votre héros <b>ATTAQUE</b>
+-
++{value:stat,percent} aux dégâts de vos sorts <b>AIR</b>",
+    "93203":  "Topaze Hybride",
+    "98397":  "+{value:stat,percent} aux dégâts de vos sorts",
+    "50388":  "Saphir Occultant",
+    "63335":  "{#ENDTURN}\_: {value:percent,permil} de chance que votre héros gagne {#UNTARGETABLE} jusqu'au prochain tour allié.
+-
++{value:stat,percent} aux {%pv} de votre héros",
+    "3845":  "Rubis Vampirique",
+    "85657":  "{value:percent,permil} de chance que votre héros gagne\v {#LIFESTEAL} quand il <b>ATTAQUE</b>
+-
++{value:stat,percent} à l'{%at} de votre héros",
+    "39028":  "Émeraude en Tungstène",
+    "81668":  "{value:percent,permil} de chance que vos {#MECHANISM[MÉCANISMES]} gagnent {#SHIELD} quand ils entrent en jeu
+-
++{value:stat,percent} aux {%bl} de vos {#MECHANISM[MÉCANISMES]}",
+    "65712":  "Améthyste Perforante",
+    "33863":  "+{value:stat,percent} de bonus aux dégâts de {#CRITICAL}",
+    "75540":  "Topaze du Batisseur",
+    "50106":  "(not yet implemented)",
+    "61976":  "Rubis de Ralliement",
+    "82590":  "{value:percent,permil} de chance que votre héros et les alliés {#AROUND} de lui gagne {attackBoost:at} pour le tour quand vous lancez un sort
+-
++{value:stat,percent} d'{%at} sur vos gains d'{%at}",
+    "77307":  "Saphir Médical",
+    "95937":  "{value:percent,permil} de chance de soigner votre héros et les alliés {#AROUND} de lui de {heal:pv} quand vous lancez un sort
+-
++{value:stat,percent} de {%pv} rendues sur vos <b>SOINS</b>",
+    "71480":  "Émeraude de Phalange",
+    "40133":  "{value:percent,permil} de chance que votre héros et les alliés {#AROUND} de lui gagne {armor:ar} quand vous lancez un sort
+-
++{value:stat,percent} d'{%ar} sur vos gains d'{%ar}
++{value:stat,percent} d'{%bl} sur vos gains d'{%bl}",
+    "89743":  "Améthyste du Zéphir",
+    "69782":  "{value:percent,permil} de chance de repousser de les personnages {#ADJACENT[ADJACENTS]} à votre héros de {cell:c} quand vous lancez un sort
+-
++{value:stat,percent} de chance de {#CRITICAL}\v sur vos dégâts des sorts",
+    "13288":  "{value:percent,permil} de chance que votre héros gagne {value:(nb+0)}\_{FloatingCounterEffect:27} quand vous lancez un sort
+-
++{value:stat,percent} aux dégâts de vos {#AURA[AURAS]} et de vos {FloatingCounterEffect:27[MIRES]}",
+    "18367":  "Topaze de l'Archer",
+    "52032":  "Rubis Détonant",
+    "35823":  "{value:percent,permil} de chance que votre héros déclenche {explosion:ex} quand il subit une <b>ATTAQUE</b>
+-
++{value:stat,percent} aux dégâts de vos {#Explosion}<color=#3FD5D3><b>S</b></color>",
+    "55911":  "Saphir Glaçant",
+    "29332":  "{value:percent,permil} de chance d'appliquer {frozen:PropertyEffect.26.FrozenDmg} aux ennemies {#AROUND} de votre héros quand il subit une <b>ATTAQUE</b>
+-
++{value:stat,percent} aux dégâts de vos {#frozen[GELS]}",
+    "38015":  "Améthyste Foudroyante",
+    "58663":  "{value:percent,permil} de chance que votre héros déclenche {shock:sh} quand il subit une <b>ATTAQUE</b>
+-
++{value:stat,percent} aux dégâts de vos {#shock}<color=#3FD5D3><b>S</b></color>",
+    "14235":  "Topaze du Loup",
+    "44744":  "{value:percent,permil} de chance d'invoquer un {Summoning:871} sur une case {#ADJACENT[ADJACENTE]} à votre héros quand il subit une <b>ATTAQUE</b>.
+-
++{value:stat,percent} à l'{%at} de vos invocations
++{value:stat2,percent} aux {%pv} de vos invocations",
+    "76655":  "Émeraude Fracturante",
+    "16607":  "{value:percent,permil} de chance d'appliquer {fractured:PropertyEffect.42.FracturedDmg} aux ennemies {#AROUND} de votre héros quand il subit une <b>ATTAQUE</b>
+-
++{value:stat,percent} aux dégâts de vos {#fractured[FRACTURES]}",
+    "29241":  "Rubis Élémentaire",
+    "51955":  "{value:percent,permil} de chance de gagner une jauge FEU<sprite name="fire"> quand vous lancez un sort.
+-
++{value:stat,percent} aux dégâts de vos sorts <b>FEU</b>",
+    "76494":  "Saphir Élémentaire",
+    "39295":  "{value:percent,permil} de chance de gagner une jauge EAU<sprite name="water"> quand vous lancez un sort.
+-
++{value:stat,percent} aux dégâts de vos sorts <b>EAU</b>",
+    "16629":  "Émeraude Élémentaire",
+    "92373":  "{value:percent,permil} de chance de gagner une jauge TERRE<sprite name="earth"> quand vous lancez un sort.
+-
++{value:stat,percent} aux dégâts de vos sorts <b>TERRE</b>",
+    "12122":  "Améthyste Élémentaire",
+    "19372":  "{value:percent,permil} de chance de gagner une jauge AIR<sprite name="wind"> quand vous lancez un sort.
+-
++{value:stat,percent} aux dégâts de vos sorts <b>AIR</b>",
+    "83017":  "Topaze Élémentaire",
+    "53744":  "{value:percent,permil} de chance de gagner une jauge NEUTRE<sprite name="neutral"> quand vous lancez un sort.
+-
++{value:stat,percent} aux dégâts de vos sorts <b>NEUTRE</b>",
+    "31187":  "Rubis Langue de Feu",
+    "54629":  "{value:percent,permil} de chance que l'<b>ATTAQUE</b> de votre héros inflige des dégâts aux adversaires sur les {cell:c} devant lui.
+-
++{value:stat,percent} à l'{%at} de votre héros.",
+    "6534":  "Saphir Déroutant",
+    "12473":  "{value:percent,permil} de chance de {#DISARMED[DÉSARMER]} la cible quand votre héros <b>ATTAQUE</b>.
+-
++{value:stat,percent} aux {%pv} de votre héros",
+    "29212":  "Émeraude Relais",
+    "20873":  "+{value:stat2} à la portée d'invocation de vos {#MECHANISM[MÉCANISMES]} et {#FLOOR[SOLS]}.
+-
++{value:stat,percent} aux dégâts de vos {#MECHANISM[MÉCANISMES]} et {#FLOOR[SOLS]}",
+    "70339":  "Topaze du Cupide",
+    "39286":  "+{value:stat,percent} de chance de drop d'équipements",
+    "88667":  "Améthyste du Focus",
+    "74011":  "{#STARTTURN} : +{value:percent,permil} de chance de {#CRITICAL} sur votre prochain sort ou prochaine <b>ATTAQUE</b>.
+-
++{value:stat,percent} de bonus aux dégâts de {#CRITICAL}",
+    "35750":  "Rubis Dopant",
+    "54991":  "{value:percent,permil} de chance d'ajouter le sort {Spell:433} dans votre main quand un personnage adverse meurt.
+-
++{value:stat,percent} d'{%at} sur vos gains d'{%at}",
+    "67493":  "Saphir Purifiant",
+    "44012":  "{value:percent,permil} de chance d'ajouter le sort {Spell:684} dans votre main quand un personnage adverse meurt.
+-
++{value:stat,percent} aux {%pv} rendues de vos SOINS",
+    "90667":  "Émeraude du Chevalier",
+    "86147":  "{value:percent,permil} de chance d'ajouter le sort {Spell:29621} dans votre main quand un personnage adverse meurt.
+-
++{value:stat,percent} d'{%ar} sur vos gains d'{%ar}
++{value:stat2,percent} d'{%bl} sur vos gains d'{%bl}",
+    "79871":  "Améthyste du Manipulateur",
+    "48082":  "{value:percent,permil} de chance d'ajouter le sort {Spell:331} dans votre main quand un personnage adverse meurt.
+-
++{value:stat,permil} de chance de {#CRITICAL}\v sur l'<b>ATTAQUE</b> de votre héros",
+    "70574":  "Topaze de la Meute",
+    "92080":  "{value:percent,permil} de chance d'ajouter le sort {Spell:299} dans votre main quand un personnage adverse meurt.
+-
++{value:stat}% à l'{%at} de vos invocations
++{value:stat2,percent} aux {%pv} de vos invocations",
+    "11432":  "Rubis Crépitant",
+    "17943":  "{value:percent,permil} de chance que la cible déclenche {explosion:ex} quand vous lui appliquez {#OILED[HUILÉE]}<sprite name="oiled">.
+-
++{value:stat,percent} aux dégâts de vos {#Explosion[EXPLOSIONS]}",
+    "93120":  "Saphir Givrant",
+    "36989":  "{value:percent,permil} de chance que la cible devienne {frozen:PropertyEffect.26.FrozenDmg} quand vous lui appliquez {#WET[MOUILLÉE]}<sprite name="wet">.
+-
++{value:stat,percent} aux dégâts de vos {#frozen[GELS]}",
+    "38389":  "Émeraude Percutante",
+    "66166":  "{value:percent,permil} de chance que la cible devienne {fractured:PropertyEffect.42.FracturedDmg} quand vous lui appliquez {#MUDDY}.
+-
++{value:stat,percent} aux dégâts de vos {#fractured[FRACTURES]}",
+    "97832":  "Améthyste Fulgurante",
+    "11188":  "{value:percent,permil} de chance que la cible déclenche {shock:sh} quand vous lui appliquez {#VENTILATED[ÉVENTÉE]}<sprite name=ventilated>.
+-
++{value:stat,percent} aux dégâts de vos {#shock[DÉCHARGES]}",
+    "5003":  "Topaze du Bretteur",
+    "55232":  "(not yet implemented)
+-
++{value:stat,percent} aux dégâts de vos {#AURA[AURAS]} et de vos {FloatingCounterEffect:27[MIRES]}",
+    "73737":  "Rubis Flash",
+    "8722":  "{value:percent,permil} de chance que votre héros se déplace en ligne en direction de la cible de vos sorts si elle est aligné avec lui. (not yet implemented)",
+    "31952":  "Saphir de Transposition",
+    "51145":  "{value:percent,permil} de chance que votre héros échange de place avec la cible de vos sorts.
+Soigne votre héros de {heal:h}.",
+    "5341":  "Émeraude de Ruée",
+    "59980":  "{value:percent,permil} de chance que votre héros charge la cible de vos sorts si elle est la première cible aligné avec lui et la cible subit {magicalDamage:dmg}.",
+    "81924":  "Améthyste Wormhole",
+    "20658":  "{value:percent,permil} de chance que votre héros se téléporte sur une case {#ADJACENT[ADJACENTE]} à la cible de vos sorts. Il inflige ensuite {magicalDamage:dmg} aux adversaires autour de lui.",
+    "49383":  "Topaze du Voleur",
+    "75339":  "+{value:stat}% à vos gains de kamas
++{value:stat2,percent} de chance de drop d'équipements",
+    "70295":  "Rubis du Souffle Ardent",
+    "76222":  "{value:percent,permil} de chance que l'<b>ATTAQUE</b> de votre héros inflige des dégâts aux adversaires en CÔNE 3 devant lui.
+-
++{value:stat,percent} à l'{%at}de votre héros.",
+    "68759":  "Améthyste du Tricheur",
+    "21463":  "{value:percent,permil} de chance de piocher {value:p} sort quand votre héros <b>ATTAQUE</b>.
+-
++{value:stat,percent} aux dégâts de vos sorts",
+    "36922":  "Saphir Motivant",
+    "35728":  "{value:percent,permil} de chance d'ajouter {value:(pa+0)}\_{%pa} à votre {%reserve} quand votre héros <b>ATTAQUE</b>.
+-
++{value:stat,percent} aux dégâts de vos sorts",
+    "64221":  "Émeraude Tellurique",
+    "20950":  "{value:percent,permil} de chance que l'<b>ATTAQUE</b> de votre héros inflige des dégâts aux adversaires {#AROUND} de lui.
+-
++{value:stat,percent} à l'{%at} de votre héros",
+    "76898":  "Topaze du Dresseur",
+    "32725":  "Lorsque votre héros attaque, {value:percent,permil} de chance que les invocations alliés {#ADJACENT[ADJACENTE]} à la cible déclenchent une <b>ATTAQUE</b>.
+-
++{value:stat,percent} à l'{%at} de vos invocations
++{value:stat2),percent} aux {%pv} de vos invocations",
+    "2528":  "Rubis Déflagrateur",
+    "84497":  "{value:percent,permil} de chance de déclencher une nouvelle {explosion:ex} quand vous déclenchez une {#explosion}.
+-
++{value:stat,percent} aux dégâts de vos {#Explosion[EXPLOSIONS]}",
+    "11801":  "Saphir du Zéro Absolu",
+    "94202":  "(not yet implemented)",
+    "82398":  "Émeraude du Briseur",
+    "45571":  "(not yet implemented)",
+    "20839":  "Améthyste du Tonnerre",
+    "45647":  "(not yet implemented)",
+    "57343":  "Topaze du Sensei",
+    "54896":  "{value:percent,permil} de chance de gagner une jauge NEUTRE<sprite name="neutral"> quand vous libérez une {#AURA}.
+-
++{value:stat,percent} aux dégâts de vos {#AURA[AURAS]} et de vos {FloatingCounterEffect:27[MIRES]}",
+    "93327":  "Rubis Tro",
+    "55907":  "{#STARTTURN} : {value:percent,permil} de chance d'infliger {magicalDamage:dmg} aux adversaires alignés avec votre héros.",
+    "92021":  "Saphir Mament",
+    "47549":  "{#STARTTURN} : {value:percent,permil} de chance de réduire le coût de tous vos sorts en main de 2 PA pour le tour.",
+    "70697":  "Émeraude Éo",
+    "82196":  "{#STARTTURN} : {value:percent,permil} de chance d'infliger {earthDamage:dmg} aux adversaires jusqu'à {cell:c} de votre héros.",
+    "31810":  "Améthyste Éric",
+    "276":  "(not yet implemented)",
+    "22822":  "Topaze Ébré",
+    "14543":  "{#STARTTURN} : {value:percent,permil} de chance que votre héros gagne une {#OVERPOWEREDAURA}.",
+    "78644":  "Feru Offensif Alpha",
+    "66921":  "+{value:stat,percent} à l'{%at} du compagnon",
+    "63367":  "Feru Offensif Delta",
+    "44157":  "+{value:stat,percent} à l'{%at} du compagnon",
+    "90057":  "Feru Offensif Gamma",
+    "50492":  "+{value:stat,percent} à l'{%at} du compagnon",
+    "17960":  "Feru Offensif Beta",
+    "62064":  "+{value:stat,percent} à l'{%at} du compagnon",
+    "71236":  "Oru Vitale Alpha",
+    "81201":  "+{value:stat,percent} aux {%PV} du compagnon",
+    "58016":  "Oru Vitale Delta",
+    "50889":  "+{value:stat,percent} aux {%PV} du compagnon",
+    "76346":  "Oru Vitale Gamma",
+    "6208":  "+{value:stat,percent} aux {%PV} du compagnon",
+    "44650":  "Oru Vitale Beta",
+    "7070":  "+{value:stat,percent} aux {%PV} du compagnon",
+    "26175":  "Teru Robuste Alpha",
+    "63567":  "{#APPEARANCE} : Gagne {value:stat,percent} de ses {%pv} en {%ar}",
+    "97360":  "Aru Affuté Alpha",
+    "1976":  "+{value:stat,permil} de chance de {%cc} au compagnon sur son ATTAQUE
++{value:stat2,percent} aux dégâts des {%cc} du compagnon",
+    "75381":  "Neru de Visée Alpha",
+    "24486":  "+{value:stat,percent} aux dégâts des AURAS et MIRES du compagnon",
+    "78225":  "Feru Piquant Beta",
+    "80275":  "Le compagnon gagne +{value:rip} {#RIPOSTE}.
+-
++{value:at,percent} à l'{%at} du compagnon",
+    "85909":  "Feru Ardent Beta",
+    "94530":  "{#APPEARANCE} : {value:percent,permil} de chance d'infliger {magicalDamage:dmg} aux adversaires alignés.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "87172":  "Oru Transparent Beta",
+    "3058":  "{#APPEARANCE} : {value:percent,permil} de chance de gagner {#UNTARGETABLE} jusqu'au prochain tour allié.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "98501":  "Oru Bazik Alpha",
+    "97914":  "+{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "27727":  "Teru Tank Beta",
+    "45277":  "{#APPEARANCE} : {value:percent,permil} de chance de gagner {#SHIELD}.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "90512":  "Teru Mobile Alpha",
+    "58389":  "+{value:pm} {%pm} au compagnon
++{value:at,percent} à l'{%at} du compagnon",
+    "10280":  "Aru Éthérée Beta",
+    "6487":  "{#APPEARANCE} : {value:percent,permil} de chance de gagner {#PHASE} pour le tour.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "4625":  "Aru Perforante Alpha",
+    "88482":  "+{value:critChance,permil} de chance de {%cc} au compagnon sur son ATTAQUE
++{value:crit,percent} aux dégâts des {%cc} du compagnon",
+    "82074":  "Neru Notrof Beta",
+    "20026":  "+{value:stat,percent} à vos gains de kamas",
+    "98133":  "Neru Béton Alpha",
+    "38283":  "(not yet implemented)",
+    "50543":  "Teru Robuste Delta",
+    "23431":  "{#APPEARANCE} : Gagne {value:stat,percent} de ses {%pv} en {%ar}",
+    "7833":  "{#APPEARANCE} : Gagne {value:stat,percent} de ses {%pv} en {%ar}",
+    "54937":  "Teru Robuste Gamma",
+    "60727":  "Teru Robuste Beta",
+    "91045":  "{#APPEARANCE} : Gagne {value:stat,percent} de ses {%pv} en {%ar}",
+    "76973":  "Neru de Visée Delta",
+    "40208":  "+{value:stat,percent} aux dégâts des AURAS et MIRES du compagnon",
+    "29438":  "Neru de Visée Gamma",
+    "204":  "+{value:stat,percent} aux dégâts des AURAS et MIRES du compagnon",
+    "91923":  "Neru de Visée Beta",
+    "3471":  "+{value:stat,percent} aux dégâts des AURAS et MIRES du compagnon",
+    "59681":  "Aru Affuté Delta",
+    "46216":  "+{value:stat,permil} de chance de {%cc} au compagnon sur son ATTAQUE
++{value:stat2,percent} aux dégâts des {%cc} du compagnon",
+    "47614":  "Aru Affuté Gamma",
+    "95513":  "+{value:stat,permil} de chance de {%cc} au compagnon sur son ATTAQUE
++{value:stat2,percent} aux dégâts des {%cc} du compagnon",
+    "65368":  "Aru Affuté Beta",
+    "51869":  "+{value:stat,permil} de chance de {%cc} au compagnon sur son ATTAQUE
++{value:stat2,percent} aux dégâts des {%cc} du compagnon",
+    "2516":  "Feru Ardent Alpha",
+    "41146":  "{#APPEARANCE} : {value:percent,permil} de chance d'infliger {magicalDamage:dmg} aux adversaires alignés.
+-
++{value:at,percent} à l'{%at} du compagnon",
+    "29249":  "Feru Piquant Beta",
+    "40268":  "Le compagnon gagne +{value:rip} {#RIPOSTE}.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "82153":  "Aru Perforante Beta",
+    "65710":  "+{value:critChance,permil} de chance de {%cc} au compagnon sur son ATTAQUE
++{value:crit,percent} aux dégâts des {%cc} du compagnon",
+    "6081":  "Aru Éthérée Alpha",
+    "5264":  "{#APPEARANCE} : {value:percent,permil} de chance de gagner {#PHASE} pour le tour.
+-
++{value:at,percent} à l'{%at} du compagnon",
+    "10697":  "Teru Tank Alpha",
+    "41861":  "{#APPEARANCE} : {value:percent,permil} de chance de gagner {#SHIELD}.
+-
++{value:at,percent} à l'{%at} du compagnon",
+    "68530":  "Teru Mobile Beta",
+    "75886":  "+{value:pm} {%pm} au compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "41341":  "Oru Bazik Beta",
+    "75457":  "+{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "41791":  "Oru Transparent Alpha",
+    "56844":  "{#APPEARANCE} : {value:percent,permil} de chance de gagner {#UNTARGETABLE} jusqu'au prochain tour allié.
+-
++{value:at,percent} à l'{%at} du compagnon",
+    "24048":  "Neru Notrof Alpha",
+    "54347":  "+{value:stat,percent} à vos gains de kamas",
+    "61320":  "Neru Béton Beta",
+    "71604":  "(not yet implemented)",
+    "60728":  "Feru Élémentaire",
+    "29067":  "(DEV REQUIRED) Réduit de 1 le coût en jauge FEU<sprite name="fire"> du compagnon.
+-
++{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "68227":  "Oru Élémentaire",
+    "6751":  "(DEV REQUIRED) Réduit de 1 le coût en jauge EAU<sprite name="water"> du compagnon.
+-
++{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "57136":  "Teru Élémentaire",
+    "60075":  "(DEV REQUIRED) Réduit de 1 le coût en jauge TERRE<sprite name="earth"> du compagnon.
+-
++{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "32800":  "Aru Élémentaire",
+    "49967":  "(DEV REQUIRED) Réduit de 1 le coût en jauge AIR<sprite name="wind"> du compagnon.
+-
++{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "89568":  "Neru Élémentaire",
+    "55738":  "(DEV REQUIRED) Augmente de 1 le coût en jauge NEUTRE<sprite name="neutral"> du compagnon.
+-
++{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "54862":  "Feru Vampirique",
+    "85360":  "{value:percent,permil} de chance de gagner de Vol de Vie quand il attaque.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "31060":  "Oru Guérisseur",
+    "87952":  "{value:percent,permil} de chance de soigner votre héros de {value:pdv}\_{%pv} quand il attaque.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "42709":  "Teru de Lésion",
+    "80506":  "{value:percent,permil} de chance de donner {value:ar}\_{%ar} à votre héros quand il attaque.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "7402":  "Aru de Tornade",
+    "85425":  "{value:percent,permil} de chance de repousser de {cell:c} quand il attaque.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "82224":  "Neru de Tir",
+    "39478":  "{value:percent,permil} de chance gagner une {FloatingCounterEffect:27} quand il attaque.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "92321":  "Feru d'Éruption",
+    "31872":  "{#DEATH} : Déclenche une {#EXPLOSION} d'un montant égal à son {%at}.
+-
++{value:at,percent} à l'{%at} du compagnon",
+    "48660":  "Oru de Givre",
+    "73408":  "{#DEATH} : Applique {frozen:PropertyEffect.26.FrozenDmg} aux ennemis {#AROUND}.
+-
++{value:at,percent} à l'{%at} du compagnon",
+    "22496":  "Aru de Foudre",
+    "8422":  "{#DEATH} : Déclenche une {#SHOCK} d'un montant égal à son {%at}.
+-
++{value:at,percent} à l'{%at} du compagnon",
+    "49386":  "Teru de Lésion",
+    "84432":  "{#DEATH} : Applique {fractured:PropertyEffect.42.FracturedDmg} aux ennemis {#AROUND}.
+-2
++{value:at,percent} à l'{%at} du compagnon",
+    "59035":  "Neru du Cupide",
+    "92731":  "+{value:stat,percent} de chance de drop des équipements",
+    "20819":  "Oru de Relance",
+    "34862":  "(DEV REQUIRED) X‰ de chance que le sort du compagnon retourne dans votre main quand vous le jouez.
+-
++{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "82958":  "Feru de Reduc",
+    "30207":  "{#DEATHBLOW} : {value:pa}\_{%pa} au coût du prochain sort que vous jouez ce tour.
+-
++{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "77440":  "Teru de Récup",
+    "81939":  "(DEV REQUIRED) {#DEATH} : Place le sort du compagnon dans votre main.
+-
++{value:at,percent} à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "47853":  "Aru de Copie",
+    "43627":  "(DEV REQUIRED) X‰ de chance d'obtenir un exemplaire supplémentaire du sort du compagnon quand il entre en jeu.
+-
++{value:at,percent} à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "8312":  "Neru d'Horizon",
+    "74484":  "(DEV REQUIRED) Le Compagnon peut-être invoqué jusqu'à {cell:c} de plus.
+-
++{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "10005":  "Feru d'Optim",
+    "64151":  "(DEV REQUIRED) Réduit le coût du sort du Compagnon de X PA
+-
++{value:at,percent} à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "29464":  "Oru de Stockage",
+    "3376":  "{#DEATHBLOW} : {addReserve:pa}.
+-
++{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "40925":  "Teru de Roc",
+    "97827":  "{#DEATHBLOW} : Devient {#PETRIFY} jusqu'au prochain tour allié.
+-
++{value:at,percent} à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "83783":  "Aru de Fouille",
+    "85099":  "{#DEATHBLOW} : Piochez 1 sort.
+-
++{value:at}% à l'{%at} du compagnon
++{value:pv,percent} aux {%pv} du compagnon",
+    "89928":  "Neru du Voleur",
+    "17139":  "+{value:stat}% à vos gains de kamas
++{value:stat2,percent} de chance de drop des équipements",
+    "89831":  "Feru de l'Assassin",
+    "13076":  "+{value:percent,permil} de chance que le compagnon puisse attaquer de nouveau après avoir attaquer.
+-
++{value:at,percent} à l'{%at} du compagnon",
+    "18355":  "Oru du Revenant",
+    "29691":  "(DEV REQUIRED) Votre compagnon réscussiite quand il meurt avec {value:pv,percent} de ses {%PVMAX}. 
+Limité à 1 fois par combat.
+-
++{value:pv,percent} aux {%pv} du compagnon",
+    "56930":  "Teru de l'Invincible",
+    "60825":  "{#ENDTURN} : {value:percent,permil} de chance que le compagnon devienne {#INVULNERABLE} jusqu'au prochain tour allié.",
+    "3191":  "Aru du Joueur",
+    "6183":  "(DEV REQUIRED) Le compagnon meurt s'il ne fait pas de {%cc} quand il attaque.
+-
++{value:percent}‰ de chance de {%cc} au compagnon sur son ATTAQUE
++{value:dmg,percent} aux dégâts des {%cc} du compagnon",
+    "28580":  "Neru XXX",
+    "33235":  "(to be define by GD)",
+    "7876":  "La gemme des devs",
+    "23913":  "<b>DEBUT DE TOUR</b> : Confère +15191900% au drop des gemmes.",
+    "62321":  "Côte de Maille",
+    "53115":  "{#APPEARANCE} : Gagne {value:ar,percent} de {%pv} en {%Ar}",
+    "86830":  "Épée en Bois",
+    "6409":  "+{value:at,percent} d'{%at}",
+    "62848":  "Amulette de Santé",
+    "91884":  "+{value:pv,percent} de {%pv}",
+    "71929":  "Épée à Garde",
+    "15975":  "+{value:at,percent} d'{%at}
++{value:pv,percent} de {%pv}",
+    "80414":  "Bouclier à Pique",
+    "46804":  "+{value:at,percent} d'{%at}
++{value:pv,percent} de {%pv}",
+    "43404":  "Épée Courte",
+    "33285":  "+{value:at,percent} d'{%at}
++{value:pv,percent} de {%pv}",
+    "99597":  "Amulette de Protection",
+    "74469":  "{#APPEARANCE} : Gagne {#SHIELD}.
++{value:at,percent} d'{%at}
++{value:pv,percent} de {%pv}",
+    "2947":  "Botte de l'Entrechat",
+    "49364":  "+1 {%pm}
++{value:at,percent} d'{%at}
++{value:pv,percent} de {%pv}",
+    "85822":  "Dague en Fer",
+    "98761":  "+{value:cc}‰ de chance de {%cc}
++{value:dcc,percent} de bonus de dégâts au {%cc}",
+    "92140":  "Coeur de Braalor l'Enflammé",
+    "45423":  "(not yet implemented)",
+    "84951":  "Coeur de Braalor l'Enflammé",
+    "97866":  "(not yet implemented)",
+    "61737":  "Roc d'Ogan la Calamité",
+    "8560":  "(not yet implemented)",
+    "23800":  "Joyau d'Ufot l'Agile",
+    "38243":  "(not yet implemented)",
+    "10394":  "Pierre de l'Alpha",
+    "26484":  "(not yet implemented)",
+    "25503":  "Dague en Bois",
+    "4930":  "+{value:cc}‰ de chance de {%cc}
++{value:dcc,percent} de bonus de dégâts au {%cc}",
+    "88828":  "Bol d'Énergie",
+    "91666":  "+{value:pv,percent} de {%pv}",
+    "43673":  "Pierre de Résistance",
+    "81004":  "+{value:pv,percent} de {%pv}
+{value:percent}‰ de chance de gagner {armor:ar} après avoir subit une attaque au CAC.",
+    "45469":  "Corne Sanglante",
+    "22282":  "+{value:pv,percent} de {%pv}
+{value:percent}‰ de chance de gagner une {#AURA} s'il en possède une ou une {#BLEEDINGSWORD} après avoir subit une attaque au CAC.",
+    "18040":  "Plume de Tofu",
+    "39381":  "+{value:pv,percent} de {%pv}
+{value:percent}‰ de chance de gagner {#SHIELD} après avoir subit une attaque au CAC.",
+    "14782":  "Gousset de Glace",
+    "12275":  "+{value:pv,percent} de {%pv}
+{value:percent}‰ de chance de gagner une {#AURA} s'il en possède une ou un {#AVENGERHOURGLASS} après avoir subit une attaque au CAC.",
+    "28737":  "Ambre Piquante",
+    "64061":  "+{value:at,percent} d'{%at}",
+    "37606":  "Ambre Protectrice",
+    "16007":  "+{value:at,percent} d'{%at}
+{#MELEE} : +{armor:ar} quand il <b>ATTAQUE</b>",
+    "17640":  "Collier Désarmant",
+    "17931":  "+{value:at,percent} d'{%at}
+{value:percent}‰ de chance de {#DISARMED} la cible quand il <b>ATTAQUE</b>",
+    "9007":  "Fossile Explosif",
+    "96249":  "+{value:at,percent} d'{%at}
+Déclenche {explosion:ex} quand il <b>ATTAQUE</b>",
+    "28375":  "Carapace Fracturante",
+    "50871":  "+{value:at,percent} d'{%at}
+{value:percent}‰ de chance de {#FRACTURED} la cible quand il <b>ATTAQUE</b>",
+    "38441":  "{#LIFESTEAL} : {value:nb} quand il <b>ATTAQUE",
+    "5474":  "Bol de Vie",
+    "83144":  "Crâne Vengeur",
+    "48124":  "Confère {#RIPOSTE} : {value:rip}",
+    "82256":  "Aile de Vampire",
+    "22692":  "Augmente les dégâts de CAC de +{value:at,percent} si la cible est sur un bord du plateau.",
+    "86032":  "Brume Repoussante",
+    "94028":  "Repousse l'attaquant au CAC de {cell:c} et lui inflige {magicalDamage:dmg} par cases parcourue.",
+    "26642":  "Oeil d'Amour",
+    "92109":  "Gagne {value:percent}‰ de chance de gagner le sort {Spell:459} quand il <b>ATTAQUE</b>
+{value:repeat}‰ que l'effet se déclenche une seconde fois.",
+    "50135":  "Pierre de Foudre",
+    "23393":  "Gagne {value:percent}‰ d'appliquer <b>FOUDRE ({value:dmg})</b> quand il <b>ATTAQUE</b>
+{value:repeat}‰ que l'effet se déclenche une seconde fois.",
+    "2245":  "Maitrise de Magie",
+    "42263":  "Gagne {value:percent}‰ de gagner 1 {%pa} dans la {%reserve} quand il <b>ATTAQUE</b>
+{value:repeat}‰ que l'effet se déclenche une seconde fois.",
+    "88814":  "Pince de Crabe",
+    "26150":  "+{value:at,percent} d'{%at}
+{#MELEE} : +1 {%pa} à la {%reserve} quand il <b>ATTAQUE</b>",
+    "71337":  "Aile de Wakfu",
+    "38872":  "{#STARTTURN} : Se téléporte sur une case {#ADJACENT[ADJACENTE]} à l'ennemi ayant le plus de {%pv} et inflige {magicalDamage:dmg} aux adversaires {#AROUND} de lui.",
+    "53647":  "Omonculus",
+    "16785":  "Se téléporte jusqu'à {cell:c} et se soigne de {heal:h} quand il subit une <b>ATTAQUE</b>",
+    "61064":  "Griffe de Mornifle",
+    "27508":  "Lorsqu'il arrive à {value:nb,percent} de ses {%pv} ou moins, gagne {armor:ar}, {attackBoost:at} et se transforme en GRAND MORNIFLEUR.",
+    "43317":  "Aile Sarcophagée",
+    "25924":  "Lorsqu'il arrive à {value:nb,percent} de ses {%pv} ou moins, gagne {armor:ar}, {attackBoost:at} et se transforme en SARCOPHAGUS.",
+    "9301":  "Sac de Kamas",
+    "44930":  "Commun",
+    "54285":  "Rare",
+    "9790":  "Infinite",
+    "76456":  "Anneau Fragé",
+    "2163":  "<b>DÉBUT DU COMBAT</b>\_: Confère +2\_{%pm} à votre héros pour un tour.
+\---
++{value:pdv,percent} aux {%PVMAX}.",
+    "39922":  "Brassard Kantiel",
+    "46592":  "",
+    "64286":  "Anneau Pignatre",
+    "70567":  "+{value:dmgP,percent} aux dégâts d'Arme.
+\---
++{value:ccP,permil} de CC d'Arme.",
+    "57302":  "Anneau Lémain",
+    "71519":  "+{value:pdv,percent} aux {%PVMAX}.
+\---
++{value:resM,permil} de résistance magique.",
+    "71766":  "Anneau Mage",
+    "2646":  "+{value:dmgM,percent} aux dégâts des Sorts.
+\---
++{value:ccM,permil} de CC des Sorts.",
+    "76366":  "Anneau Gnon",
+    "7646":  "Confère {#shield} à votre héros quand vous invoquez un compagnon.",
+    "92811":  "Anneau de Richesse",
+    "76104":  "+{value:pdv,percent} aux {%PVMAX}.
+\---
++{value:kam,percent} de kamas obtenus sur les monstres.",
+    "33075":  "Anneau Yé",
+    "39494":  "+{value:kam,percent} aux Drops de Kamas.
+\---
++{value:drop,percent} aux Drops d'objets.",
+    "77673":  "Anneau de l'Oracle",
+    "11412":  "+{value:dmgM}% aux dégâts magiques.
+\---
++{value:pdv}% aux {%pv} max.
+\---
++{value:ar,percent} aux gains d'{%ar}.",
+    "35092":  "Anneau Fer",
+    "68261":  "{#tome}\_(15)\_: Confère {power:pow,percent} à votre héros.",
+    "42077":  "Anneau du Duelliste",
+    "36164":  "+{value:dmgP,percent} aux dégâts physiques.
+\---
++{value:ccP,permil} de chance d'effectuer des critiques physiques.
+\---
++{value:resP,permil} de résistance physique.",
+    "26303":  "Anneau Pulant",
+    "52983":  "",
+    "24890":  "Anneau du Paladin",
+    "43851":  "+{value:dmgM}% aux dégâts magiques.
+\---
++{value:h}% aux soins.
+\---
++{value:at,percent} aux gains et réductions d'{%at}.",
+    "64731":  "Anneau de l'Enchanteur",
+    "57898":  "+{value:dmgM,percent} aux dégâts magiques.
+\---
++{value:resM,permil} de résistance magique.
+\---
++{value:dodge,permil} d'esquive.",
+    "98803":  "Anneau du Bretteur",
+    "27749":  "+{value:pdv}% aux {%PVMAX}.
+\---
++{value:at,percent} aux gains et réductions d'{%at}.
+\---
++{value:ar,percent} aux gains d'{%ar}.",
+    "82428":  "Anneau Cyprès",
+    "87295":  "Quand un de vos compagnons meurt, il applique <b>BOUEUX</b><sprite name="muddy"> autour\_<sprite name="cell_around"> de lui.",
+    "12519":  "Anneau du Bourreau",
+    "58451":  "+{value:dmgP}% aux dégâts physiques.
+\---
++{value:pdv,percent} aux {%PVMAX}.
+\---
++{value:ccP,permil} de chance d'effectuer des critiques physiques.",
+    "37529":  "Anneau du Magnétiseur",
+    "43173":  "+{value:dmgP}% aux dégâts physiques.
+\---
++{value:dmgM,percent} aux dégâts magiques.
+\---
++{value:at,percent} aux gains et réductions d'{%at}.",
+    "25611":  "Amulette 899",
+    "38585":  "Réduit de {value:pa} {%pa}  le coût du prochain sort {#PEAT} quand vous jouez un sort {#elementaryeffect}.",
+    "76418":  "Anneau Nobstant",
+    "76677":  "[insert desc]",
+    "91116":  "",
+    "69411":  "{tome:g}\_: -1 PA au cout des sorts de la main de départ.",
+    "4095":  "Anneau du Prêtre",
+    "81022":  "+{value:dmgM}% aux dégâts magiques.
+\---
++{value:h}% aux soins.
+\---
++{value:ar,percent} aux gains d'{%ar}.",
+    "83602":  "Anneau du Métamorphe",
+    "71220":  "+{value:dmgP}% aux dégâts physiques.
+\---
++{value:dmgM,percent} aux dégâts magiques.
+\---
++{value:ccP,permil} de chance d'effectuer des critiques physiques.",
+    "34218":  "Anneau Dylderay",
+    "25172":  "Quand un de vos compagnons meurt, 
+il déclenche {bounce:ParameterizedEffectExecution.93.bc}.",
+    "62470":  "Anneau du Roublard",
+    "10023":  "+{value:pdv}% aux {%PVMAX}.
+\---
++{value:dmgP,percent} aux dégâts physiques.
+\---
++{value:dodge,permil} d'esquive.",
+    "96370":  "Anneau du Mercenaire",
+    "46831":  "Place le sort d'invocation du {Spell:122} dans votre pioche.",
+    "78021":  "Anneau Pital",
+    "79592":  "[DRAIN]",
+    "34192":  "Anneau de l'Assassin",
+    "87744":  "+{value:pdv}% aux {%PVMAX}.
+\---
++{value:dmgM,percent} aux dégâts magiques.
+\---
++{value:dodge,permil} d'esquive.",
+    "27286":  "Anneau du Mage de Combat",
+    "33481":  "+{value:dmgM}% aux dégâts magiques.
+\---
++{value:dmgP,percent} aux dégâts physiques.
+\---
++{value:ar,percent} aux gains d'{%ar}.",
+    "23059":  "Anneau Parleur",
+    "31803":  "+{value:ar,percent} aux gains d'{%ar}.
+(+ 0.3% par niveau)
+\---
++{value:hp,percent} au {%pv}max.
+(+ 0.2% par niveau)",
+    "15715":  "Anneau du Clerc",
+    "70175":  "+{value:pdv,percent} aux {%PVMAX}.
+\---
++{value:h,percent} aux soins.
+\---
++{value:ar,percent} aux gains d'{%ar}.",
+    "89175":  "Anneau du Prêtre de Guerre",
+    "47592":  "+{value:dmgP}% aux dégâts physiques.
+\---
++{value:h}% aux soins.
+\---
++{value:ar,percent} aux gains d'{%ar}.",
+    "65598":  "Brassard Gousin",
+    "57610":  "<b>ATTAQUE</b>\_: Confère {#shield} à votre héros.",
+    "57482":  "Conjuration d'Osamodas",
+    "54911":  "Place le sort d'invocation du {Spell:517} dans votre pioche.",
+    "57361":  "Anneau du Cultiste",
+    "86635":  "+{value:dmgP}% aux dégâts physiques.
+\---
++{value:dmgM,percent} aux dégâts magiques.
+\---
++{value:dodge,permil} d'esquive.",
+    "8809":  "// WIP // Amulette Osferatu",
+    "24803":  "<b>DÉBUT DE TOUR</b>\_: Un OSFERATU inflige {physicalDamage:dmg} à un adversaire aléatoire.",
+    "92834":  "Anneau Tilus",
+    "19588":  "Quand vous consommez <b>MOUILLÉ</b><sprite name="wet">, votre prochain sort inflige {value:buff,percent} de dégâts supplémentaires.",
+    "57346":  "Anneau Pération",
+    "32521":  "Quand vous déclenchez {#EXPLOSION}\_:\v Ajoute {addReserve:PA}.",
+    "42488":  "Gemme de Test",
+    "28243":  "[TEST]
++{value:mr}% aux gains d{%mr}
++{value:cd,percent} aux modificateurs d{%cd}",
+    "43479":  "Anneau Daim",
+    "44400":  "Quand votre héros tombe en dessous de <if deck>30% de ses {%pv}</if><if fight>{value:pv}\_{%pv}</if>, il gagne +{attackBoost:at}.
+\---
++{value:pdv,percent} aux {%PVMAX}.",
+    "46215":  "Anneau de Tempête",
+    "6884":  "+{value:pdv}% aux {%PVMAX}.
+\---
++{value:dccM,percent} aux dégâts critiques magiques.",
+    "56945":  "Anneau de Renforcement",
+    "32633":  "+{value:pdv,percent} aux {%PVMAX}.
+\---
++{value:ar,percent} aux gains d'{%ar}.",
+    "1515":  "Anneau Tation",
+    "70900":  "<b>COUP DE GRÂCE</b>\_: -1\_{%pa} au coût de votre prochain sort pour le tour.
+\---
++{value:dmgP,percent} aux dégâts physiques.",
+    "48763":  "Anneau Voïde",
+    "10969":  "+{value:dmgP}% aux dégâts physiques.
+\---
++{value:ar,percent} aux gains d{%ar}.",
+    "62065":  "",
+    "28817":  "Quand un mignon meurt, votre Shushu gagne <b>Bouclier</b>.",
+    "26197":  "Amulette 894",
+    "1381":  "",
+    "69196":  "Anneau Ptimale",
+    "35758":  "+{value:pdv,percent} aux {%PVMAX}.
+\---
++{value:ccP,permil} de chance d'effectuer des critiques physiques.
+\---
++{value:dccP,percent} aux dégâts critiques physiques.",
+    "17544":  "Anneau du Spadassin",
+    "7689":  "+{value:dmgP,percent} aux dégâts physiques.
+\---
++{value:resP,permil} de résistance physique.
+\---
++{value:dodge,permil} d'esquive.",
+    "75555":  "Anneau du Troubadour",
+    "96278":  "+{value:pdv}% aux {%PVMAX}.
+\---
++{value:h}% aux soins.
+\---
++{value:at,percent} aux gains et réductions d'{%at}.",
+    "60605":  "Anneau Bligé",
+    "19853":  "Quand l'un de vos compagnons ou invocations meurt, il déclenche {explosion:ex}.
+\---
++{value:dmgM,percent} aux dégâts magiques.",
+    "90960":  "Le Ploutrozorus",
+    "56283":  "Place le sort d'invocation {Spell:262} dans votre pioche.",
+    "71255":  "Anneau Mali",
+    "57081":  "<b>FIN DU TOUR</b>\_: Convertit vos points de jauges élémentaires en points de jauge NEUTRE<sprite name="neutral">.",
+    "54540":  "Le Kamard",
+    "4744":  "Place le sort d'invocation {Spell:166608} dans votre pioche.",
+    "89141":  "Anneau Ptimâle",
+    "5806":  "<b>PREMIER TOUR</b>\_: Piochez {value:n} sorts.",
+    "43425":  "Anneau Problemo",
+    "86615":  "Quand un de vos compagnons meurt, confère son {%AT} en {%ar} à votre héros.",
+    "99303":  "Promis, vous en ferez pleurer plus d'un avec cet anneau. À cause des coups ou de l'odeur, ça en revanche, ça ne dépendra que de vous.",
+    "71843":  "Qui êtes-vous pour juger ? C’est la question mille fois posée par cet\_étrange homme qui vivait près de sa marre aux canards. Il marchait et nageait comme un canard et était même parvenu un jour à se casser trois pattes. Sa passion pour ces aquatiques oiseaux au large bec jaune et aplati dépassait la simple collection, si bien qu’à sa mort, des millions de tristes «\_coin-coin\_» se sont élevés jusqu’à toucher le cœur des dieux.",
+    "55561":  "Malgré un nom des plus effrayants, la créature qui a inspiré cet anneau était la plus douce du Monde des Douze. 
+Il faut dire que ses sept centimètres de hauteur ne lui offraient pas forcément beaucoup d’autres options. A part peut-être la magie...",
+    "18329":  "Cet étrange anneau est le cauchemar de tout Iop qui se respecte. Il leur est en effet impossible de le regarder sans devenir fou. 
+Pour ceux qui ont un cerveau, évidemment. Et cet anneau... Bon, en fait ça ne concerne que très peu de Iops.",
+    "47510":  "<i>Aucune description.</i>",
+    "97079":  "Amulette 522",
+    "39368":  "Quand vous appliquez {#oiled} à une cible, lui retire {value:pm} {%pm} (max 1 fois par tour).",
+    "57193":  "Détruit cet equipement pour récupérer des fragments.",
+    "58988":  "Cet anneau vous permettra de tout réussir, même si vous échouez !",
+    "20519":  "Ce n'est pas la taille de l'anneau qui compte, c'est ce qu'on en fait.",
+    "32836":  "Parce qu'on peut s'adonner au plaisir des combats et du nettoyage de donjon sans être une brute épaisse, il y a cet anneau.",
+    "64912":  "Anneau Zamour",
+    "65868":  "+{value:pdv}% aux {%PVMAX}.
+(+ 0.3% par niveau)
+\---
++{value:dmgM,percent} aux dégâts magiques.
+(+ 0.2% par niveau)",
+    "97975":  "Un bijou qui vous siéra à merveille et qui vous aidera même à vous diriger en mer, si vous savez y faire.",
+    "21894":  "Anneau Céan",
+    "37540":  "Quand un de vos compagnons meurt, il applique <b>MOUILLÉ</b><sprite name="wet"> autour\_<sprite name="cell_around"> de lui.",
+    "3219":  "Avec tout ce que cet anneau vous apportera, il vous faudra au moins plusieurs coffres pour cacher votre opulence.",
+    "87270":  "Anneau Pulant",
+    "9586":  "",
+    "66177":  "",
+    "55132":  "",
+    "10205":  "",
+    "21853":  "",
+    "13227":  "",
+    "36524":  "",
+    "73932":  "",
+    "77312":  "",
+    "61154":  "",
+    "260991":  "",
+    "30181":  "",
+    "4264":  "",
+    "86902":  "",
+    "26921":  "Anneau bstiné",
+    "94463":  "{tome:g}\_: Confère {power:pow,percent} à votre héros.",
+    "6859":  "Non, ce n'est pas une bague, c'est un anneau ! UN ANNEAU !!!",
+    "54001":  "Un puissant anneau... enfin on l'espère, car le prix à payer pour pouvoir le porter est assez lourd. Comme la perte du respect de vos adversaires par exemple. Et de votre dignité. Et d'une vie amoureuse. Ou juste sociale. Oui, donc cet anneau est forcément puissant. Forcément.",
+    "96367":  "Anneau Bsaine",
+    "70330":  "<b>PREMIER TOUR</b>\_: Applique <b>BOUEUX</b><sprite name="muddy"> à un adversaire aléatoire.
+\---
+Quand un compagnon <b>TERRE</b><sprite name="earth"> est détruit : Applique <b>BOUEUX</b><sprite name="muddy"> autour <sprite name="cell_around"> de lui.",
+    "993":  "Avez-vous déjà vu : une bague faite entièrement d'eau ? Maintenant, oui.",
+    "17833":  "Ann'eau",
+    "1147":  "Ajoute {addWater:death} quand un de vos compagnons meurt.",
+    "12078":  "Si vous cherchez un anneau alliant finesse et efficacité, vous l'avez trouvé ! Ce petit bijou 100% naturel dégage une envoûtante odeur qui saura adoucir le plus dur des cœurs... avant de lui asséner le coup de grâce !",
+    "85768":  "Un anneau à conserver bien au frais, à l'écart de toute lumière, sous peine de consumation instantanée. Article ni repris, ni échangé.",
+    "29566":  "Anneau Breux",
+    "57484":  "{Affinity:37}",
+    "99580":  "Cet anneau n'est sans doute pas des plus agréables à porter, mais il est sans conteste des plus stylés ! A vous de définir vos priorités.",
+    "63247":  "Anneau Librius",
+    "59942":  "Quand un de vos compagnons meurt, il applique <b>ÉVENTÉ</b><sprite name="ventilated"> autour\_<sprite name="cell_around"> de lui.",
+    "46667":  "Bien qu'il se porte au doigt, cet anneau vous aidera à y voir plus clair.",
+    "93692":  "Anneau Culaire",
+    "8899":  "PREMIER TOUR\_: Applique <b>BOUEUX</b><sprite name="muddy"> sur {value:n} adversaires aléatoires.",
+    "18935":  "Ne vous laissez pas mener en bateau, il ne servira à rien d'avoir le pied marin pour utiliser cet anneau. A moins de le porter à l'orteil ?",
+    "78428":  "Anneau Tilus",
+    "49290":  "Quand vous consommez <b>MOUILLÉ</b><sprite name="wet">, votre prochain sort inflige {value:buff,percent} de dégâts supplémentaires.",
+    "22985":  "Deux cordes valent mieux qu'une, même si en l'occurrence, elles s'avèrent peu pratiques.",
+    "85815":  "Anneau Rhomého",
+    "5342":  "[insert desc]",
+    "27915":  "À première vue, cet anneau paraît insignifiant, mais il recèle en réalité un grand pouvoir.",
+    "33080":  "Anneau Din",
+    "38647":  "[insert desc]",
+    "19391":  "Taillé avec précision, cet anneau saura relever vos combats jusqu'ici un peu fadas.",
+    "4397":  "Anneau Rigan",
+    "74226":  "[insert desc]",
+    "29262":  "« Horizon pas net, reste à la buvette ! ». Franchement, en matière de conseil hautement constructif, on ne saurait faire plus simple et élaboré à la fois. Maître Dada n'a qu'à bien se tenir. On pourrait même conclure par : « Si vous n'en faites qu'à votre tête, ne vous étonnez pas de finir en carpette ! ». L'anneau vous aura prévenu.",
+    "68142":  "Anneau Rizon",
+    "19114":  "Ajoute {addReserve:pa} quand un de vos compagnons meurt.",
+    "52314":  "La rumeur dit qu'en sertissant cet anneau des os de vos ennemis, vous absorberez leur puissance passée. En réalité, vous attirerez surtout les chienchiens, mais libre à vous d'essayer.",
+    "36076":  "Anneau Steo",
+    "89476":  "[insert desc]",
+    "89552":  "Ne vous y trompez pas : la simple facture de cet anneau renferme en réalité le pouvoir d'attiser les flammes de l'enfer qui sommeillent en vous ! C'est en tout cas ce que les vendeurs en disent.",
+    "98882":  "Anneau Fuego",
+    "16717":  "Quand vous jouez un sort <b>Feu</b>, confère {value:mg,percent} aux autres magies élémentaires jusqu'à votre prochain sort non <b>Feu</b>.
+\---
+Non cumulable.",
+    "66246":  "Ce petit signe d'excellence, même s'il n'est pas le plus puissant, a au moins le mérite d'être particulièrement flatteur à votre doigt. C'est toujours ça de pris.",
+    "15449":  "Anneau Rifique",
+    "85030":  "",
+    "68712":  "Ses porteurs meurent souvent abattus par des jets de bottes en plein crâne. En même temps, si vous alliez dropper vos plumes plutôt que de chanturler la nuit pour en réclamer, ça n'arriverait pas.",
+    "59265":  "Anneau Klerdlalune",
+    "74157":  "{Affinity:33}\_: Inflige {magicalDamage:Affinity.33.metA} autour\_<sprite name="cell_around"> de votre héros.
+<b>Si {value:Affinity.33.target} ennemis touchés</b>\_: Votre prochain sort inflige {value:Affinity.33.pow,percent} de dégâts supplémentaires.",
+    "83898":  "On dit qu'une seule petite goutte de cet anneau suffit à augmenter la longévité du guerrier qui la boit. Le problème, c'est que personne n'a jamais réussi à le débouchonner.",
+    "19805":  "Anneau De Vie",
+    "82990":  "<b>PREMIER TOUR</b>\_: Ajoute {addReserve:start}.",
+    "37357":  "Fiez-vous à cet anneau, il vous guidera dans la bonne direction. La plupart du temps.",
+    "4110":  "Anneau Racle",
+    "85151":  "+{value:dmg,percent} aux dégâts de vos <b>AURAS</b>.
+(+2% par niveau)",
+    "2939":  "Un anneau taillé pour les champions ! Ou en tout cas, ceux qui pensent l'être.",
+    "8893":  "Anneau Lympique",
+    "99935":  "<b>PREMIER TOUR</b>\_: Applique <b>ÉVENTÉ</b><sprite name="ventilated"> sur {value:n} adversaires aléatoires.",
+    "8617":  "Cet anneau vous aidera à écrire la suite de vos aventures, mais ne vous préservera pas d'une fin tragique.",
+    "84207":  "Anneau Telo",
+    "4586":  "<b>PREMIER TOUR</b>\_: Applique <b>HUILÉ</b><sprite name="oiled"> sur {value:n} adversaires aléatoires.",
+    "84692":  "« Oh lé lé, Oh la la, quand il faut y aller, on est toujours là ! »",
+    "64346":  "Anneau Lélé",
+    "98911":  "{#DRAIN}",
+    "40688":  "Même s'il n'est qu'en fer, c'est tout de même un beau cadeau qui vous est offert.",
+    "7995":  "Anneau Fer",
+    "89454":  "{tome:g}\_: Confère {power:pow,percent} à votre héros.",
+    "49237":  "« Osez faire entendre votre voix ! ». C'est certainement ce que cet anneau vous dirait, s'il pouvait parler.",
+    "94116":  "D'accord, cet anneau n'a rien de transcendant, mais méritait-il pour autant son nom ?
+Peut-on dire d'un anneau qu'il dispose d'une âme, en tant qu'objet ?
+Les pouvoirs d'un anneau peuvent-ils se voir affectés par l'image que son porteur lui prête ?
+Vous avez 4 heures.",
+    "53531":  "Anneau Rible",
+    "83470":  "{Affinity:38}",
+    "93355":  "Ne vous méprenez pas, cet anneau n'est pas qu'un vulgaire bandage pour doigt cassé. Non, c'est bien plus que ça. Oui, bien plus.",
+    "69699":  "Certains bijoutiers sont de véritables artistes. D'autres, non.",
+    "51126":  "Anneau Lybrius",
+    "78443":  "<b>PREMIER TOUR</b>\_: Applique <b>Éventé</b> sur un adversaire aléatoire.
+\---
+Quand l'un de vos compagnons est détruit, il applique <b>Éventé</b> autour <sprite name="cell_around"> de lui.",
+    "84726":  "Il a été fabriqué par des mains agiles. Sauriez-vous reproduire une telle oeuvre ?",
+    "21307":  "Anneau Bli",
+    "6780":  "{Affinity:33}",
+    "47590":  "Cet anneau est aussi moche qu'il est dangereux. Si les goûts et les couleurs ne se discutent pas, il n'en reste pas moins destructeur au doigt d'un homme imprudent.",
+    "42510":  "Anneau Siff",
+    "27163":  "+{value:ccm,permil} de chance d'effectuer des critiques magiques.
+(+ 3% par niveau)
+\---
++{value:xp,percent} aux gains d'expérience sur les monstres.
+(+ 0.1% par niveau)",
+    "48238":  "Cet anneau vous propulsera au cœur des combats. Atterrissage non garanti. Assurance vie en sus.",
+    "91825":  "Anneau Ctane",
+    "85582":  "Quand un de vos compagnons meurt, il applique <b>HUILÉ</b><sprite name="oiled"> autour\_<sprite name="cell_around"> de lui.",
+    "20895":  "Si vous vous sentez à l'étroit, c'est normal. Tâchez de vous relaxer. Bientôt, vous vous sentirez bien mieux !",
+    "83767":  "Anneau Maso",
+    "43126":  "+{value:pres,permil} de résistance physique.
+(+ 3% par niveau)
+\---
++{value:heal,percent} aux soins.
+(+ 0.2% par niveau)",
+    "38556":  "Une fois équipé, il vous sera difficile de l'ôter de votre doigt.",
+    "19477":  "Anneau Kupant",
+    "65624":  "Quand vous consommez <b>ÉVENTÉ</b><sprite name="ventilated">, votre prochain sort inflige {value:buff,percent} de dégâts supplémentaires.",
+    "67034":  "Cet anneau, aussi fragile que léger, pourrait bien vous aider à déployer vos ailes. Ou au contraire, vous claquer dans les doigts.",
+    "81977":  "Anneau Papyon",
+    "71168":  "+{value:pv}% aux {%pv}max.
+(+ 0.3% par niveau)
+\---
++{value:xp,percent} aux gains d'expérience.
+(+ 0.1% par niveau)",
+    "70975":  "Entre les drops, les donjons et les quêtes en tout genre, il va bien falloir trouver un moment pour porter cet anneau.",
+    "56891":  "Anneau Verbouké",
+    "92496":  "{tome:g}\_: Réduit de {value:pa,abs}\_{%pa} le coût du premier sort que vous jouez chaque tour.",
+    "59534":  "Une bonne dose de stimulant pour être encore plus fort. Ce n'est pas de la triche, c'est de l'optimisation !",
+    "7400":  "Anneau Remal",
+    "91910":  "Quand vous consommez <b>HUILÉ</b><sprite name="oiled">, votre prochain sort inflige {value:buff,percent} de dégâts supplémentaires.",
+    "3285":  "Étrangement, les porteurs de cet anneau sont fréquemment pris d'envie de fredonner à tue-tête des "no no no no". Heureusement, il ne s'agit pas d'un mal très dommageable, excepté pour leur entourage.",
+    "95983":  "Anneau Nolimit",
+    "38523":  "+{value:ppow}% aux dégâts physiques.
+(+ 0.3% par niveau)
+\---
++{value:loot,percent} au drop d'objets sur les monstres.
+(+ 0.1% par niveau)",
+    "10219":  "",
+    "84199":  "",
+    "48326":  "",
+    "97049":  "",
+    "60947":  "",
+    "12722":  "",
+    "21215":  "",
+    "82981":  "",
+    "95495":  "",
+    "79630":  "",
+    "92190":  "",
+    "94505":  "",
+    "53339":  "Cette bague laissera des marques inoubliables sur les adversaires que vous cognerez avec.",
+    "27966":  "Anneau Fensif",
+    "28245":  "Quand vous jouez un sort <b>Terre</b>, confère {value:mg,percent} aux autres magies élémentaires jusqu'à votre prochain sort non <b>Terre</b>.
+\---
+Non cumulable.",
+    "98110":  "Avec cet anneau, évitez de vendre la mèche !",
+    "25246":  "Le Boom Boom",
+    "10569":  "Ajoute {addReserve:pa} quand un de vos compagnons <b>Feu</b> meurt.",
+    "79260":  "Un anneau taillé pour les opérations de grande envergure, quelle que soit votre dextérité.",
+    "26489":  "Ouvrez grand les yeux et voyez ce qui se profile devant vous... Essayez de deviner, au moins...",
+    "84434":  "Anneau Stradamus",
+    "58265":  "",
+    "98369":  "On raconte que cet anneau provoquerait chez son propriétaire un besoin vital de porter des peaux de Wabbits et des maillots de bain. Quand c'est en même temps, le résultat gratte un peu.",
+    "91319":  "Anneau Lémain",
+    "64712":  "{Affinity:35}\_: Inflige {magicalDamage:Affinity.35.ligA} autour\_<sprite name="cell_around"> de votre héros.
+<b>Si {value:Affinity.35.target} ennemis touchés</b>\_: Un éclair infligeant {value:Affinity.35.ligDmg,percent} de l'{%AT} de votre héros s'abat sur les adversaires.",
+    "7485":  "L'anneau d'un bandit très réputé avant qu'il ne se fasse rattraper par son passé de rempailleur de chaise.",
+    "21239":  "Anneau Relaloi",
+    "41171":  "[insert desc]",
+    "877":  "Anneau Kulus",
+    "13902":  "Quand l'un de vos compagnons est meurt\_:\v Ajoute {addReserve:pa}.",
+    "7231":  "Si à chaque fois que vous perdez un combat ce n'est pas votre faute mais celle de vos alliés, de votre arme ou de la météo, alors cet anneau est fait pour vous !",
+    "10907":  "Anneau Rageux",
+    "34140":  "{Affinity:35}",
+    "70821":  "On raconte que cet anneau renfermerait une infime parcelle du pouvoir d'un ancien mage noir ; un Xélor dont on a oublié le nom.",
+    "8357":  "Quand un adversaire est déplacé, il subit {value:dmg,percent} de {%AT} de votre héros.",
+    "10462":  "Anneau Recrux",
+    "92920":  "Un anneau taillé avec précision. C'est à peu près tout. Mais c'est déjà bien.",
+    "83788":  "[insert desc]",
+    "41794":  "Anneau Yeton",
+    "44633":  "Pour jouir pleinement du pouvoir de cet anneau, veillez à le porter quotidiennement afin de l'abreuver jusqu'à plus soif. Attention, risques de morsures.",
+    "81665":  "Cet anneau vous permettra assurément d'affronter vos ennemis bien calmement.",
+    "21924":  "Quand vous jouez un sort <b>Air</b>, confère {value:mg,percent} aux autres magies élémentaires jusqu'à votre prochain sort non <b>Air</b>.
+\---
+Non cumulable.",
+    "19403":  "Anneau KLM",
+    "35081":  "Un anneau qui ne vous permettra pas de briller de mille feux, mais qui pourrait bien assombrir le futur de vos adversaires.",
+    "23133":  "Anneau Pake",
+    "68702":  "+{value:life),percent} aux {%PVMAX}.
+(+ 0.3% par niveau)
+\---
++{value:mres,permil} de résistance magique.
+(+ 2% par niveau)",
+    "73461":  "Ce petit anneau ne vous rendra pas plus sexy mais vous ouvrira certainement l'appétit.",
+    "76010":  "Anneau Greuh",
+    "9752":  "{tome:g}\_: Confère {value:pm} {%pm} à votre héros.",
+    "84681":  "Grâce à cet anneau, même le plus miro des aventuriers pourra toucher sa cible. Sauf s'il fait partie de la catégorie des vraiment malchanceux qui sont manchots en plus.",
+    "7971":  "Anneau Ph'Tal'Mo",
+    "50633":  "Cet anneau a déjà coupé de nombreux doigts. Prenez garde aux vôtres.",
+    "88182":  "Anneau Pinel",
+    "52517":  "{tome:g}\_: Le coût des sorts de votre main de départ sont réduits de {value:pa,abs}\_{%PA}.",
+    "37996":  "Faites moi plaisir, vous êtes un héros... ou au moins un aventurier ! Alors laissez cette tasse de lait, ce n’est pas encore l’heure du goûter !",
+    "54421":  "Anneau Réo",
+    "85374":  "{Affinity:36}\_: Inflige {magicalDamage:Affinity.36.avA} autour\_<sprite name="cell_around"> de votre héros.
+<b>Si {value:Affinity.36.target} ennemis touchés</b>\_: Piochez {value:Affinity.36.draw} sort dont le coût est réduit de {value:Affinity.36.pa,abs}\_{%pa}.",
+    "74629":  "Porter cet anneau vous donnera un style unique, inexpliqué et inexplicable. C'est toujours ça de pris.",
+    "41977":  "Anneau Rak",
+    "27916":  "[insert desc]",
+    "79341":  "Allez on répète, après moi : « Ce petit accessoire bien sympathique n'est qu'un anneau, le coup ne PEUT PAS partir tout seul ».",
+    "485":  "Anneau Tomatik",
+    "12972":  "{tome:g}\_: Piochez {value:n} sort quand vous jouez un sort à {value:pa} {%pa} ou plus.",
+    "52261":  "Laissez-vous porter, anneau au vent, vers vos meilleures aventures !",
+    "34335":  "Anneau Dace",
+    "4304":  "<b>DÉBUT DU TOUR</b> : Pioche 1 sort {#PEAT} si vous avez 5 jauges TERRE<sprite name="earth"/> ou plus.",
+    "96155":  "Un anneau pour ceux qui s'opposent à tout le monde, même à ceux qui sont d'accord avec eux.",
+    "11957":  "Cet anneau n'est ni plus ni moins qu'un magnifique corail taillé avec soin. Qu'avez-vous donc bien pu imaginer ?!",
+    "50539":  "Un petit bijou qui vous dotera d'une bonne force de frappe supplémentaire, et d'un amour passionnel pour les grosses pierres inutiles, le bacon et les chienchiens.",
+    "91402":  "Anneau Bélisk",
+    "67326":  "Quand vous consommez <b>BOUEUX</b><sprite name="muddy">, votre prochain sort inflige {value:buff,percent} de dégâts supplémentaires.",
+    "51252":  "Cet anneau fait luire son porteur avec la puissance d’un millier de soleils.",
+    "93830":  "Anneau Râ",
+    "79543":  "{tome:g}\_: <b>PREMIER\_TOUR</b>\_: Le coût d'un de vos sorts est réduit de {value:cost,abs}\_{%pa} pour le reste du combat.",
+    "67955":  "Oubliez la dentelle, la porcelaine et les détails et foncez.",
+    "96472":  "Anneau Busier",
+    "99650":  "{Affinity:37}\_: Inflige {magicalDamage:Affinity.37.avA} autour\_<sprite name="cell_around"> de votre héros.
+<b>Si {value:Affinity.37.target} ennemis touchés</b>\_: Votre héros gagne {armor:Affinity.37.avAR}.",
+    "10831":  "♫Who, who, who, who		        Who, who, who,		        Who... ♫ Oh pardon.",
+    "12193":  "Anneau Rajone",
+    "30466":  "Quand un de vos compagnons meurt, 
+il déclenche {peat:ParameterizedEffectExecution.52.pt}.",
+    "49848":  "La force est noire, c'est noir comme cet anneau qui sert d'étendard, tel un drapeau. Venez, basculez de son côté.",
+    "80566":  "Anneau Bscur",
+    "4117":  "{Affinity:38}\_: Inflige {magicalDamage:Affinity.38.hurA} autour\_<sprite name="cell_around"> de votre héros.
+<b>Si {value:Affinity.38.target} ennemis touchés</b>\_: Ajoute {value:Affinity.38.jauge} à votre jauge <b>Ether</b>.",
+    "64757":  "Hey ho ho ho, et une bagouze de gnôle ! Hips.",
+    "25915":  "Anneau Steké",
+    "92895":  "<b>PREMIER TOUR</b>\_: Applique <b>MOUILLÉ</b><sprite name="wet"> sur {value:n} adversaires aléatoires.",
+    "59740":  "Un bel accessoire qui pourrait bien vous aider à cacher votre jeu à vos adversaires... À condition d'avoir un jeu à cacher bien entendu, ça reste un anneau après tout.",
+    "28865":  "Anneau Cultant",
+    "40766":  "Ajoute {addNeutral:j} quand un de vos compagnons meurt.",
+    "24383":  "Ayez confiansssse en cet anneau, croyez en lui pour qu'il puisssse veiller sur vous...",
+    "77188":  "Anneau Rouboros",
+    "48314":  "Ajoute {value:death} jauge de chaque élément quand un de vos compagnons meurt.",
+    "4479":  "Anneau Rore",
+    "87468":  "Quand un de vos compagnons meurt, il applique {#ASTRAL} autour\_<sprite name="cell_around"> de lui.",
+    "9493":  "Demain, dès l'aube, à l'heure où blanchit la campagne, vous porterez... cet anneau bien sûr !",
+    "77603":  "Anneau Nymousse",
+    "43645":  "",
+    "10557":  "Gardez constamment un œil sur les porteurs de cet anneau ; ils seraient bien capables de vous faire un enfant dans le dos.",
+    "75702":  "Anneau Vulant",
+    "32838":  "{tome:g}\_: <b>PREMIER TOUR</b>\_: Ajoute {addReserve:pa}.",
+    "11466":  "Anneau Deter",
+    "69738":  "Ajoute {addEarth:death} quand un de vos compagnons meurt.",
+    "70507":  "Un anneau de caractère forgé sur des terres austères par des dignitaires totalitaires aux motivations profondément délétères. Une belle affaire pour son propriétaire !",
+    "57063":  "« Juste un doigt ». Voici, selon sa célèbre créatrice Dylderay, tout ce dont vous aurez besoin pour jouir pleinement des pouvoirs de ce puissant anneau.",
+    "98487":  "Le parfait accessoire pour vous accompagner dans vos excursions nocturnes jusqu'à la cuisine. Les fringales, ça ne se discute pas !",
+    "26258":  "OUT",
+    "18483":  "Anneau Tredam",
+    "46471":  "Quand un de vos compagnons meurt, 
+il déclenche {hail:ParameterizedEffectExecution.719.hl}.",
+    "26394":  "Anneau Hell",
+    "12386":  "Cet anneau a été créé pour vous rappeler la dure réalité de la vie : un gros bonhomme qui s'introduit chez vous la nuit pour vous laisser des cadeaux, ça n'existe pas !",
+    "55492":  "Prenez soin de cet anneau, il est la demeure d'un être tourmenté par ses désirs. Vous ne voulez pas savoir lesquels.",
+    "35016":  "{Affinity:36}",
+    "86810":  "Anneau Bsession",
+    "45949":  "Cet anneau vous avertira du danger imminent. En général, il sera déjà trop tard, mais vous ne pouvez pas trop lui en demander non plus.",
+    "69138":  "Quand vous jouez un sort <b>Eau</b>, confère {value:mg,percent} aux autres magies élémentaires jusqu'à votre prochain sort non <b>Eau</b>.
+\---
+Non cumulable.",
+    "2542":  "Anneau Stromo",
+    "80254":  "Un troisième œil au milieu du front pourrait sembler quelque peu disgracieux. Du coup, il y a cet anneau.",
+    "42323":  "Anneau Rifice",
+    "3988":  "{tome:g}\_: <b>PREMIER TOUR</b>\_: Réduit de {value:pa,abs}\_{%PA} le coût des sorts de votre main.",
+    "97069":  "Les porteurs de cet anneau ont tendance à se montrer désagréables lorsqu'on les contredit. Vous êtes prévenus.",
+    "49167":  "Anneau Pignatre",
+    "1349":  "Votre premier compagnon mort peut être rejoué.",
+    "26589":  "Méfiez-vous, ce petit bijou en métal précieux pourrait bien vous brûler les doigts...",
+    "95056":  "Vulk'Anneau",
+    "91367":  "Ajoute {addFire:death} quand un de vos compagnons meurt.",
+    "10259":  "Léger comme l'air, redoutable comme le vent, cet anneau vous donnera l'impression qu'une douce brise vous chatouille gentiment les doigts.",
+    "3701":  "Anneau Carina",
+    "24295":  "Ajoute {addAir:death} quand un de vos compagnons meurt.",
+    "14139":  "On connait bien peu de choses sur cet étrange anneau ; d'aucun disent qu'il serait issu de la collection personnelle d'un illustre inconnu, d'autres qu'il était le symbole d'un groupuscule de Roublards sans grande ambition. Quoiqu'il en soit, ça ne vous empêche pas de le porter, mais il est déconseillé de l'exhiber.",
+    "10323":  "+{value:mcc,permil} de chance d'effectuer critiques magiques.
+(+ 3% par niveau)
+\---
++{value:mdcc,permil} aux dégâts des critiques magiques.
+(+ 0.8% par niveau)",
+    "46889":  "Pas vraiment faits pour les soirées mondaines, les porteurs de l’anneau Strogote pourront toujours se consoler en brisant des os. Pas de jugement, on s’amuse comme on peut.",
+    "8485":  "Anneau Strogote",
+    "52240":  "{Affinity:34}\_: Inflige {magicalDamage:Affinity.34.geyA} autour\_<sprite name="cell_around"> de votre héros.
+<b>Si {value:Affinity.34.target} ennemis touchés</b>\_: {#LIFESTEAL}",
+    "70985":  "Quitte à avoir ce bijou, autant sortir un peu de chez vous...",
+    "8274":  "Anneau Taku",
+    "24934":  "Quand un de vos compagnons meurt, il déclenche {explosion:ParameterizedEffectExecution.182.ex}.",
+    "70732":  "Malgr룵n nom des plus effrayant, la cr룴ure qui a inspir룣et anneau 뷡it la plus douce du monde des 12.
+Il faut dire que ses sept centim뷲es de hauteur ne lui offrait pas forc믥nt beaucoup dautres options. A part peut-뷲e la magie...",
+    "35217":  "LE PLOUTROZORUS",
+    "85282":  "<b>DEBUT\_DU\_COMBAT</b>\_: Invoque un {Summoning:36} sur une case adjacente\_<sprite name="cell_cross"> à votre héros.
+\---",
+    "70364":  "Les tétons pointent et vos muscles se gonflent sous votre chemise en lin... Vos bottes vous serrent soudainement au niveau des mollets et clairement vous comprenez qu'il va vous falloir vider votre bourse pour quelques nouveaux slips. Toutes ces agréables sensations vous sont procurées par l'anneau que vous venez d'équiper, le Muscapol. Forgés dans les muscles d'un chasseur redoutable, il vous est conseillé de couvrir votre nouveau corps pour éviter de faire tourner la tête de votre entourage.",
+    "5678":  "Place le sort d'invocation {Spell:166439} dans votre pioche.",
+    "37346":  "Le Muscapol",
+    "63054":  "Même la nuit dans son grand lit, il disait «\_UI\_», «\_UI\_», «\_UI\_» !!! Fran’Eau n’était pas très gros et qu’un peu beau mais c’était un héros. Mieux qu’un héros, un chevalier au cœur tendre et aux membres doux, c’était Fran’Eau, le chevalier du Crystal Mou !",
+    "6620":  "Le Fran'eau",
+    "90902":  "Place le sort d'invocation {Spell:807} dans votre pioche.",
+    "59668":  "Cet anneau renferme un grand pouvoir. Pour vous, cela implique de grandes responsabilités.",
+    "99039":  "Anneau Riginel",
+    "388":  "[insert desc]",
+    "42320":  "A l'intérieur de l'anneau, on peut lire : «\_Un anneau pour les fossiliser tous, et dans la Stasis les lier\_». Probablement un produit made in Pandala.",
+    "70710":  "Anneau Xymore",
+    "612":  "[insert desc]",
+    "46064":  "",
+    "68503":  "",
+    "62298":  "",
+    "28760":  "",
+    "34358":  "",
+    "63031":  "",
+    "54791":  "Krosmique",
+    "73166":  "Amulette 9",
+    "99844":  "Réduit de {value:pa} {%pa}  le coût du prochain sort {#bounce} quand vous jouez un sort {#elementaryeffect}.",
+    "30646":  "<i>Aucune description.</i>",
+    "69049":  "Amulette 579",
+    "40403":  "Quand vous appliquez {#ventilated} à une cible, lui retire {value:pm} {%pm} (max 1 fois par tour).",
+    "23618":  "<i>Aucune description.</i>",
+    "67244":  "Amulette 29",
+    "37550":  "Quand vous appliquez {#wet} à une cible, lui retire {value:pm} {%pm} (max 1 fois par tour).",
+    "47660":  "<i>Aucune description.</i>",
+    "84252":  "Amulette 153",
+    "87728":  "Quand vous appliquez {#muddy} à une cible, lui retire {value:pm} {%pm} (max 1 fois par tour).",
+    "86599":  "<i>Aucune description.</i>",
+    "16174":  "Amulette 175",
+    "20673":  "Réduit de {value:pa} {%pa}  le coût du prochain sort {#HAIL} quand vous jouez un sort {#elementaryeffect}.",
+    "38425":  "<i>Aucune description.</i>",
+    "41609":  "Amulette 842",
+    "12584":  "Réduit de {value:pa} {%pa}  le coût du prochain sort {#explosion} quand vous jouez un sort {#elementaryeffect}.",
+    "18933":  "<i>Aucune description.</i>",
+    "75337":  "<i>Aucune description.</i>",
+    "60282":  "Amulette 361",
+    "27768":  "Piochez {value:draw} sort quand\v un de vos compagnons AIR<sprite name="wind"/> meurt.",
+    "69689":  "<i>Aucune description.</i>",
+    "51436":  "Amulette 314",
+    "92922":  "Piochez {value:draw} sort quand\v un de vos compagnons EAU<sprite name="water"/> meurt.",
+    "83828":  "<i>Aucune description.</i>",
+    "55517":  "Amulette 998",
+    "37090":  "Piochez {value:draw} sort quand\v un de vos compagnons FEU<sprite name="fire"/> meurt.",
+    "4361":  "<i>Aucune description.</i>",
+    "57354":  "Amulette 353",
+    "32320":  "Piochez {value:draw} sort quand\v un de vos compagnons TERRE<sprite name="earth"/> meurt.",
+    "85507":  "<i>Aucune description.</i>",
+    "29225":  "Amulette 353",
+    "48930":  "{value:pm,+} {%pm} à votre héros quand vous déclenchez {#bounce}.",
+    "10956":  "<i>Aucune description.</i>",
+    "66887":  "Amulette 50",
+    "36247":  "{value:pm,+} {%pm} à votre héros quand vous déclenchez {#HAIL}.",
+    "68205":  "<i>Aucune description.</i>",
+    "55177":  "Amulette 51",
+    "77972":  "{value:pm,+} {%pm} à votre héros quand vous déclenchez {#explosion}.",
+    "28194":  "<i>Aucune description.</i>",
+    "19519":  "Amulette 893",
+    "36155":  "{value:pm,+} {%pm} à votre héros quand vous déclenchez {#PEAT}.",
+    "82595":  "<i>Aucune description.</i>",
+    "5871":  "Amulette 66",
+    "68431":  "",
+    "51400":  "<i>Aucune description.</i>",
+    "11560":  "Amulette 369",
+    "27850":  "",
+    "7502":  "<i>Aucune description.</i>",
+    "99190":  "<i>Aucune description.</i>",
+    "88378":  "// WIP // Le Départ Étincelant",
+    "15827":  "Quand l'un de vos compagnons est détruit, il génère {value:nb} <b>ÉTINCELLES</b> qui infligent chacune {physicalDamage:dmg} à un adversaire aléatoire.",
+    "88018":  "<i>Aucune description.</i>",
+    "27368":  "Brassard Dent",
+    "12379":  "<b>ATTAQUE</b>\_: {#PUSH} la cible de {cell:c}.",
+    "62027":  "Ce brassard tire sa force de roche volcanique en fusion. Le seul problème, c’est d’arriver à le porter.",
+    "72991":  "Brassard Nakeuh",
+    "38514":  "<b>ATTAQUE</b>\_: Votre héros se téléporte dans le dos de la cible.",
+    "12775":  "Seconde main, très bon état, comme neuf, juste quelques traces d'usure.
+No noob, no arnak.",
+    "90318":  "Brassard Osage",
+    "34832":  "<b>ATTAQUE</b>\_: La cible se téléporte dans le dos de votre héros.",
+    "15235":  "Vous connaissez l’histoire de l’arroseur arrosé ? Non ? C'est pour bientôt.",
+    "77360":  "Brassard Dou",
+    "20849":  "<b>ATTAQUE</b>\_: Téléporte la cible de {cell:c}.",
+    "72994":  "C'est beaucoup moins inquiétant de parler du mauvais temps en chantant. Et c'est beaucoup plus agréable avec ce brassard !",
+    "27310":  "Brassard Chevek",
+    "624":  "<b>ATTAQUE</b>\_: Applique <b>ÉVENTÉ</b><sprite name="ventilated">.",
+    "92519":  "Un brassard authentique et conservateur. N’imaginez pas vous en séparer.",
+    "378415":  "Brassard Ticho",
+    "47877":  "<b>ATTAQUE</b>\_: Votre héros se téléporte de {cell:c}.",
+    "24947":  "Comment ça il n’est pas bon ce brassard ? Vous ne pouvez pas le savoir sans l’avoir essayé ! Allez !",
+    "48846":  "Brassard Kange",
+    "58104":  "<b>ATTAQUE</b>\_: Votre héros recule de {cell:c}.",
+    "75928":  "L’habit ne fait pas le moine, vous savez.",
+    "37433":  "Brassard Gile",
+    "21968":  "<b>ATTAQUE</b>\_: Applique <b>BOUEUX</b><sprite name="muddy">.",
+    "82827":  "Quelque peu salissant, mais d’une solidité à toute épreuve !",
+    "21085":  "Brassard Gonote",
+    "47882":  "<b>ATTAQUE</b>\_: Applique <b>HUILÉ</b><sprite name="oiled">.",
+    "51845":  "Avec ce brassard, toisons d’hors-et-déjà nos ennemis.",
+    "45700":  "Brassard Kasm",
+    "62670":  "<b>ATTAQUE</b>\_: Applique <b>MOUILLÉ</b><sprite name="wet">.",
+    "52961":  "Vraiment, ça vous va à ravir. Vraiment, on a rarement vu un brassard aussi élégant. Si c’était possible, il vous en faudrait un à chaque bras même.",
+    "93608":  "Brassard Turien",
+    "4838":  "<b>ATTAQUE</b>\_: Déclenche {peat:ParameterizedEffectExecution.640.pt} si la cible est <b>BOUEUSE</b><sprite name="muddy">.",
+    "12917":  "Une longue et périlleuse quête vous attend. Mais ce brassard n'y est pour rien.",
+    "34600":  "Brassard Tyste",
+    "35997":  "<b>ATTAQUE</b>\_: Déclenche {explosion:ParameterizedEffectExecution.182.ex} si la cible est <b>HUILÉE</b><sprite name="oiled">.",
+    "57644":  "Un brassard qui mettra vos ennemis dans tous leurs états.",
+    "69162":  "Brassard Dine",
+    "28964":  "<b>ATTAQUE</b>\_: Déclenche {hail:ParameterizedEffectExecution.756.hl} si la cible est <b>MOUILLÉE</b><sprite name="wet">.",
+    "34584":  "D'accord, il serre un peu mais au moins, il reste silencieux, lui.",
+    "29300":  "Brassard Mada",
+    "94849":  "<b>ATTAQUE</b>\_: Déclenche {bounce:ParameterizedEffectExecution.782.bc} si la cible est <b>ÉVENTÉE</b><sprite name="ventilated">.",
+    "40425":  "Sur l’étiquette, on peut lire «\_article ni repris, ni échangé, ni remboursé\_».
+Il vous faudra faire avec.",
+    "80579":  "Brassard Leukin",
+    "1334":  "<b>ATTAQUE</b>\_: Votre héros se téléporte de {value:min} à {cell:max}.",
+    "57781":  "Un brassard très confortable qui vous siéra en toutes circonstances, quelle que soit la situation.",
+    "25004":  "Papy Brassard",
+    "95736":  "<b>ATTAQUE</b>\_: Confère {armor:ar} à votre héros.",
+    "74430":  "Un brassard indispensable pour une petite balade à l’heure du goûter. Surtout si vous partez dans la savane.",
+    "25881":  "Convocation Nécromique",
+    "38485":  "<b>SORT</b>\_: {Spell:578}.",
+    "81494":  "<i>Aucune description.</i>",
+    "96989":  "Nécronomigore",
+    "27921":  "<b>SORT</b>\_: {Spell:578}.",
+    "76962":  "<i>Aucune description.</i>",
+    "47130":  "Dragonnet Chromatique",
+    "90045":  "<b>SORT</b>\_: {Spell:657}.",
+    "79021":  "<i>Aucune description.</i>",
+    "52178":  "Brassard Akné",
+    "8642":  "<b>ATTAQUE</b>\_: Inflige son {%AT} sur les 3\_cases devant votre héros.",
+    "98084":  "De grands pouvoirs impliquent de grandes responsabilités. Ce n’est pas cette Arakné reconvertie qui vous dira le contraire (de toute façon, elle ne le peut pas).",
+    "8964":  "Brassard Ogan",
+    "27152":  "<b>ATTAQUE</b>\_: Inflige son {%AT} sur les 2 cases devant votre héros.",
+    "5601":  "Ecoutez, bien naître, ça se mérite. On va pas tout faire à votre place non plus.",
+    "59371":  "Que diable allez-vous faire dans cette galère ?",
+    "68439":  "N'imaginez pas déployer des paillettes et faire jaillir des arcs-en-ciel. Ce n'est qu'un brassard, après-tout.",
+    "24874":  "Fragment Darin",
+    "37015":  "{tome:g}\_: {power:pow,percent} à votre Shushu.",
+    "2041":  "",
+    "41024":  "Fragment Dibule",
+    "35239":  "{tome:g}\_: {power:pow,percent} à votre Shushu.",
+    "61727":  "",
+    "40759":  "Fragment Suel",
+    "12425":  "<b>PREMIER TOUR</b>\_: Votre Shushu gagne {armor:ar}.",
+    "84674":  "",
+    "41296":  "Fragment Dragor",
+    "58544":  "Quand l’un de vos mignons meurt, confère {power:p,percent} aux alliés pour le tour.",
+    "84294":  "",
+    "25847":  "// WIP // Le Kamard",
+    "17826":  "<b>SORT</b>\_: {Spell:166608}.",
+    "40447":  "Qui êtes-vous pour juger ? C’est la question mille fois posée par cet\_étrange homme qui vivait près de sa marre aux canards. Il marchait et nageait comme un canard et était même parvenu un jour à se casser trois pattes. Sa passion pour ces aquatiques oiseaux au large bec jaune et aplati dépassait la simple collection, si bien qu’à sa mort, des millions de tristes «\_coin-coin\_» se sont élevés jusqu’à toucher le cœur des dieux.",
+    "77739":  "// WIP // Amulette Osferatu",
+    "90244":  "<b>DÉBUT DE TOUR</b>\_: Un OSFERATU inflige {physicalDamage:dmg} à un adversaire aléatoire.",
+    "2467":  "Pour jouir pleinement du pouvoir de cet anneau, veillez à le porter quotidiennement afin de l'abreuver jusqu'à plus soif. Attention, risques de morsures.",
+    "67141":  "Le Kralamourton",
+    "50199":  "Ajoute {addReserve:pa} quand un de vos compagnons <b>Eau</b> meurt.",
+    "14318":  "Ce poulpe n'a subi aucune violence lors de la fabrication de cet anneau. Selon nos sources, il aurait même déclaré être « très heureux de vivre sa meilleure vie en tant qu'anneau ». Une belle leçon à retenir.",
+    "4879":  "Le Friskouille",
+    "71440":  "Ajoute {addReserve:pa} quand un de vos compagnons <b>Air</b> meurt.",
+    "48302":  "N'oubliez pas de changer régulièrement la bague de doigt au risque de les perdre.",
+    "96594":  "Le Ratisseur",
+    "82514":  "Ajoute {addReserve:pa} quand un de vos compagnon <b>Terre</b> meurt.",
+    "44579":  "Vous ne ferez pas dans la dentelle avec cet anneau. Vous vous attendiez à autre chose ?",
+    "15119":  "Conjuration de Crâ",
+    "76681":  "Place le sort d'invocation d'{Spell:466} dans votre pioche.",
+    "11456":  "<i>Description manquante.</i>",
+    "79722":  "Conjuration d'Eniripsa",
+    "83546":  "Place le sort d'invocation de {Spell:446} dans votre pioche.",
+    "48607":  "<i>Description manquante.</i>",
+    "5617":  "Conjuration de Iop",
+    "17847":  "Place le sort d'invocation de {Spell:146} dans votre pioche.",
+    "50321":  "<i>Description manquante.</i>",
+    "48136":  "<i>Description manquante.</i>",
+    "13351":  "Conjuration de Sacrieur",
+    "91254":  "Place le sort d'invocation du {Spell:110} dans votre pioche.",
+    "13280":  "<i>Description manquante.</i>",
+    "31597":  "<i>Description manquante.</i>",
+    "99607":  "Conjuration de Xélor",
+    "6425":  "Place le sort d'invocation de {Spell:155} dans votre pioche.",
+    "74026":  "<i>Description manquante.</i>",
+    "87441":  "Fragment Ké",
+    "74129":  "Quand un mignon meurt, il déclenche {explosion:ParameterizedEffectExecution.182.ex}.",
+    "78252":  "",
+    "89059":  "Fragment Getou",
+    "25943":  "",
+    "71709":  "",
+    "86376":  "Fragment Gah",
+    "22499":  "{tome:g}\_: {power:pow,percent} aux alliés.",
+    "76126":  "",
+    "82899":  "Fragment Sion",
+    "11799":  "{tome:g}\_: +1 PM à votre Shushu.",
+    "50414":  "",
+    "97890":  "Fragment Talo",
+    "72707":  "Quand un mignon meurt, il déclenche {bounce:ParameterizedEffectExecution.93.bc} sur les adversaires adjacents <sprite name="cell_cross">.",
+    "98060":  "",
+    "78880":  "Fragment Tra",
+    "34212":  "Fragment Grove",
+    "71946":  "<b>PREMIER TOUR</b> : Applique <b>DAMNÉ</b>\_<sprite name="generic_monster"> sur un adversaire aléatoire.",
+    "46232":  "",
+    "55762":  "Fragment Galor",
+    "75222":  "",
+    "73385":  "",
+    "50282":  "Fragment Brane",
+    "43649":  "{tome:g}\_: Quand vous jouez un sort à {value:pa} {%pa} ou plus, piochez un sort.",
+    "60911":  "",
+    "33584":  "Fragment Songe",
+    "45416":  "{tome:g}\_: Vous commencez le combat avec un maximum de sort.",
+    "22074":  "",
+    "16957":  "Fragment Drile",
+    "87509":  "Quand un mignon meurt, votre Shushu gagne son {%AT} en {%AR}.",
+    "38383":  "",
+    "37460":  "Fragment Tore",
+    "29354":  "Quand un mignon meurt, il applique <b>DAMNÉ</b>\_<sprite name="generic_monster"> autour\_<sprite name="cell_around"> de lui.",
+    "88405":  "",
+    "9515":  "Fragment Teau",
+    "9817":  "Le premier sort de chaque tour coute 1 {%PA} de moins.",
+    "47131":  "",
+    "69329":  "Fragment Taliste",
+    "68065":  "Quand vous déclenchez un CC avec un sort, un allié aléatoire gagne <b>Bouclier</b>.",
+    "58723":  "",
+    "34448":  "Fragment Ticore",
+    "65639":  "Fragment Dale",
+    "74869":  "{tome:g}\_:  Commence le combat avec 3 PA de réserve.",
+    "9085":  "",
+    "91504":  "Fragment Doline",
+    "94758":  "Quand un mignon meurt, pioche 2 sorts.",
+    "52881":  "",
+    "24908":  "Fragment Gouste",
+    "1416":  "Quand un mignon meurt, ajoute 2 {%PA} en {%reserve}.",
+    "52556":  "",
+    "57712":  "Fragment Chot",
+    "97799":  "Le cout du premier sort que vous piochez est réduit de 2 {%PA} pour le reste du combat.",
+    "86455":  "",
+    "82731":  "Fragment Ganèse",
+    "97405":  "Quand <b>DAMNÉ</b>\_<sprite name="generic_monster"> est consommé, les sorts infligent 50% de dégâts supplémentaires pour le tour.",
+    "93328":  "",
+    "35831":  "Insigne Oble",
+    "96069":  "<b>ATTAQUE</b>\_: <b>Repousse</b> la cible de {cell:c}.",
+    "28676":  "",
+    "16508":  "Insigne Équanone",
+    "48633":  "<b>ATTAQUE</b>\_: Téléporte votre Shushu de {value:min} à {cell:max}.",
+    "33644":  "",
+    "87178":  "Insigne Dious",
+    "38544":  "<b>ATTAQUE</b>\_: Touche les 2 cases devant votre Shushu.",
+    "49222":  "",
+    "97022":  "Insigne Berpunk",
+    "79396":  "<b>ATTAQUE</b>\_: {armor:ar} à votre Shushu.",
+    "71000":  "",
+    "35178":  "Insigne Oranse",
+    "23846":  "",
+    "27785":  "",
+    "83311":  "Insigne Ature",
+    "48305":  "<b>ATTAQUE</b>\_: Déclenche {bounce:ParameterizedEffectExecution.782.bc}.",
+    "72363":  "",
+    "28141":  "Insigne Dudestin",
+    "40790":  "<b>ATTAQUE</b>\_: Applique <b>DAMNÉ</b><sprite name="generic_monster"> à la cible.",
+    "61774":  "",
+    "22089":  "Insigne Gogne",
+    "61402":  "<b>ATTAQUE</b>\_: Un allié aléatoire se téléporte sur une case adjacente\_<sprite name="cell_cross"> à la cible.",
+    "41169":  "",
+    "87004":  "Insigne Orita",
+    "97902":  "<b>ATTAQUE</b>\_: Votre Shushu recule de {cell:c}.",
+    "32403":  "",
+    "39422":  "Insigne Hifian",
+    "54673":  "<b>ATTAQUE</b>\_: Double les dégâts si la cible est <b>DAMNÉE</b><sprite name="generic_monster">.",
+    "19873":  "",
+    "85042":  "Anneau",
+    "31818":  "Amulette",
+    "71427":  "Brassard",
+    "76001":  "Broche",
+    "59891":  "Anneau Roscop",
+    "93046":  "<b>PREMIER TOUR</b>\_: Applique {#astral} sur un adversaire aléatoire.",
+    "53858":  "Xelor : Travail : Ne vous pressez pas, prenez le temps voyons.
+Iop : Amour : Foncez tête baissée, au pire, ça piquera un peu.
+Sram : Complot : Les manigances sont au beau fixe !",
+    "8700":  "Brassard Gile",
+    "95695":  "<b>ATTAQUE</b>\_: Applique <b>BOUEUX</b><sprite name="muddy">.",
+    "50761":  "<i>Description manquante.</i>",
+    "65888":  "<i>Description manquante.</i>",
+    "54886":  "<b>ATTAQUE</b>\_: Déclenche {hail:ParameterizedEffectExecution.756.hl} si la cible est <b>MOUILLÉE</b><sprite name="wet">.",
+    "21911":  "Brassard Dine",
+    "8021":  "Brassard Mada",
+    "62595":  "<b>ATTAQUE</b>\_: Déclenche {bounce:ParameterizedEffectExecution.782.bc} si la cible est <b>ÉVENTÉE</b><sprite name="ventilated">.",
+    "95244":  "<i>Description manquante.</i>",
+    "45786":  "Brassard Dent",
+    "22647":  "<b>ATTAQUE</b>\_: {#PUSH} la cible de {cell:c}.",
+    "4849":  "<i>Description manquante.</i>",
+    "20661":  "Brassard Kange",
+    "83330":  "<b>ATTAQUE</b>\_: Votre héros recule de {cell:c}.",
+    "36766":  "<i>Description manquante.</i>",
+    "12573":  "Brassard Turien",
+    "57118":  "<b>ATTAQUE</b>\_: Déclenche {peat:ParameterizedEffectExecution.640.pt} si la cible est <b>BOUEUSE</b><sprite name="muddy">.",
+    "10629":  "<i>Description manquante.</i>",
+    "29836":  "Brassard Tyste",
+    "20426":  "<b>ATTAQUE</b>\_: Déclenche {explosion:ParameterizedEffectExecution.182.ex} si la cible est <b>HUILÉE</b><sprite name="oiled">.",
+    "58107":  "<i>Description manquante.</i>",
+    "95333":  "Brassard Gonote",
+    "40385":  "<b>ATTAQUE</b>\_: Applique <b>HUILÉ</b><sprite name="oiled">.",
+    "82747":  "<i>Description manquante.</i>",
+    "71523":  "Brassard Kasm",
+    "94148":  "<b>ATTAQUE</b>\_: Applique <b>MOUILLÉ</b><sprite name="wet">.",
+    "35543":  "<i>Description manquante.</i>",
+    "46268":  "Brassard Chevek",
+    "43264":  "<b>ATTAQUE</b>\_: Applique <b>ÉVENTÉ</b><sprite name="ventilated">.",
+    "80460":  "<i>Description manquante.</i>",
+    "40535":  "Ann'eau",
+    "18696":  "Ajoute {addWater:death} quand un de vos compagnons meurt.",
+    "33413":  "Avez-vous déjà vu : une bague faite entièrement d'eau ? Maintenant, oui.",
+    "92105":  "Anneau bstiné",
+    "46551":  "{#tome}\_(12)\_: Confère {power:pow,percent} à votre héros.",
+    "84173":  "Non, ce n'est pas une bague, c'est un anneau ! UN ANNEAU !!!",
+    "9972":  "Anneau Carina",
+    "70498":  "Ajoute {addAir:death} quand un de vos compagnons meurt.",
+    "44603":  "Léger comme l'air, redoutable comme le vent, cet anneau vous donnera l'impression qu'une douce brise vous chatouille gentiment les doigts.",
+    "94057":  "Anneau Deter",
+    "79500":  "Ajoute {addEarth:death} quand un de vos compagnons meurt.",
+    "18927":  "Un anneau de caractère forgé sur des terres austères par des dignitaires totalitaires aux motivations profondément délétères. Une belle affaire pour son propriétaire !",
+    "-1":  "",
+    "28961":  "Même s'il n'est qu'en fer, c'est tout de même un beau cadeau qui vous est offert.",
+    "82447":  "Anneau Greuh",
+    "34301":  "{#tome}\_(15)\_: Confère {value:pm} {%pm} à votre héros.",
+    "48160":  "Ce petit anneau ne vous rendra pas plus sexy mais vous ouvrira certainement l'appétit.",
+    "50392":  "Anneau Pignatre",
+    "50961":  "Votre premier compagnon mort peut être rejoué.",
+    "8513":  "Les porteurs de cet anneau ont tendance à se montrer désagréables lorsqu'on les contredit. Vous êtes prévenus.",
+    "79537":  "Anneau Problemo",
+    "27977":  "Quand un de vos compagnons meurt, confère son {%AT} en {%ar} à votre héros.",
+    "11850":  "Cet anneau vous permettra de tout réussir, même si vous échouez !",
+    "15472":  "Anneau Rifique",
+    "22918":  "",
+    "74979":  "Ce petit signe d'excellence, même s'il n'est pas le plus puissant, a au moins le mérite d'être particulièrement flatteur à votre doigt. C'est toujours ça de pris.",
+    "69670":  "Vulk'Anneau",
+    "77201":  "Ajoute {addFire:death} quand un de vos compagnons meurt.",
+    "86900":  "Méfiez-vous, ce petit bijou en métal précieux pourrait bien vous brûler les doigts...",
+    "61562":  "Anneau Bélisk",
+    "90693":  "Quand vous consommez <b>BOUEUX</b><sprite name="muddy">, votre prochain sort inflige {value:buff,percent} de dégâts supplémentaires.",
+    "91484":  "Un petit bijou qui vous dotera d'une bonne force de frappe supplémentaire, et d'un amour passionnel pour les grosses pierres inutiles, le bacon et les chienchiens.",
+    "12237":  "Anneau Kupant",
+    "95642":  "Quand vous consommez <b>ÉVENTÉ</b><sprite name="ventilated">, votre prochain sort inflige {value:buff,percent} de dégâts supplémentaires.",
+    "33188":  "Une fois équipé, il vous sera difficile de l'ôter de votre doigt.",
+    "33396":  "Anneau Recrux",
+    "77629":  "Quand un adversaire est déplacé, il subit {value:dmg,percent} de {%AT} de votre héros.",
+    "701":  "On raconte que cet anneau renfermerait une infime parcelle du pouvoir d'un ancien mage noir ; un Xélor dont on a oublié le nom.",
+    "63610":  "L'Anormal",
+    "25469":  "Quand vous consommez <b>HUILÉ</b><sprite name="oiled">, votre prochain sort inflige {value:buff,percent} de dégâts supplémentaires.",
+    "23178":  "Une bonne dose de stimulant pour être encore plus fort. Ce n'est pas de la triche, c'est de l'optimisation !",
+    "10886":  "Ne vous laissez pas mener en bateau, il ne servira à rien d'avoir le pied marin pour utiliser cet anneau. A moins de le porter à l'orteil ?",
+    "85830":  "Anneau Cultant",
+    "78739":  "Ajoute {addNeutral:j} quand un de vos compagnons meurt.",
+    "51868":  "Un bel accessoire qui pourrait bien vous aider à cacher votre jeu à vos adversaires... À condition d'avoir un jeu à cacher bien entendu, ça reste un anneau après tout.",
+    "95553":  "Anneau Dylderay",
+    "72624":  "Quand un de vos compagnons meurt, 
+il déclenche {bounce:ParameterizedEffectExecution.93.bc}.",
+    "64228":  "« Juste un doigt ». Voici, selon sa célèbre créatrice Dylderay, tout ce dont vous aurez besoin pour jouir pleinement des pouvoirs de ce puissant anneau.",
+    "7113":  "Anneau Nymousse",
+    "97407":  "",
+    "91087":  "On connait bien peu de choses sur cet étrange anneau ; d'aucun disent qu'il serait issu de la collection personnelle d'un illustre inconnu, d'autres qu'il était le symbole d'un groupuscule de Roublards sans grande ambition. Quoiqu'il en soit, ça ne vous empêche pas de le porter, mais il est déconseillé de l'exhiber.",
+    "15477":  "Avec tout ce que cet anneau vous apportera, il vous faudra au moins plusieurs coffres pour cacher votre opulence.",
+    "99583":  "Anneau Rizon",
+    "78810":  "Ajoute {addReserve:pa} quand un de vos compagnons meurt.",
+    "77971":  "« Horizon pas net, reste à la buvette ! ». Franchement, en matière de conseil hautement constructif, on ne saurait faire plus simple et élaboré à la fois. Maître Dada n'a qu'à bien se tenir. On pourrait même conclure par : « Si vous n'en faites qu'à votre tête, ne vous étonnez pas de finir en carpette ! ». L'anneau vous aura prévenu.",
+    "64526":  "Anneau Taku",
+    "13516":  "Quand un de vos compagnons meurt, il déclenche {explosion:ParameterizedEffectExecution.182.ex}.",
+    "6971":  "Quitte à avoir ce bijou, autant sortir un peu de chez vous...",
+    "94165":  "Papy Brassard",
+    "79930":  "<b>ATTAQUE</b>\_: Confère {armor:ar} à votre héros.",
+    "57117":  "<i>Description manquante.</i>",
+    "17467":  "Brassard Ticho",
+    "92103":  "<b>ATTAQUE</b>\_: Votre héros se téléporte de {cell:c}.",
+    "50897":  "<i>Description manquante.</i>",
+    "63165":  "Le Boom Boom",
+    "16846":  "Ajoute {addReserve:pa} quand un de vos compagnons <b>Feu</b> meurt.",
+    "94540":  "Avec cet anneau, évitez de vendre la mèche !",
+    "53636":  "Le Friskouille",
+    "39561":  "Ajoute {addReserve:pa} quand un de vos compagnons <b>Air</b> meurt.",
+    "25651":  "N'oubliez pas de changer régulièrement la bague de doigt au risque de les perdre.",
+    "43381":  "Le Kralamourton",
+    "77017":  "Ajoute {addReserve:pa} quand un de vos compagnons <b>Eau</b> meurt.",
+    "86492":  "Ce poulpe n'a subi aucune violence lors de la fabrication de cet anneau. Selon nos sources, il aurait même déclaré être « très heureux de vivre sa meilleure vie en tant qu'anneau ». Une belle leçon à retenir.",
+    "78771":  "Le Ratisseur",
+    "64689":  "Ajoute {addReserve:pa} quand un de vos compagnon <b>Terre</b> meurt.",
+    "6546":  "Vous ne ferez pas dans la dentelle avec cet anneau. Vous vous attendiez à autre chose ?",
+    "49077":  "Anneau Verbouké",
+    "60050":  "{#tome}\_(15)\_: Réduit de {value:pa,abs}\_{%pa} le coût du premier sort que vous jouez chaque tour.",
+    "89134":  "Entre les drops, les donjons et les quêtes en tout genre, il va bien falloir trouver un moment pour vous briquer l'anneau."
+}

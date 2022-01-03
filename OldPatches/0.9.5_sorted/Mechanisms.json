@@ -1,0 +1,564 @@
+{
+    "81239":  "{#MECHANISM}
+\---
+<b>APPARITION</b>\_: {#PUSH} de {cell:c} les personnages adjacents\_<sprite name="cell_cross">.",
+    "61416":  "Sinistro Air",
+    "41595":  "{#MECHANISM}
+\---
+<b>APPARITION</b>\_: Ajoute {addReserve:r}.",
+    "44654":  "Sinistro Eau",
+    "23765":  "{#MECHANISM}
+\---
+<b>APPARITION</b>\_: {explosion:ParameterizedEffectExecution.759.ex}.",
+    "35064":  "Sinistro Feu",
+    "55293":  "{#MECHANISM}
+\---
+<b>APPARITION</b>\_: Confère {#SHIELD} à votre héros.",
+    "80697":  "Sinistro Terre",
+    "38775":  "{#MECHANISM}
+\---
+Confère {value:nb}\_<b>AURA</b>\_{FloatingCounterEffect:135} à votre héros quand il attaque.",
+    "67764":  "Hydruille",
+    "56744":  "Cadran de Xélor",
+    "90241":  "{#MECHANISM}
+\---
+Confère {value:nb}\_<b>AURA</b>\_{FloatingCounterEffect:136} à votre héros quand il attaque.",
+    "25636":  "Bombe Smisse",
+    "24382":  "{#MECHANISM}
+\---
+Déclenche {explosion:ParameterizedEffectExecution.504.ex} chaque fois que vous jouez un sort puis se détruit.
+\---
+FIN DU TOUR\_: Se détruit.",
+    "69881":  "{#TRAP}
+\---
+{#ASSEMBLY}
+\---
+Inflige {magicalDamage:dmg} à l'adversaire qui le déclenche.",
+    "82491":  "Piège Sram",
+    "55828":  "Meurtrière",
+    "91157":  "{#MECHANISM}
+\---
+<b>APPARITION</b>\_: Confère {#SHIELD} à votre héros.
+\---
+<b>DÉBUT DU TOUR</b>\_: Confère\_{v, plural, one[# <b>AURA MIRE</b> supplémentaire]  other[# <b>AURAS MIRE</b> supplémentaires]} à votre héros.",
+    "90804":  "Laboratoire Huilé",
+    "18491":  "{#MECHANISM}
+\---
+Confère {value:nb}\_<b>AURA</b>\_{FloatingCounterEffect:116} à votre héros et perd {value:v}\_{%bl} quand un de vos personnages attaque.",
+    "68440":  "Piège Osseux",
+    "24598":  "{#TRAP}
+\---
+Inflige {value:min} à {magicalDamage:max} à l'adversaire qui le déclenche.",
+    "59329":  "Ossuaire Funeste",
+    "19942":  "{#MECHANISM}
+\---
+<b>FIN DU TOUR</b>\_: Invoque un {Summoning:238} sur une case adjacente <sprite name="cell_cross"> à lui et perd {value:v,abs}\_{%bl}.",
+    "77985":  "Totem Purifiant",
+    "30733":  "{#MECHANISM}
+\---
+<b>DÉBUT DU TOUR</b>\_: Soigne de {heal:hp} les <b>BOUFTOUS</b> alliés autours\_<sprite name="cell_around">.",
+    "14404":  "Sève toxique",
+    "98451":  "{#TRAP}
+\---
+Applique {#POISONED} le personnage qui le déclenche. 
+\---
+N'a aucune effet sur les <b>Abraknydes</b>",
+    "80555":  "Catalyseur Temporel",
+    "26617":  "{#MECHANISM}
+\---
+Confère {value:nb}\_<b>AURA</b>\_{FloatingCounterEffect:138} à votre héros quand il attaque.",
+    "22075":  "Coucou",
+    "26177":  "{#MECHANISM}
+\---
+Confère {value:nb}\_<b>AURA</b>\_{FloatingCounterEffect:137} à votre héros quand il attaque.",
+    "7503":  "Vierge de Fer",
+    "48420":  "{#MECHANISM}
+\---
+<b>DÉBUT DU TOUR</b>\_: Inflige {magicalDamage:dmg}\v aux personnages autour\_<sprite name="cell_around">.",
+    "14017":  "Laboratoire Venteux",
+    "64835":  "{#MECHANISM}
+\---
+Confère {value:nb}\_<b>AURA</b>\_{FloatingCounterEffect:119} à votre héros et perd {value:v}\_{%bl} quand un de vos personnages attaque.",
+    "10107":  "Laboratoire Glacé",
+    "38774":  "{#MECHANISM}
+\---
+Confère {value:nb}\_<b>AURA</b>\_{FloatingCounterEffect:118} à votre héros et perd {value:v}\_{%bl} quand un de vos personnages attaque.",
+    "55932":  "Tas d'Os",
+    "76217":  "{#mechanism}
+\---
+<b>FIN DU TOUR</b>\_: Le {Summoning:442} revient à la vie.
+\---
+Ne peut pas être détruit.",
+    "35771":  "Kitsu d'Entraîment",
+    "49046":  "{#MECHANISM}
+\---
+<b>FIN DU TOUR</b>\_: Confère {value:a}\_<b>AURA</b> à un <b>Cochon</b> allié.",
+    "9019":  "Orbe d'Inhibition",
+    "67056":  "{#MECHANISM}
+\---
+La {%reserve} ne peut pas être utilisée pour augmenter vos {%PA}.",
+    "12330":  "Rocher",
+    "61679":  "{#MECHANISM}
+\---
+<b>DÉBUT DU TOUR</b>\_: Confère {armor:AR}\v à 1 <b>Craqueleur</b> allié autour\_<sprite name="cell_around"> puis perd {value:bl,abs} {%bl}.",
+    "70104":  "Flaque de Lave",
+    "51516":  "{#TRAP}
+\---
+Inflige {magicalDamage:dmg} au personnage qui le déclenche.",
+    "80160":  "Tombe Maudite",
+    "27783":  "{#MECHANISM}
+\---
+Inflige {value:min} à {magicalDamage:max} quand un adversaire termine un déplacement sur une case adjacente <sprite name="cell_cross"> à elle.
+\---
+<b>MORT</b>\_: Pose un {FloorMechanism:1203} sur sa case.",
+    "68222":  "Geliflan",
+    "43486":  "{#MECHANISM}
+\---
+<b>FIN DU TOUR</b>\_: Active l'effet de {#FRUCTOSE} d'un allié.",
+    "40497":  "Makibishi",
+    "93795":  "{#TRAP}
+\---
+Applique {#FRACTURED} et retire 1\_{%pm} au personnage qui le déclenche jusqu'à son prochain déplacement.",
+    "94749":  "Geyser",
+    "45199":  "{#TRAP}
+\---
+Inflige {magicalDamage:dmg1} aux adversaires et téléporte aléatoirement le personnage qui le déclenche jusqu'à 2 cases <sprite name="cell_circle2">.
+\---
+<b>DÉBUT DU TOUR</b>\_:\_Inflige {magicalDamage:dmg2} aux adversaires adjacents et <b>repousse</b> les personnages de 2\_cases.",
+    "98226":  "Cage",
+    "26244":  "{#TRAP}
+\---
+<b>CAPTURE</b> le monstre exotique qui le déclenche. Sinon, <b>REMONTE</b> dans votre main.",
+    "178":  "Bouftonciel Encagé",
+    "9637":  "{#mechanism}
+\---
+Au bout de <b>2 TOURS</b>, \vdétruit la cage.
+\---
+Ne peut pas être détruit.",
+    "5815":  "Tof'Argent Encagé",
+    "11270":  "{#MECHANISM}
+\---
+Ne peut pas être détruit.",
+    "27371":  "Case d'apparition",
+    "50842":  "Une invocation va apparaître à cette position au prochain tour.",
+    "26655":  "Piège Encré",
+    "98420":  "{#TRAP}
+\---
+Inflige {magicalDamage:dmg} et applique {#INKED} à l'adversaire qui le déclenche.",
+    "25145":  "Os Gelé",
+    "45864":  "Soigne de {value:heal}\_{%pv} un <b>Chafer</b> allié qui termine son action sur une case autour <sprite name="cell_around"> puis se détruit.
+\---
+<b>FIN DU TOUR </b>: Se détruit.",
+    "56090":  "Tas d'Os",
+    "34716":  "{#MECHANISM}
+\---
+<b>FIN DU TOUR</b>\_: Le {Summoning:17} revient à la vie.
+\---
+Ne peut pas être détruit.",
+    "78314":  "Tas d'Os",
+    "89870":  "{#mechanism}
+\---
+<b>FIN DU TOUR</b>\_: Le {Summoning:27} revient à la vie.
+\---
+Ne peut pas être détruit.",
+    "98900":  "Kitsu de Maître",
+    "17398":  "{#MECHANISM}
+\---
+<b>DÉBUT DU TOUR</b> : Applique {#FRACTURED[FRACTURÉ]} aux adversaires autour\_<sprite name="cell_around"> et les alliés autour\_<sprite name="cell_around"> gagnent {power:at,percent} pour le tour.",
+    "26451":  "KATA-TRAPPE DU DOJO",
+    "94606":  "{#TRAP}
+\---
+Téléporte le personnage qui le déclenche à {value:dist} cases ou plus et l'{#STUN[ASSOMME]}.",
+    "23704":  "Rocher Cristallin",
+    "62195":  "{#MECHANISM}
+\---
+<b>DÉBUT DU TOUR</b>\_: Perd {value:v,abs} {%bl}.
+\---
+Inflige {value:dmg}\_dégâts magiques aux adversaires autour\_<sprite name="cell_around"> quand il se détruit.",
+    "77320":  "Mantrats",
+    "35461":  "{#MECHANISM}
+\---
+Quand un <b>Rat</b> meurt, invoque un {Summoning:154} et perd {value:v,abs}\_{%bl}.",
+    "98732":  "Crotte Pestilentielle",
+    "4103":  "{#TRAP}
+\---
+Inflige {magicalDamage:d} à l'adversaire qui le déclenche et applique {#INFECTED} s'il est <b>MORDU</b>\_<sprite name="generic_monster">.",
+    "88550":  "Caisse de marchandises",
+    "71564":  "{#MECHANISM}
+\---
+Fait apparaitre quelque chose quand elle est détruite.",
+    "60277":  "Canon Brakmarien",
+    "67671":  "{#MECHANISM}
+\---
+Quand il est attaqué, il projette un boulet dans la direction de l'attaque qui inflige {physicalDamage:deg} à l'entité qu'il touche et à ceux autour\_<sprite name="cell_around">.
+\---
+<b>Repousse</b> le canon et l'attaquant de {cell:c}.
+\---
+Ne peut pas être détruit.",
+    "94280":  "Lance-grappin Brakmarien",
+    "63973":  "{#MECHANISM}
+\---
+Quand il est attaqué, il projette un grappin dans la direction de l'attaque qui inflige {magicalDamage:deg}, attire et vole la {%reserve} de l'entité qu'il touche.
+\---
+Ne peut pas être détruit.",
+    "61319":  "Bombe Roublarde",
+    "73290":  "{#MECHANISM}
+\---
+<b>DÉBUT DU TOUR</b> : Améliore la bombe en {ObjectMechanism:1650}.
+\---
+Déclenche {explosion:ex} quand elle est détruite.",
+    "13891":  "Bombe K",
+    "8005":  "{#MECHANISM}
+\---
+<b>DÉBUT DU TOUR</b> : Améliore la bombe en {ObjectMechanism:349}.
+\---
+Inflige {magicalDamage:ex} aux adversaires en ligne jusqu’à 2 cases quand elle est détruite.",
+    "9792":  "Méga-Bombe",
+    "19715":  "{#MECHANISM}
+\---
+<b>DÉBUT DU TOUR</b> : Inflige {magicalDamage:ex} aux adversaires dans la zone <sprite name="cell_circle2">, puis se détruit.",
+    "44180":  "Sol Visqueux",
+    "23354":  "{#TRAP}
+\---
+Inflige {magicalDamage:dmg} et {#STUN[ASSOMME]} le personnage qui s'arrête dessus.",
+    "73236":  "Glyphe Actif",
+    "86644":  "Ajoute {addReserve:gain} au personnage qui le déclenche.",
+    "97660":  "Glyphe Complémentaire",
+    "42990":  "Ajoute {addNeutral:gain} quand un allié le déclenche.",
+    "75510":  "Glyphe Accélérateur",
+    "21460":  "Confère +1\_{%PM} au personnage qui le déclenche.",
+    "89631":  "Caisse de marchandises",
+    "30783":  "{#MECHANISM}
+\---
+Fait apparaitre quelque chose quand elle est détruite.",
+    "21271":  "Caisse de marchandises",
+    "80154":  "{#MECHANISM}
+\---
+Fait apparaitre quelque chose quand elle est détruite.",
+    "61070":  "Caisse de marchandises",
+    "32878":  "{#MECHANISM}
+\---
+Fait apparaitre quelque chose quand elle est détruite.",
+    "79311":  "Caisse de marchandises",
+    "61228":  "{#MECHANISM}
+\---
+Fait apparaitre quelque chose quand elle est détruite.",
+    "91860":  "Caisse de marchandises",
+    "85276":  "{#MECHANISM}
+\---
+Fait apparaitre quelque chose quand elle est détruite.",
+    "64067":  "Boulet planté",
+    "28509":  "{#MECHANISM}
+\---
+Est détruit quand un adversaire termine un déplacement sur une case autour <sprite name="cell_around"> de lui.
+\---
+Déclenche {explosion:ex} quand il est détruit.",
+    "17574":  "Caisse",
+    "46044":  "{#MECHANISM}",
+    "90989":  "Tabouret",
+    "69165":  "{#MECHANISM}",
+    "24807":  "Table",
+    "17317":  "{#MECHANISM}",
+    "38204":  "Caisse à provisions",
+    "89237":  "{#MECHANISM}
+\---
+Peut être <b>repoussée</b> de {cell:c} si <b>BODDY</b> est adjacent\_<sprite name="cell_cross"> à la caisse.
+\---
+Est détruite si elle {#COLLISION[COLLISIONNE]} avec un <b>TERRIER À RAT</b>.",
+    "71968":  "Bêtise : Flaque d'eau",
+    "24800":  "Est détruite si <b>BODDY</b> s'arrête dessus.
+\---
+Sinon, inflige {magicalPowerValue:dmg} dégâts, déplace de 1\_case et {#STUN[ASSOMME]} le personnage qui s'arrête dessus.",
+    "16699":  "Caisse de l'armée bontarienne",
+    "56303":  "{#MECHANISM}
+\---
+{#MUSTNOTBEDESTROY}",
+    "48700":  "Bêtise: Flamme",
+    "53358":  "<b>DÉBUT DU TOUR</b> : {value:perc,permil} de chance d'invoquer une <b>FLAMME</b> sur une case adjacente\_<sprite name="cell_cross">.
+\---
+Est détruite si le personnage qui s'arrête dessus est <b>MOUILLÉ</b><sprite name="wet">. 
+\---
+Sinon, lui inflige {value:dmg} dégâts et le {#PUSH} de 1\_case.",
+    "27860":  "Otage Brakmarien",
+    "64690":  "{#MECHANISM}
+\---
+{#UNTARGETABLE}
+\---
+<b>FIN DU TOUR</b> : Perd {blindage:pv,abs}.
+\---
+{#MUSTNOTBEDESTROY}",
+    "2673":  "Bêtise: Trou à rats",
+    "81778":  "{#MECHANISM}
+\---
+Invoque un {Summoning:154} quand il est détruit.
+\---
+Est détruit si il {#COLLISION[COLLISIONNE]} avec une <b>CAISSE À PROVISIONS</b>.",
+    "6285":  "Bêtise : Grille d'évacuation",
+    "55636":  "{#MECHANISM}
+\---
+Invoque un <b>Poulpe</b> quand elle est détruite.
+\---
+Le <b>Poulpe</b> invoqué est {#STUN} si <b>BODDY</b> est adjacent\_<sprite name="cell_cross">. Sinon, il déclenche son attaque.",
+    "831":  "Piège Toxique",
+    "73770":  "{#TRAP}
+\---
+Inflige {magicalDamage:dmg} à l'adversaire qui le déclenche.
+\---
+Confère {#TOXIC} jusqu'à sa prochaine attaque à l'allié qui le déclenche.",
+    "11242":  "Gel Hydrotoxique",
+    "50756":  "{#MECHANISM}
+\---
+{#TOXIC}",
+    "17809":  "Trucage",
+    "37753":  "{#TRAP}
+\---
+Inflige {magicalDamage:deg} et {#PUSH} de {cell:c} l'adversaire qui le déclenche.",
+    "52596":  "Punching-ball gonflable",
+    "87340":  "{#MECHANISM}
+\---
+Quand un personnage fini son déplacement adjacent\_<sprite name="cell_cross"> à un {ObjectMechanism:680!}, il <b>charge</b> un personnage aligné et lui inflige son {%AT}.
+Le {ObjectMechanism:680!} perd {value:v,abs}\_{%BL}.",
+    "55398":  "Tourelle Lame",
+    "16035":  "{#MECHANISM}
+\---
+Inflige {value:min} à {magicalDamage:max} quand un adversaire termine un déplacement sur une case autour <sprite name="cell_around">.",
+    "38613":  "Korail",
+    "88349":  "{#MECHANISM}
+\---
+<b>FIN DU TOUR</b>\_: Invoque un POULPE sur une case adjacente <sprite name="cell_cross"> et perd {value:v}\_{%bl}.",
+    "15400":  "Bloc de Pierre",
+    "11475":  "{#MECHANISM}
+\---
+<b>DÉBUT DU TOUR</b>\_: {value:NamedEffect.506.p,permil} de chance de se transformer en <b>Craqueleur</b>.
+\---
+Disparait s'il {#COLLISION[COLLISIONNE]} avec le bord du terrain.",
+    "79108":  "Graine",
+    "95170":  "{#MECHANISM}
+\---
+<b>DÉBUT DU TOUR</b>\_: {value:tp,permil} de chance de se transformer en <b>MONSTROPLANTE</b> aléatoire.
++{value:ppt,permil} de chance par tour.",
+    "44992":  "Piège Épineux",
+    "59582":  "{#TRAP}
+\---
+Inflige {magicalDamage:dmg} et applique {#STUNG} à l'adversaire qui le déclenche.",
+    "95368":  "Toile d'Arakné",
+    "94987":  "{#TRAP}
+\---
+Applique {#ROOTED} à l'adversaire qui le déclenche.",
+    "318":  "Powa",
+    "28915":  "{#TRAP}
+\---
+Confère 1 {FloatingCounterEffect:113} au personnage qui le déclenche.",
+    "58475":  "Laboratoire Boueux",
+    "23880":  "{#MECHANISM}
+\---
+Confère {value:nb}\_<b>AURA</b>\_{FloatingCounterEffect:117} à votre héros et perd {value:v}\_{%bl} quand un de vos personnages attaque.",
+    "91496":  "Cercueil",
+    "59987":  "{#MECHANISM}
+\---
+{#UNIQUE}
+\---
+Invoque une {Summoning:562} sur sa case \vlorsqu'un <b>Vampyre</b> est tué puis se détruit.",
+    "62726":  "Flaque de Sang",
+    "6421":  "{#TRAP}
+\---
+Soigne de {heal:heal} l'allié qui le déclenche.",
+    "38886":  "Cage Bouftou",
+    "26998":  "{#mechanism}
+\---
+Invoque un {Summoning:663} quand elle est détruite.",
+    "98695":  "Cage Tofu",
+    "32891":  "{#mechanism}
+\---
+{#STUN[ASSOMME]} les alliés autour\_<sprite name="cell_around"> jusqu'à la fin de leur tour, quand elle est détruite.",
+    "81060":  "Cage Prisonnier",
+    "48243":  "Invoque un {Companion:394} quand elle est détruite.",
+    "18211":  "Citwouille",
+    "15341":  "{#mechanism}
+\---
+{#MUSTNOTBEDESTROY}",
+    "27713":  "Dofus Émeraude",
+    "92471":  "{#mechanism}
+\---
+{power:pow,+,percent} aux alliés.",
+    "34947":  "Écaille de Grougaloragran",
+    "11251":  "{#mechanism}
+\---
+Réduit de 1\_{%PA} le coût de vos sorts piochés.",
+    "34396":  "Écaille de Phaeris",
+    "92413":  "{#Mechanism}
+\---
+<b>DÉBUT DU TOUR</b>\_: Soigne votre héros de {heal:pv}.",
+    "13087":  "Case Glacée",
+    "66497":  "{#TRAP}
+\---
+Déclenche {hail:ParameterizedEffectExecution.221.hl} et inflige 20% de ses {%PV} au personnage qui le déclenche.",
+    "21976":  "Case Rocheuse",
+    "72478":  "{#TRAP}
+\---
+Déclenche {peat:ParameterizedEffectExecution.442.pt} et inflige 20% de ses {%PV} au personnage qui le déclenche.",
+    "42016":  "Case Explosive",
+    "53011":  "{#TRAP}
+\---
+Déclenche {explosion:ParameterizedEffectExecution.759.ex} et inflige 20% de ses {%PV} au personnage qui le déclenche.",
+    "4082":  "Case Electrique",
+    "95596":  "{#TRAP}
+\---
+Déclenche {bounce:ParameterizedEffectExecution.935.bc} et inflige 20% de ses {%PV} au personnage qui le déclenche.",
+    "66461":  "Lanterne",
+    "34726":  "Lanterne",
+    "69842":  "Lanterne",
+    "38581":  "{#mechanism}
+\---
+Est <b>repoussée</b> de {cell:c} si attaquée.
+\---
+Déclenche {explosion:explo} et {#ROOTED[IMMOBILISE]} les adversaires autour\_<sprite name="cell_around"> si elle {#COLLISION[COLLISIONNE]}.",
+    "52889":  "Sol Meuble",
+    "59088":  "Repousse de 1\_case le personnage qui s'arrête dessus.
+\---
+Quand l'explosion d'une <b>BOMBE</b> le touche\_:\v Est détruit et fait apparaitre quelque chose.",
+    "35122":  "Tonneau",
+    "39560":  "{#mechanism}
+\---
+<b>DÉBUT DU TOUR</b> : Si se trouve au bord du terrain \vou adjacent\_<sprite name="cell_cross"> à un allié, \vest <b>repoussé</b> de 7 cases.
+\---
+Quand il {#COLLISION[COLLISIONNE]} avec un adversaire, déclenche {explosion:ex} et est détruit.",
+    "36046":  "Artefact",
+    "15578":  "{#TRAP}
+\---
+Ajoute {addReserve:pa}, +500 Kamas et piochez {value:s}\_sort quand un allié le déclenche.",
+    "22960":  "Kamas Maudits",
+    "69654":  "{#TRAP}
+\---
+Fait disparaître le <b>Chafer</b> ayant le plus de {%pv} quand un personnage le déclenche.",
+    "69239":  "Cercueil Royal",
+    "40554":  "{#MECHANISM}
+\---
+{#UNIQUE}
+\---
+<b>DÉBUT DU TOUR</b>\_: Se déplace jusqu'à {cell:c} en ligne.
+\---
+<b>MORT</b>\_: Tue le {Summoning:282!}.",
+    "8949":  "Cercueil de la Dame",
+    "84513":  "{#MECHANISM}
+\---
+<b>DÉBUT\_DU\_TOUR\_</b>: Gagne {nbAura} {FloatingCounterEffect:115}.
+\---
+<b>MORT</b>\_: Peut révéler la <b>DAME BLANCHE</b> et lui transfère ses <b>AURAS</b>.",
+    "25673":  "Sonnette d'Alarme",
+    "50297":  "{#TRAP}
+\---
+Invoque un {Summoning:401} sur une case aléatoire quand un allié le déclenche.",
+    "8968":  "Magot",
+    "60009":  "{#mechanism}
+\---
++1 {%pm} à tout les personnages.",
+    "10393":  "{#MECHANISM}
+\---
+<b>FIN DU TOUR</b>\_: Invoque un {Summoning:771} sur une case adjacente <sprite name="cell_cross"> à lui et perd {value:v,abs}\_{%bl}.",
+    "57030":  "Ossuaire Funeste",
+    "54416":  "{#MECHANISM}
+\---
+<b>FIN DU TOUR</b>\_: Invoque un {Summoning:487} sur une case adjacente <sprite name="cell_cross"> à lui et perd {value:v,abs}\_{%bl}.",
+    "59417":  "Ossuaire Funeste",
+    "90850":  "Piège du Maelstrom",
+    "19090":  "Inflige {magicalPowerValue:dmg} dégâts et {#PUSH} de {cell:c} le personnage qui s'arrête dessus.",
+    "36176":  "Tonneau de grog avarié",
+    "90120":  "{#mechanism}
+\---
+Confère {power:power,percent} et applique {#INFECTED} au personnage qui le détruit.\v\---
+{value:c,permil} de chances d'invoquer un {Summoning:593} lorsqu'il est détruit.",
+    "40656":  "Piège à Gligli",
+    "16548":  "{#TRAP}
+\---
+{#stun[assomme]} le personnage qui le déclenche.",
+    "81704":  "Gland",
+    "62432":  "{#TRAP}
+\---
+<b>DÉBUT DE TOUR</b> : Invoque un {Summoning:608} sur sa case et se détruit.",
+    "5244":  "Ronces",
+    "98740":  "{#TRAP}
+\---
+Inflige {value:min} à {magicalDamage:max} à l'adversaire qui le déclenche puis inflige\v {magicalDamage:around} aux personnages autour <sprite name="cell_around"> de lui.",
+    "38413":  "Chêne",
+    "66429":  "{#MECHANISM}
+\---
+<b>FIN DU TOUR</b> : Soigne de {value:pv} {%pv} les alliés autour\_<sprite name="cell_around">.",
+    "55298":  "Piège Flaquatique",
+    "18580":  "{#TRAP}
+\---
+Inflige {magicalDamage:dmg} à l'adversaire qui le déclenche.
+\---
+Téléporte un <b>Flaqueux</b> sur une case adjacente à l'adversaire qui le déclenche.",
+    "2230":  "Gîte à Insecte",
+    "5705":  "{#MECHANISM}
+\---
+<b>FIN DU TOUR</b> : Se détruit si {Summoning:722} est sur une case adjacente <sprite name="cell_cross">.\v\---
+<b>MORT</b> : Invoque une {Summoning:561} pour l'équipe adverse.",
+    "78094":  "Inondation",
+    "27518":  "{#TRAP}
+\---
+Ajoute {addReserve:r} et pioche 1\_sort quand un <b>Poulpe</b> le déclenche.",
+    "19916":  "Infiltration d'eau",
+    "40492":  "{#mechanism}
+\---
+<b>DÉBUT DU TOUR</b> : Répand {value:nbr}\_{FloorMechanism:423[Inondations]}, si aucune entité adverse est adjacente\_<sprite name="cell_cross">.
+\---
+Ne peut pas être détruit.",
+    "11535":  "Sac de grain",
+    "4426":  "{#mechanism}
+\---
+Est repoussé de 2 cases quand attaqué par un allié. Les {FloorMechanism:423[Inondations]} réduisent la distance.
+\---
+<b>FIN DU TOUR</b> : Enlève les {FloorMechanism:423[Inondations]} autour\_<sprite name="cell_around">.",
+    "40021":  "Garde Emprisonné",
+    "28165":  "{#mechanism}
+\---
+Invoque un <b>GARDE BONTARIEN</b> quand il est détruit.",
+    "764":  "Fissure",
+    "29762":  "{#TRAP}
+\---
+Inflige {magicalDamage:dmg} à l'adversaire qui le déclenche.",
+    "83867":  "Piège Vaseux",
+    "53328":  "{#TRAP}
+\---
+Retire {value:pm,abs} {%PM} au personnage qui le déclenche.",
+    "62427":  "Bouse",
+    "67153":  "{#MECHANISM}
+\---
+<b>DEBUT DU TOUR</b>\_: Si un personnage adversaire est autour\_<sprite name="cell_around">, les alliés alignés le chargent et lui infligent 50% de leur {%AT}.",
+    "88176":  "Trappe des flammes",
+    "23436":  "{#TRAP}
+\---
+{#ASSEMBLY}
+\---
+Inflige {magicalDamage:dmg} à l'adversaire qui le déclenche et l'affaiblit de {value:pow,percent} pour le tour.",
+    "46759":  "Trappe des glaces",
+    "96118":  "{#TRAP}
+\---
+{#ASSEMBLY}
+\---
+Inflige {magicalDamage:dmg} à l'adversaire qui le déclenche et réduit de {value:pa}\_{%pa} le coût du premier sort de votre main.",
+    "91368":  "Trappe des pierres",
+    "21233":  "{#TRAP}
+\---
+{#ASSEMBLY}
+\---
+Inflige {magicalDamage:dmg} à l'adversaire\vqui le déclenche et confère {value:pm}\_{%PM} à votre héros.",
+    "86817":  "Trappe des vents",
+    "76237":  "{#TRAP}
+\---
+{#ASSEMBLY}
+\---
+Inflige {magicalDamage:dmg} à l'adversaire qui le déclenche et le {#PUSH} de {cell:c} en arrière.",
+    "23482":  "Champignon Parasité",
+    "14978":  "{#mechanism}
+\---
+<b>DÉBUT DE TOUR</b>\_: Se détruit.
+\---
+<b>MORT</b> : Applique {#Poisoned} sur les adversaires autour\_<sprite name="cell_around">.",
+    "85504":  "Sinistro Aimant",
+    "55556":  "{#MECHANISM}
+\---
+<b>APPARITION</b>\_: Attire les premiers personnages et {#MECHANISM[MÉCANISMES]!} alignés."
+}

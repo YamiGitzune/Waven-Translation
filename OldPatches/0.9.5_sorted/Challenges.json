@@ -1,0 +1,90 @@
+{
+    "7223":  "Des amis pour la vie",
+    "83298":  "Aucun héros allié ne doit mourir.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "38670":  "Solitaire",
+    "12044":  "Les alliés ne doivent pas terminer leur tour sur une case adjacente\_<sprite name="cell_cross"> à un autre personnage allié.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "54709":  "Ordonné",
+    "47408":  "Les personnages adverses doivent être éliminés dans l'ordre indiqué par le jeu.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "11477":  "Nomade",
+    "85470":  "Tous les alliés doivent terminer leur tour en ayant effectué un déplacement d'au moins 1 case.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "36602":  "Paternalisme",
+    "39021":  "Aucun héros ou compagnon de votre équipe ne doit être mis KO durant le combat.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "87088":  "Duo",
+    "50698":  "Votre équipe ne doit jamais avoir plus d'un compagnon en jeu (compagnons de quête compris).
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "3321":  "Surtout pas lui",
+    "90188":  "Éliminez le personnage adverse ciblé en dernier.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "96735":  "Cible Prioritaire",
+    "25221":  "Éliminez le personnage adverse ciblé en premier.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "49531":  "Cible Prioritaire",
+    "27117":  "Éliminez le personnage adverse ciblé en premier.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "62631":  "Cible Prioritaire",
+    "39020":  "Éliminez le personnage adverse ciblé en premier.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "74112":  "Discipline martiale",
+    "15441":  "Les personnages adverses doivent être achevés par des dégâts physiques.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "86762":  "Discipline magique",
+    "251":  "Les personnages adverses doivent être achevés par des dégâts magiques.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "83091":  "Par les armes... héroïquement",
+    "14361":  "Les personnages adverses doivent être achevés par l'attaque d'un héros.
+\---
+[NE PEUT PAS FONCTIONNER : CUB-6974
+REUSE]",
+    "62413":  "Statique",
+    "65083":  "Aucun personnage allié ne doit dépenser tous ses {%PM} à chaque tour de jeu.
+\---
+[NE PEUT PAS FONCTIONNER
+REUSE]",
+    "58513":  "Frères d'Armes",
+    "13315":  "Votre équipe ne doit pas invoquer plus d'un compagnon pendant ce combat.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "13055":  "Traqueur",
+    "546":  "Après avoir infligé des dégâts à un adversaire, vous devez l'achever avant d'en blesser un autre.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "82542":  "Escouade",
+    "57934":  "Les alliés doivent toujours finir leur tour sur une case autour\_<sprite name="cell_around"> d'un personnage \v ou mécanisme allié.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "74223":  "Imprévisible",
+    "82703":  "Votre équipe ne doit infliger des dégâts qu'à l'adversaire ciblé ce tour.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "37627":  "Chacun le Sien",
+    "55231":  "Chaque adversaire ne doit subir qu'une attaque par tour.
+
+[NE PEUT PAS FONCTIONNER : CUB-6971
+REUSE]",
+    "55546":  "Partage",
+    "33914":  "Chaque joueur doit achever au moins un adversaire pendant le combat.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "23421":  "Escorte",
+    "87926":  "Le héros ciblé ne doit pas mourir.
+\---
+{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "38942":  "Récompense : +{0}% aux gains de combat."
+}

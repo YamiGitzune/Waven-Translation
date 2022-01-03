@@ -1,0 +1,203 @@
+{
+    "48379":  "Cra",
+    "60273":  "Eniripsa",
+    "50594":  "Combattez auprès de vos bêtes et renforcez votre côté animal.",
+    "55988":  "Enutrof",
+    "42555":  "Pandawa",
+    "27026":  "Osamodas",
+    "55423":  "",
+    "18120":  "Cra",
+    "90867":  "Tenez la distance et décochez vos mires\npour décimer vos adversaires.",
+    "52524":  "Sacrieur",
+    "59822":  "N'ayez pas peur de prendre des coups\net devenez une vraie plaie pour vos adversaires.",
+    "30105":  "Sacrieur",
+    "57613":  "Prenez soin de vos alliés\net surmontez ensemble tous les obstacles.",
+    "32256":  "N'ayez pas peur de prendre des coups\net devenez une vraie plaie pour vos adversaires.",
+    "34515":  "Tenez la distance et décochez vos mires\npour décimer vos adversaires.",
+    "16211":  "",
+    "8399":  "Ecaflip",
+    "51821":  "",
+    "49084":  "Sadida",
+    "68436":  "",
+    "12199":  "Feca",
+    "37397":  "",
+    "18913":  "Xelor",
+    "7473":  "Obtenez des actions supplémentaires\nen contrôlant votre temps et celui de vos adversaires.",
+    "89188":  "Sram",
+    "75439":  "Disposez des pièges et poussez vos adversaires\nvers une mort certaine.",
+    "78077":  "Iop",
+    "91555":  "Foncez au cœur de la mélée et cognez fort vos adversaires.",
+    "4037":  "",
+    "69342":  "Il était une fois ... CA-TA-CLYSME !!",
+    "1311":  "Pauuuuvre Monde des Douze ...
+Submergé, dévasté, innondé !",
+    "15322":  "POURQUOI ? Bla bla blaaa ...
+Table rase du passé, il faut tourner la page.",
+    "69675":  "Youhou ! IL FAUT TOURNER LA PAGE",
+    "12852":  "Survivre ... De l'eau a coulé sous les ponts.
+Et pas qu'un peu.",
+    "57807":  "Des mois, des années sont passées,
+c'est désormais l'ère de la navigation et ...",
+    "2784":  "... De la PI-RA-TRIE ! Quelle déconfiture ... Pillé en 2
+minutes, coulé en 2 secondes ...",
+    "49750":  "... puis 2 jours de dérive en mer ...
+pour en arriver la maintenant ...",
+    "80842":  "Camarade naufragé ? Hé oh !
+Matelot ! Mort ...",
+    "5754":  "Paumé au milieu d'nulle part, pour seule compagnie ...
+un noyé ? Pouvait pas être pire.",
+    "48627":  "DAAAH ! 'parlé trop vite.
+SALE BETE !",
+    "31214":  "J'vais m'faire bouloter par
+un "fruit d'mer" !",
+    "51835":  "Rest' pas planté la !
+AIDE-MOI !",
+    "4074":  "Les bases ! Une arène
+en 7 par 7 et ...",
+    "4176":  "Quelle insolence !
+L’a grapillé du terrain !",
+    "77314":  "Pas de temps à perdre, lance-toi sur lui !
+Enchaine « déplacement-attaque ».",
+    "82345":  "Tirer jusqu’à l’ennemi… puis relâcher !",
+    "64417":  "Magnifique cacahuète !
+Mais pas plus d’une par tour...",
+    "87859":  "Ouch ! Tu t’en r’mettras…",
+    "93477":  "À ton tour ! Fais-en du surimi !
+Tirette… et on relache !",
+    "57412":  "Tu apprends vite, t’as un bon coach...",
+    "11011":  "Encore un ?",
+    "97793":  "Il tombe bien, révisons
+les sorts !",
+    "95924":  "Un sort, ça se lance, quelle que
+soit la distance !",
+    "70808":  "Mais c’est pas gratos… Ça coûte
+des PA, des « points d’action ».",
+    "17268":  "Allez, on décroche un sort et
+on l’claque sur l’adversaire…",
+    "90860":  "Et de un !",
+    "88516":  "On continue !",
+    "78281":  "Et de deux !",
+    "88486":  "Plus de PA : plus de sorts…
+‘faudra attendre ton prochain tour.",
+    "43686":  "Prends-en d’la graine,
+y’a pas QUE des sorts offensifs…",
+    "30421":  "Nouveau tour,
+nouveaux PA !",
+    "88006":  "Au fait… certains effets t’offrent
+des PA, dans ta « réserve » !",
+    "81148":  "Ah… ok, tu perds pas
+de temps…",
+    "85338":  "J’en connais un qui va
+prend’ cher.",
+    "16590":  "Quel feu d’artifice !
+Du grand n’importe quoi.",
+    "29428":  "Ça… c’est fait !",
+    "19600":  "Sérieux ? 2 contre 1 ?
+Challenge accepted !",
+    "48289":  "Naufragé, il nous faut parler
+des « jauges élémentaires » !",
+    "23118":  "Y’en a 5, Air, Terre, Feu, Eau et Joker…",
+    "27797":  "La plupart du temps elles se remplissent
+quand tu lances des sorts.",
+    "46667":  "Ces points servent
+à invoquer des…",
+    "17429":  "… mouettes ??",
+    "36031":  "Des COM-PA-GNONS !",
+    "31068":  "On place les compagnons
+à proximité du « héros ».",
+    "23954":  "Comment ça « quel héros » ?
+Mais toi, coco !",
+    "31173":  "Sur une case bleue… voilà !",
+    "73207":  "Et le compagnon se joue comme…
+le héros, bingo !",
+    "30303":  "Ciblage, déplacement-attaque !",
+    "83038":  "VIC-TI-MI-SÉÉÉ !",
+    "26122":  "Pareil pour le compagnon…
+Ciblage, déplacement-attaque !",
+    "2495":  "Ballot !",
+    "80450":  "Vraiment ballot… Un compagnon
+kaput est hors-combat définitivement.",
+    "37568":  "Vengeons-le !",
+    "18684":  "Du tout cuit…",
+    "45266":  "Ce soir : tartare de crabe ! Ou soupe
+de crabe ? En gratin… ou en poêlée ?",
+    "61811":  "À la broooche !
+Délicieuse idée naufragé…",
+    "32156":  "Décontracté du marque-page,
+l’occasion de parler des « classes ».",
+    "26881":  "10 dieux, 10 classes, autant de façons
+de combattre, aidé des sorts qui vont avec !",
+    "70414":  "Déesse ENIRIPSA…",
+    "79082":  "La voie des maîtres guérisseurs
+ou des empoisonneurs… question d’point de vue.",
+    "76534":  "SRAM ! Dieu sournois…",
+    "52873":  "Ses disciples ne reculent devant
+aucune bassesse pour vous « piéger »…",
+    "96387":  "IOP ! Seigneur des batailleurs…",
+    "76960":  "Ses adeptes sont légion,
+braves combattants...",
+    "59032":  "Qu’est-ce qu’i s’passe ?",
+    "78465":  "On est où ?",
+    "29793":  "Preux naufragé ! Serait-ce LE moment
+de choisir ta « classe » ?",
+    "43675":  "XELOR ?",
+    "72123":  "Chaque classe propose
+différentes armes.",
+    "37144":  "L’arme change ton apparence,
+mais c’est pas ça l’important !",
+    "46650":  "L’arme oriente ton STYLE
+DE COMBAT, ta STRA-TÉ-GIE !",
+    "91476":  "Par arme un sort unique
+et un « passif »...",
+    "94675":  "Sorte de pouvoir qui se déclenche selon
+des conditions spécifiques.",
+    "89733":  "Sabliaton Jikan : un mécanisme par-ci,
+un PA par-là…",
+    "89018":  "Catalysateur Pramium : des sinistros
+dans la manche…",
+    "22706":  "Aiguille Pikuxala : attrape-moi
+si tu peux…",
+    "11157":  "Régulant Gurpapa : blindé quand
+il fait mal et vice versa…",
+    "19019":  "Synchronisateur Tako : jamais
+un PA d’perdu…",
+    "93742":  "SACRIEUR ?",
+    "24308":  "Darde de Kan ...",
+    "59440":  "Tu vas trop vite !",
+    "98995":  "Mais ...",
+    "67003":  "Je vois. T'as choisi l'arme pour le look ...
+Prévisible.",
+    "71596":  "Ça recommence !",
+    "42145":  "...",
+    "31476":  "Nieuuh…",
+    "19614":  "Quel cauchemar.",
+    "6360":  "L’arme change ton apparence,
+mais c’est pas ça l’important !",
+    "62671":  "L’arme oriente ton STYLE
+DE COMBAT, ta STRA-TÉ-GIE !",
+    "36095":  "Par arme un sort unique
+et un « passif »...",
+    "81046":  "Sorte de pouvoir qui se déclenche selon
+des conditions spécifiques.",
+    "63904":  "Sabliaton Jikan : un mécanisme par-ci,
+un PA par-là…",
+    "18563":  "Catalysateur Pramium : des sinistros
+dans la manche…",
+    "62108":  "Aiguille Pikuxala : attrape-moi
+si tu peux…",
+    "49803":  "Régulant Gurpapa : blindé quand
+il fait mal et vice versa…",
+    "47182":  "Synchronisateur Tako : jamais
+un PA d’perdu…",
+    "97183":  "SACRIEUR ?",
+    "66662":  "Darde de Kan ...",
+    "71700":  "Tu vas trop vite !",
+    "61807":  "Mais ...",
+    "259":  "Je vois. T'as choisi l'arme pour le look ...
+Prévisible.",
+    "80660":  "Ça recommence !",
+    "58847":  "...",
+    "32130":  "Nieuuh…",
+    "97454":  "Quel cauchemar.",
+    "-1":  ""
+}
