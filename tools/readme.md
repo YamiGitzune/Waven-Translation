@@ -7,7 +7,8 @@ This is a list of Programms needed to make your own Translation.
 # Getting the necessary JSON Files
 1. a Programm called AssetStudio, this Programm allows you to open Unity Packaged Files.
 2.To access the original French JSONs we are opening "YOUR INSTALL LOCATION\Waven\Waven_Data\StreamingAssets\AssetBundles\core\localization.fr-fr" and extract all the files into a new Folder
-3. after that we use my PowerShell script "GenerateJSON.ps1" in the extraction Folder, it creates a Folder called "Generation" which has the Files with the correct order for the "Waven Merge.exe" later
+4. create a Folder called "Generation" in the extraction Folder
+3. after that we use my PowerShell script "GenerateJSON.ps1" in the extraction Folder, it creates JSONs that are in the Format for the "Waven Merger.exe", with some minor bugs atm. These need to be ironed out by hand while translating. 
 
 # Merging the files
 1. Please Check the Waven Merger folder for this
