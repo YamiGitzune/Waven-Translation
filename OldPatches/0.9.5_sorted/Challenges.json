@@ -4,9 +4,7 @@
 \---
 {%CHALLENGE_REWARD_TEXT, rwdPct}",
     "38670":  "Solitaire",
-    "12044":  "Les alliés ne doivent pas terminer leur tour sur une case adjacente\_<sprite name="cell_cross"> à un autre personnage allié.
-\---
-{%CHALLENGE_REWARD_TEXT, rwdPct}",
+    "12044":  "Les alliés ne doivent pas terminer leur tour sur une case adjacente\\_<sprite name=\"cell_cross\"> à un autre personnage allié. \n --- \n {%CHALLENGE_REWARD_TEXT, rwdPct}",
     "54709":  "Ordonné",
     "47408":  "Les personnages adverses doivent être éliminés dans l'ordre indiqué par le jeu.
 \---
