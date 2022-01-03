@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8796470849550997183
+  },
+  "m_Name": "Customizations",
+  "m_cultureCode": {
+    "m_value": 1036
+  },
+  "m_dataDictionary": {
+    "m_keys": [
+      12336,
+      3589,
+      32606,
+      34890,
+      7171,
+      83096,
+      36857,
+      543340,
+      57419,
+      2307,
+      81171,
+      22554,
+      81436,
+      12104,
+      57858,
+      1949,
+      87155,
+      15163,
+      86048,
+      17183,
+      96106,
+      49609,
+      77727,
+      71716,
+      60755
+    ],
+    "m_values": [
+      "Grande Île aux Cawottes",
+      "Petite île Brakmarienne",
+      "Île Ten'Dau",
+      "Grande île Brakmarienne",
+      "Petit Îlot Boisé",
+      "Petite île Sufokienne",
+      "Île du Naufragé",
+      "Petite Île Bontarienne",
+      "Petite île Amaknéenne",
+      "Grande île Bontarienne",
+      "Petite Île aux Cawottes",
+      "Île Brakmarienne moyenne",
+      "Petite Île Bontarienne",
+      "Bateau Amakna 01",
+      "Bateau Amakna 02",
+      "Bateau Amakna 03",
+      "Bateau Cochon 01",
+      "Bateau Cochon 02",
+      "Bateau Cochon 03",
+      "Bateau Chafer 01",
+      "Bateau Chafer 02",
+      "Bateau Chafer 03",
+      "Bateau Mino 01",
+      "Bateau Mino 02",
+      "Bateau Mino 03"
+    ]
+  }
+}

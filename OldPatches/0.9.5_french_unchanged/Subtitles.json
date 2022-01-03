@@ -1,0 +1,49 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8796470849550997183
+  },
+  "m_Name": "Subtitles",
+  "m_cultureCode": {
+    "m_value": 1036
+  },
+  "m_dataDictionary": {
+    "m_keys": [
+      36913,
+      9545,
+      9899,
+      51996,
+      46281,
+      64768,
+      41438,
+      6221,
+      54469,
+      87935,
+      43965,
+      74187,
+      74747,
+      96694
+    ],
+    "m_values": [
+      "SOUVIENS-TOI.",
+      "LE GRAND CATACLYSME QUI RAVAGE TA TERRE\\vET EMPORTE TES AINÉS DANS L' IMMENSITÉ DE SES TORRENTS MEURTRIERS.",
+      "LA COLÈRE DES EAUX QUI S'APAISE POUR NE LAISSER PLACE QU'À UN MONDE SUBMERGÉ,\\vEMPREINT DE TERREUR, NOYÉ DANS LA DOULEUR.",
+      "L' ENFANT QUE TU ÉTAIS.",
+      "LE MONDE D'AVANT",
+      "ENGLOUTI.",
+      "LES PERTES INNOMBRABLES, ET LA VIE QUI S'ÉTEINT AUTOUR DE TOI.",
+      "LES TEMPS DIFFICILES QUI S'ANNONCENT, ET LE CHAOS QUI RÈGNE\nQUAND LES PLUS FORTS PROFITENT DES PLUS FAIBLES ET QUE SEULE LA SURVIE COMPTE.",
+      "À PEINE LE REFLET D’UNE VIE PASSÉE.",
+      "DANS CE MONDE QUI SE RECONSTRUIT, SEULS DES HÉROS POURRONT FAIRE LA DIFFÉRENCE.",
+      "IL EST TEMPS, MON JEUNE AMI.",
+      "SOUVIENS-TOI...",
+      "ET RÉVEILLE-TOI !",
+      "DIX ANS PLUS TARD"
+    ]
+  }
+}

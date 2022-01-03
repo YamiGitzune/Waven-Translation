@@ -1,0 +1,57 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8796470849550997183
+  },
+  "m_Name": "Gods",
+  "m_cultureCode": {
+    "m_value": 1036
+  },
+  "m_dataDictionary": {
+    "m_keys": [
+      48379,
+      60273,
+      50594,
+      27026,
+      52524,
+      57613,
+      32256,
+      34515,
+      18913,
+      7473,
+      89188,
+      75439,
+      78077,
+      91555,
+      39391,
+      10059,
+      22233,
+      25688
+    ],
+    "m_values": [
+      "Cra",
+      "Eniripsa",
+      "Combattez auprès de vos bêtes et renforcez votre côté animal.",
+      "Osamodas",
+      "Sacrieur",
+      "Prenez soin de vos alliés\\net surmontez ensemble tous les obstacles.",
+      "N'ayez pas peur de prendre des coups\\net devenez une vraie plaie pour vos adversaires.",
+      "Tenez la distance et décochez vos mires\\npour décimer vos adversaires.",
+      "Xelor",
+      "Obtenez des actions supplémentaires\\nen contrôlant votre temps et celui de vos adversaires.",
+      "Sram",
+      "Disposez des pièges et poussez vos adversaires\\nvers une mort certaine.",
+      "Iop",
+      "Foncez au cœur de la mélée et cognez fort vos adversaires.",
+      "Naufragé",
+      "Vous êtes un héros en devenir.",
+      "Anathar",
+      "Les poings ravageurs de ces colosses écrasent les aventuriers comme des Moskitos\\_!"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8796470849550997183
+  },
+  "m_Name": "Adventures",
+  "m_cultureCode": {
+    "m_value": 1036
+  },
+  "m_dataDictionary": {
+    "m_keys": [
+      43900,
+      41984,
+      17563,
+      65100,
+      8572,
+      53687,
+      9315,
+      3247,
+      32135,
+      69999,
+      98392,
+      52029,
+      95558,
+      17020,
+      66225,
+      71288,
+      83428,
+      84047
+    ],
+    "m_values": [
+      "Abandonner",
+      "Salle",
+      "Cimetière Fétide",
+      "Prairie ravagée",
+      "Île Volcanique",
+      "cochon hub",
+      "Paturâge verdoyant",
+      "Galerie commerciale",
+      "Le niveau de difficulté est élevé par rapport au niveau d'équipement de l'équipe.",
+      "ATTENTION !",
+      "Voulez-vous retirer cet objet de quête ?",
+      "Colporteur",
+      "Tofulailler",
+      "HUB Chuchoteur",
+      "Passif niveau {0}",
+      "Bronze",
+      "Argent",
+      "Or"
+    ]
+  }
+}
