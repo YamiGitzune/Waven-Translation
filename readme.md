@@ -27,5 +27,5 @@ You don't need to redownload to get the newest translations. The app fetches the
 
 1. Download any files you wish to translate (with the exception of en-en.json);
 1. Translate the strings manually;
-1. Message Maufeat#5181 or dagostin#9996 at discord, with the translated file;
+1. Join the Waven Fan discord and contact Shionne. https://discord.gg/WDMWVJRm8w
 1. As soon as we can, we'll push the changes to the app;
