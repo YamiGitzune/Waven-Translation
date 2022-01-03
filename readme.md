@@ -6,7 +6,7 @@ Welcome to Waven-Translation project! This is a project made by Maufeat to offer
 
 # Installing
 
-1. Download the latest version of Waven-Translatin from [this link](https://github.com/Maufeat/Waven-Translation/releases/)
+1. Download the latest version of Waven-Translatin from [this link](https://github.com/YamiGitzune/Waven-Translation/releases/)
 1. Inside Ankama Launcher, go to Waven -> Settings -> Game Folder -> 'Open the Game Folder'
 1. Inside Waven's game folder, place Ankama.Cube.dll inside Waven_Data/Managed
 1. Run the game
